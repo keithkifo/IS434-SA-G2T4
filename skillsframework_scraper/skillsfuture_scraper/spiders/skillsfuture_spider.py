@@ -3,10 +3,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-
-import pandas as pd
-
-
 class SkillsFutureSpider(scrapy.Spider):
     name = "sf_spider"
 
@@ -15,7 +11,7 @@ class SkillsFutureSpider(scrapy.Spider):
     ]
 
     
-    # driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
     def parse(self, response):
         # Step 1: Retrieve a List of each sector's framework_url
