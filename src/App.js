@@ -1,11 +1,11 @@
 import { ChakraProvider } from "@chakra-ui/react"
 import { Route, Routes } from "react-router-dom";
-import Issuer from "./components/Issuer";
-import Superadmin from "./components/Superadmin";
-import InstitutionAdmin from "./components/InstitutionAdmin";
-import UserCert from "./components/UserCert";
-import UserJobSearch from "./components/UserJobSearch";
-import SidebarWithHeader from './components/SidebarWithHeader';
+import Issuer from "./pages/Issuer";
+import Superadmin from "./pages/Superadmin";
+import InstitutionAdmin from "./pages/InstitutionAdmin";
+import UserCert from "./pages/UserCert";
+import UserJobSearch from "./pages/UserJobSearch";
+import SidebarWithHeader from "./components/SidebarWithHeader";
 
 function App() {
 	return (
