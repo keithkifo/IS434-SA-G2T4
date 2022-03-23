@@ -22,12 +22,30 @@ class SkillsFutureSpider(scrapy.Spider):
             # Retrieve sector's name and sector's framework url
             sector_name = sector.xpath('./div/h5/text()').get()
 
-            print(sector_name)
-            framework_urls.append( sector.xpath('./div/div/a[1]/@href') ) # append selector object
+            # print(sector_name)
+            framework_urls.append( sector.xpath('./div/div/a[1]/@href').get() ) # append selector object
 
-        # Step 2: Retrieve all topic links in current page and Scrape all post posts from each topic
-        # yield from response.follow_all( framework_urls, callback = self.scrape_sector_docs )
+        # for url in framework_urls:
+        #     # Visit URL using Selenium Driver
+        #     self.driver.get( url )
 
+        url = "https://www.skillsfuture.gov.sg/skills-framework/ict#skillsframeworktemplates"
+        
+        self.driver.get( url )
+
+        self.driver.find_element_by_xpath("//label[@for='jobadvertisement']").click()
+
+        # Get all occupations <div> in the page
+        self.driver.implicitly_wait(5)
+        occupations = self.driver.find_elements_by_xpath("//form[@action='/skillsfuture/SkillsFramework/DownloadTemplates']//h3[contains(@class, 'ui-accordion-header')]")
+        print(occupations)
+        for occupation in occupations:
+            print(occupation)
+            
+            occupation.click()
+
+
+        self.driver.close()
     #     # Step 3: Navigate to next page using Arrow Next Button
     #     next_page = response.xpath('//div[@class="pagination"]/ul/li[@class="arrow next"]/a/@href').get()
     #     if next_page is not None:
