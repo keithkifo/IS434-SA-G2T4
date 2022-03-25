@@ -9,7 +9,6 @@ import {
 	VStack,
 	Icon,
 	useColorModeValue,
-	Link as ChakraLink,
 	Drawer,
 	DrawerContent,
 	Text,
@@ -150,21 +149,18 @@ const SidebarContent = ({ onClose, ...rest }) => {
 				/>
 			</Flex>
 			{LinkItems.map((link) => (
-                <Link to={link.address}>
-                    <NavItem key={link.name} icon={link.icon}>
-                        {link.name}
-                    </NavItem>
-                </Link>
+				<NavItem icon={link.icon} key={link.name} to={link.address}> {link.name} </NavItem>
 			))}
 		</Box>
 	);
 };
 
-const NavItem = ({ icon, children, ...rest }) => {
+const NavItem = ({ icon, to, children, ...rest }) => {
 	return (
-		<ChakraLink
+		<Link
 			style={{ textDecoration: "none" }}
 			_focus={{ boxShadow: "none" }}
+			to={to}
 		>
 			<Flex
 				align="center"
@@ -191,7 +187,7 @@ const NavItem = ({ icon, children, ...rest }) => {
 				)}
 				{children}
 			</Flex>
-		</ChakraLink>
+		</Link>
 	);
 };
 

@@ -1,32 +1,33 @@
-import { ChevronDownIcon } from "@chakra-ui/icons";
-import { Box, Button, HStack, Menu, MenuButton, MenuItem, MenuList, VStack } from "@chakra-ui/react";
+import {
+	Box,
+	HStack,
+	Select,
+} from "@chakra-ui/react";
 
-const FilterComponent = (prop) => {
-    return (
-		<VStack align="left">
-			{prop.filters.map((item, i) => {
-				return (
-					<HStack>
-						<Box w="20%">{item.name}:</Box>
-						<Box>
-							<Menu>
-								<MenuButton
-									as={Button}
-									rightIcon={<ChevronDownIcon />}
-									colorScheme="pink"
-								>
-									List of {item.name}
-								</MenuButton>
-								<MenuList>
-									<MenuItem>Course 1</MenuItem>
-								</MenuList>
-							</Menu>
-						</Box>
-					</HStack>
-				);
-			})}
-		</VStack>
+const FilterComponent = ({ filter, selectOptions, handleOnChange }) => {
+	return (
+		<HStack>
+			<Box w="20%">{filter.name}:</Box>
+			<Box>
+				<Select
+					variant="outline"
+					bg="blue.100"
+					placeholder={"Select a " + filter.name}
+					onChange={handleOnChange}
+				>
+					{selectOptions === undefined
+						? null
+						: selectOptions.map((item, i) => {
+								return (
+									<option key={item + i} value={item}>
+										{item}
+									</option>
+								);
+						  })}
+				</Select>
+			</Box>
+		</HStack>
 	);
-}
+};
 
-export default FilterComponent
+export default FilterComponent;
