@@ -1,0 +1,777 @@
+[
+    {
+        "sector": "Infocomm Technology",
+        "track": "Data and Artificial Intelligence",
+        "subtrack": "Artificial Intelligence Applied Research",
+        "job_role": "Artificial Intelligence Applied Researcher",
+        "description": "The Artificial Intelligence Applied Researcher is responsible for the design and conduct of artificial intelligence (AI) research and development, synthesising insights to identify potential use cases of AI for the business. He/She presents AI research and development outcomes to senior management, business stakeholders at public forums. He determines the patentability of AI solutions and assists in the process for obtaining intellectual property rights for AI solutions. \n\nHe works in a team setting and is proficient in statistics, scripting and programming languages required by the organisation. He is also familiar with the relevant software platforms on which the solutions are deployed.\n\nThe AI Applied Researcher has a strong passion and curiosity for uncovering the possibilities of applying AI to address real-life business challenges and enhance organisation performance. ",
+        "critical_work_functions": {
+            "Conduct artificial intelligence (AI) research and development": [
+                "Plan and design AI research and development projects ",
+                "Manage project plans and timelines for all active and incoming AI research projects",
+                "Evaluate AI research methodologies and processes to identify areas for improvement",
+                "Connect with academics and institutions to collaborate and build relationships",
+                "Review AI literature to identify emerging trends, methods, technologies and best practices",
+                "Synthesise research to identify potential use cases and new research and development activities",
+                "Document and present AI research and development outcomes to senior management and business stakeholders at public forums"
+            ],
+            "Manage data collection and preparation": [
+                "Ensure quality and suitability of data for AI research and development",
+                "Assess suitability of data extraction methods for research and development",
+                "Explore new data sources and techniques to enhance research and development outcomes",
+                "Analyse the ways in which datasets may be biased and address this in safety measures and deployment strategies"
+            ],
+            "Build artificial intelligence (AI) models": [
+                "Design experiments to test AI models",
+                "Lead the analysis, simulations and relevant testing procedures of AI models",
+                "Synthesise insights across AI research projects to identify new research topics",
+                "Lead prototype development of AI solutions for large scale deployment",
+                "Provide guidance to the team on developing new AI models using suitable learning and modelling methods",
+                "Enhance transparency of algorithms found in AI through concepts of explainability, repeatability and traceability "
+            ],
+            "Manage intellectual property (IP) processes and procedures": [
+                "Perform preliminary analysis on patentability of AI solutions",
+                "Assist in the creation, application and assignment of IP legal rights for AI solutions",
+                "Assist in IP due diligence and landscape analysis to determine new IP for AI solutions"
+            ]
+        },
+        "technical_sc": {
+            "Business Innovation": "L5",
+            "Business Needs Analysis": "L5",
+            "Computer Vision Technology": "L4",
+            "Data Design": "L5",
+            "Data Ethics": "L5",
+            "Data Governance": "L5",
+            "Data Strategy": "L5",
+            "Design Thinking Practice": "L5",
+            "Emerging Technology Synthesis": "L5",
+            "Intelligent Reasoning": "L5",
+            "Organisational Design": "L5",
+            "Pattern Recognition Systems": "L5",
+            "Project Management": "L5",
+            "Quality Standards": "L5",
+            "Research": "L4",
+            "Self-learning Systems": "L4",
+            "Stakeholder Management": "L4",
+            "Text Analytics and Processing": "L6"
+        },
+        "generic_sc": {
+            "Leadership": "Advanced",
+            "Developing People": "Advanced",
+            "Communication": "Intermediate",
+            "Computational Thinking": "Intermediate",
+            "Lifelong Learning": "Intermediate"
+        }
+    },
+    {
+        "sector": "Infocomm Technology",
+        "track": "Data and Artificial Intelligence",
+        "subtrack": "Machine Learning Engineering",
+        "job_role": "Artificial Intelligence/Machine Learning Engineer",
+        "description": "The Artificial Intelligence /Machine Learning Engineer supports the production of scalable and optimised artificial intelligence (AI)/machine learning (ML) models. He/She focuses on building algorithms for the extraction, transformation and loading of large volumes of real-time, unstructured data in order to deploy AI/ML solutions from theoretical data science models. He runs experiments to test the performance of deployed models, and identifies and resolves bugs that arise in the process.\n\nHe works in a team setting and is proficient in statistics, scripting and programming languages required by the organisation. He is also familiar with the relevant software platforms in which the models are deployed. He should be knowledgeable of the requirements under the Model AI Governance Framework and the Personal Data Protection Act (PDPA) in the course of his work on AI/ML models.\n\nThe AI/ML Engineer is a determined individual who is comfortable working with large data sets, has a keen interest in problem solving and experimentation, and enjoys the iterative process of development and resolving issues.",
+        "critical_work_functions": {
+            "Conduct research on artificial intelligence (AI)/machine learning (ML) models and algorithms": [
+                "Research and implement ML algorithms and tools for AI/ML model development",
+                "Identify appropriate algorithms based on user requirements",
+                "Select appropriate datasets and data representation methods for analysis",
+                "Evaluate AI/ML models for production"
+            ],
+            "Build and assess AI/ML models": [
+                "Develop codes to package the AI/ML models for scaling",
+                "Develop AI/ML development pipeline and infrastructure",
+                "Develop scalable data pipelines to extract, transform, load and integrate unstructured data from various sources",
+                "Scale AI/ML models for production",
+                "Support continuous improvement of AI solutions"
+            ],
+            "Deploy AI/ML models in solutions": [
+                "Test the operation and performance of the deployed models",
+                "Identify bugs during deployment and create bug fixes to address issues",
+                "Engage in code reviews to improve AI/ML models",
+                "Perform statistical analysis and fine tuning of the models using test results",
+                "Prepare documentation to outline data sources, models and algorithms used and developed",
+                "Research and implement machine learning algorithms and tools for AI/ML model development"
+            ]
+        },
+        "technical_sc": {
+            "Business Needs Analysis": "L4",
+            "Cloud Computing": "L3",
+            "Computational Modelling": "L3",
+            "Computer Vision Technology": "L4",
+            "Configuration Tracking": "L3",
+            "Data Design": "L4",
+            "Data Engineering": "L3",
+            "Data Governance": "L4",
+            "Data Strategy ": "L4",
+            "Database Administration": "L3",
+            "Emerging Technology Synthesis": "L4",
+            "Intelligent Reasoning": "L4",
+            "Pattern Recognition Systems": "L4",
+            "Project Management": "L4",
+            "Security Architecture": "L3",
+            "Self-Learning Systems": "L4",
+            "Stakeholder Management ": "L4",
+            "System Integration": "L3",
+            "Test Planning": "L3",
+            "Text Analytics and Processing": "L4"
+        },
+        "generic_sc": {
+            "Leadership": "Intermediate",
+            "Developing People": "Intermediate",
+            "Transdisciplinary Thinking": "Intermediate",
+            "Computational Thinking": "Intermediate",
+            "Communication": "Intermediate"
+        }
+    },
+    {
+        "sector": "Infocomm Technology",
+        "track": "Data and Artificial Intelligence",
+        "subtrack": "Business Intelligence",
+        "job_role": "Business Intelligence Director",
+        "description": "The Business Intelligence Director sets the strategy, vision and policy for managing the day-to-day strategic and tactical operations of the business intelligence (BI) teams. He/She holds responsibilities associated with historical data sourcing and preparation, data storage, reporting, analytics, data exploration and information delivery. He works with senior management to understand and prioritise data and information requirements. He is responsible for setting up the BI Strategy within the organisation. He oversees the development of testing methodology and criteria, standards, policies and procedures for the structure and attributes of the business intelligence tools and systems. He oversees budgeting and planning. \n\nHe manages a team and is proficient in the analytics tools and techniques required by the organisation. He is also familiar with the relevant software platforms on which the solution is deployed on.\n\nThe BI Director has the ability to adopt a broader perspective and display analytical thinking for BI solutions. He is able to influence key stakeholders and spearhead a data driven approach to resolve business issues.",
+        "critical_work_functions": {
+            "Set business intelligence (BI) strategy": [
+                "Outline the organisation's BI vision and strategy",
+                "Oversee ongoing development and operations of BI architecture ",
+                "Establish approach for identifying business and information needs to enhance decision-making, polices and processes",
+                "Provide rationale, business cases and return on investment (ROI) models to get buy-in on the Business Intelligence investment ",
+                "Provide thought leadership to stakeholders in determining which BI solutions will enable the enterprise to achieve defined business goals"
+            ],
+            "Define analysis process for BI": [
+                "Establish guidelines and criteria to direct historical data analytics, architecture, and technology",
+                "Advise on processes and procedures for gathering of operational data to examine past business performance",
+                "Set guidelines for appropriate structuring and enrichment of data"
+            ],
+            "Present insights": [
+                "Provide BI insight updates and tactical, actionable recommendations to senior leaders and clients",
+                "Determine key messages to communicate from analyses and oversee the creation of a narrative for storytelling",
+                "Define the structure and tools to be applied in conceptualisation, design and building of visual dashboards and graphs "
+            ],
+            "Establish BI standards and governance": [
+                "Develop standards, policies and procedures for the form, structure and attributes of the BI tools and systems",
+                "Create long-term data governance initiatives that serve to improve data quality across all systems over time",
+                "Provide guidance on best practices related to BI data governance "
+            ],
+            "Manage people and organisation": [
+                "Review operational strategies, policies and targets across teams and projects ",
+                "Develop strategies for resource planning and utilisation",
+                "Review the utilisation of resources",
+                "Oversee the development of learning roadmaps for teams and functions",
+                "Establish performance indicators to benchmark effectiveness of learning and development programs against best practices",
+                "Implement succession planning initiatives for key management positions"
+            ]
+        },
+        "technical_sc": {
+            "Budgeting ": "L5",
+            "Business Innovation": "L6",
+            "Business Needs Analysis": "L5",
+            "Business Performance Management": "L5",
+            "Data Analytics": "L5",
+            "Data Ethics": "L5",
+            "Data Governance": "L5",
+            "Data Visualisation": "L5",
+            "Design Thinking Practice": "L5",
+            "Learning and Development": "L5",
+            "Manpower Planning": "L5",
+            "Networking": "L5",
+            "People and Performance Management": "L5",
+            "Project Management": "L5",
+            "Stakeholder Management ": "L5",
+            "Strategy Implementation": "L4",
+            "Strategy Planning": "L5"
+        },
+        "generic_sc": {
+            "Problem Solving": "Advanced",
+            "Communication": "Advanced",
+            "Leadership": "Intermediate",
+            "Lifelong Learning": "Advanced",
+            "Interpersonal Skills": "Advanced"
+        }
+    },
+    {
+        "sector": "Infocomm Technology",
+        "track": "Data and Artificial Intelligence",
+        "subtrack": "",
+        "job_role": "Business Intelligence Manager",
+        "description": "The Business Intelligence Manager identifies and translates market opportunities into actionable recommendations for the organisation. He/She supervises professionals in gathering and analysing business intelligence (BI) data to help make informed business decisions. He manages the timely reporting of data analysis outcomes and effectively communicates findings, insights and recommendations to business leaders. He develops data and/or information quality metrics and researches new technology and develops business cases to support enterprise wide business intelligence solutions. He is responsible for developing guidelines on data insight reporting for the team. He is also responsible for managing BI-related projects from end to end.\n\nHe manages a team and is proficient in the analytics tools and techniques required by the organisation. He is also familiar with the relevant software platforms on which the solution is deployed on.\n\nThe BI Manager has a deep passion for analysing and resolving complex problems through a systematic approach. He displays an intellectual curiosity as well as the capability to engage with stakeholders to understand business issues.",
+        "critical_work_functions": {
+            "Identify business needs": [
+                "Evaluate business plans and priorities to guide the identification of information needs for decision-making",
+                "Recommend types of data needed to measure performance, predict outcomes and make decisions",
+                "Oversee the development of design and specification proposals including feasibility and functional studies",
+                "Influence integration of data from across the enterprise to enhance information accessibility",
+                "Create new BI service offerings "
+            ],
+            "Prepare and analyse data": [
+                "Manage the problem definition and hypothesis formulation process",
+                "Provide advice on the development of data analysis models based on project requirements",
+                "Oversee data sourcing, acquisition, cleansing, integration, warehousing, exploration and delivery",
+                "Provide guidance on validation methodology and criteria",
+                "Define data and/or information quality metrics and lead data quality reviews",
+                "Synthesise trends, patterns and correlations from analyses to formulate insights and actionable recommendations"
+            ],
+            "Present insights": [
+                "Set the guidelines for the development of end user reports",
+                "Develop narratives to communicate key messages from analyses through storytelling",
+                "Advise the design of complex reporting and analytical solutions",
+                "Develop roadmaps for optimising the BI analysis insights "
+            ],
+            "Manage people and organisation": [
+                "Manage the budget expenditure and allocation across teams and projects ",
+                "Monitor and track the team's achievements and key performance indicators",
+                "Propose new operational plans, including targeted budgets, work allocations and staff forecasts",
+                "Acquire, allocate and optimise the use of resources",
+                "Develop learning roadmaps to support the professional development of the team",
+                "Manage the performance and development process, including providing coaching and development opportunities to maximise the potential of each individual"
+            ]
+        },
+        "technical_sc": {
+            "Budgeting ": "L4",
+            "Business Innovation": "L5",
+            "Business Needs Analysis": "L5",
+            "Business Performance Management": "L4",
+            "Data Analytics": "L4",
+            "Data Ethics": "L4",
+            "Data Governance": "L4",
+            "Data Visualisation": "L4",
+            "Design Thinking Practice ": "L4",
+            "Learning and Development": "L4",
+            "Manpower Planning": "L4",
+            "Networking": "L4",
+            "People and Performance Management": "L4",
+            "Project Management": "L4",
+            "Stakeholder Management ": "L3",
+            "Strategy Implementation": "L3",
+            "Strategy Planning": "L4"
+        },
+        "generic_sc": {
+            "Communication": "Intermediate",
+            "Problem Solving": "Intermediate",
+            "Sense Making": "Intermediate",
+            "Transdisciplinary Thinking": "Intermediate",
+            "Creative Thinking": "Intermediate"
+        }
+    },
+    {
+        "sector": "Infocomm Technology",
+        "track": "Data and Artificial Intelligence",
+        "subtrack": "",
+        "job_role": "Chief Data Officer/Chief Artificial Intelligence Officer",
+        "description": "The Chief Data Officer/Chief Artificial Intelligence Officer establishes the organisation's data and artificial intelligence (AI) strategy, and ethics and governance framework, fostering a culture of compliance to data privacy regulations and the Model AI Governance Framework. He/She is accountable for the quality, accessibility, analysis and management of data to inform business strategy, decision-making and drive performance. \n\nHe designs initiatives and programs to realise the optimal business value derivable from the organisation's data assets. He formulates data and AI project prioritisation and resourcing strategies and establishes performance measures to evaluate outcomes data and AI-driven solutions. He identifies potential intellectual property (IP) opportunities from analyses and insights from market intelligence reports, and advises the business on infringements against the organisation's IP related to AI solutions. He creates a shared vision and objectives on the use of data and AI in the organisation, building strategic relationships with key business and industry stakeholders to achieve business goals.\n\nThe Chief Data Officer/Chief Artificial Intelligence Officer is highly skilled in influencing and engaging stakeholders to secure their buy-in and support. He has strong business acumen, is highly innovative, and is able to make calculated-risk decisions, performing effectively in a complex and difficult environment. He possesses strong leadership and management skills required to develop the organisation's data and AI capabilities.",
+        "critical_work_functions": {
+            "Establish data and artificial intelligence (AI) strategy": [
+                "Establish the organisation's data and AI strategy, data privacy policies, and relevant ethics and governance frameworks",
+                "Align data and AI strategy, priorities and plans of the data function to the organisation's vision and mission",
+                "Formulate approaches to maximise the value of data analytics capabilities and technological investments for the organisation",
+                "Develop strategies to ensure seamless integration of technologies with workflows and processes across the organisation",
+                "Promote the adoption of industry leading practices and new data management technologies across the organisation",
+                "Drive the organisation's culture of compliance to data privacy policies, relevant ethics and governance frameworks",
+                "Review ethics and governance framework and measures to ensure continued relevance and effectiveness"
+            ],
+            "Optimise business value from data": [
+                "Design data and AI-driven initiatives to leverage the value of data assets in the organisation",
+                "Lead the identification of high business value business opportunities through application of data and AI solutions",
+                "Advise the team on new and innovative tools and techniques to derive greater value from data",
+                "Determine and showcase the potential value and impact of analytics and intelligent systems on existing business processes "
+            ],
+            "Formulate objectives and requirements from a business perspective": [
+                "Oversee the implementation of analytics and AI-driven initiatives across the organisation",
+                "Formulate project prioritisation and resourcing strategies for AI and data science projects across the organisation",
+                "Establish performance measures to evaluate data and AI initiatives, programmes, and value derived from effective data management",
+                "Advise the team on new and innovative tools and techniques to derive greater value from data"
+            ],
+            "Manage intellectual property (IP) strategies, processes and procedures": [
+                "Review emerging trends and intelligence, and analyse technology landscape reports and analyses to identify potential IP opportunities",
+                "Oversee systems and processes to manage IP related to AI solutions and/or models",
+                "Act as a subject matter expert and resource person for infringements against the organisation's IP related to AI solutions and/or models"
+            ],
+            "Build strategic relationships": [
+                "Build strategic relationships and alliances with key business and industry stakeholders, and partners to achieve organisational objectives and maximise the value of investments",
+                "Develop stakeholder management plans to create shared vision and objectives on the use of data and AI in the organisation",
+                "Lead engagement initiatives with key leaders and senior stakeholders to obtain buy-in for data and AI initiatives",
+                "Source for data analytics opportunities for the business and ensure data and indo compliance with business policies and external legal requirements "
+            ],
+            "Develop organisation's data and AI capabilities": [
+                "Develop strategies and plans to build capabilities within the AI function",
+                "Drive talent management initiatives to attract, motivate and retain talent for AI teams",
+                "Ensure AI solutions and deployment is guided by organisation's corporate values",
+                "Lead succession planning and management for key leadership roles in the AI function"
+            ]
+        },
+        "technical_sc": {
+            "Budgeting": "L6",
+            "Business Agility": "L6",
+            "Business Continuity": "L6",
+            "Business Risk Management": "L6",
+            "Change Management": "L6",
+            "Data Ethics": "L6",
+            "Data Governance": "L6",
+            "Data Strategy ": "L6",
+            "Enterprise Architecture": "L6",
+            "Emerging Technology Synthesis": "L6",
+            "IT Governance": "L6",
+            "IT Standards": "L6",
+            "Organisational Analysis": "L6",
+            "Performance Management": "L6",
+            "Quality Standards": "L6",
+            "Research": "L5",
+            "Sustainability Management": "L6",
+            "Stakeholder Management ": "L6",
+            "Strategy Planning": "L6"
+        },
+        "generic_sc": {
+            "Problem Solving": "Advanced",
+            "Communication": "Advanced",
+            "Interpersonal Skills": "Advanced",
+            "Leadership": "Advanced",
+            "Service Orientation": "Advanced"
+        }
+    },
+    {
+        "sector": "Infocomm Technology",
+        "track": "Data and Artificial Intelligence",
+        "subtrack": "Data Science/Artificial Intelligence Science",
+        "job_role": "Data Scientist/Artificial Intelligence Scientist",
+        "description": "The Data Scientist/Artificial Intelligence Scientist plans and leads the development of new and advanced data analytic techniques, methodologies and analytical solutions from design, prototyping and testing. He/She identifies and develops core data and artificial intelligence (AI) science components for the delivery of projects, architects specialised database and computing environments, explores and visualises complex data set to provide incremental business value. He extracts and integrates data from various sources, and creates advanced models and algorithms suitable for the business use case. He conducts testing on data and AI models, interprets findings from testing, and evaluates model performance for scaling and deployment. He develops compelling and logically structured communication materials to facilitate stakeholder buy-in. \n\nHe works in a team setting and is proficient in statistics, scripting and programming languages required by the organisation. He is also familiar with the relevant software platforms on which the solution is deployed on. \n\nThe Data Scientist/AI Scientist has strong analytical and critical thinking skills to identify and solve problems. He is passionate about analysing and resolving complex business problems, displaying intellectual curiosity towards using data and AI to address business needs and challenges. He is a data storyteller, and is able to influence key stakeholders and spearhead a data driven approach to resolve business issues.",
+        "critical_work_functions": {
+            "Manage data preparation and modelling": [
+                "Define objectives and hypothesis for research on data and artificial intelligence (AI) models",
+                "Analyse the ways in which datasets may be biased and address this in safety measures and deployment strategies",
+                "Conduct extraction and integration of data including features from different data sources",
+                "Develop multiple models and algorithms suitable for the use case",
+                "Perform model comparison to draw inferences on variable importance",
+                "Select the best model based on pre-defined evaluation criteria",
+                "Account for data ethics and policies in model selection and evaluation process",
+                "Interpret and evaluate model performance for scaling and deployment"
+            ],
+            "Build and assess models": [
+                "Conduct testing on final model in real-time business conditions prior to deployment",
+                "Scale and deploy models in real-time business conditions for end user consumption ",
+                "Initiate autonomous monitoring to scale human oversight",
+                "Document modelling techniques used and assumptions made against test outcomes",
+                "Enable end user capability to use AI/ Data Science products effectively"
+            ],
+            "Present data driven business value of data science/AI models": [
+                "Create reports and deliverables based on insights derived from the model results",
+                "Develop compelling, logically structured presentations including story-telling of research and/or analytics findings to secure stakeholder commitment",
+                "Contribute to the creation of leading-edge resources, including playbooks, guides, blog posts, videos, etc."
+            ]
+        },
+        "technical_sc": {
+            "Business Innovation": "L5",
+            "Business Needs Analysis": "L5",
+            "Computational Modelling": "L5",
+            "Computer Vision Technology": "L4",
+            "Data Design": "L5",
+            "Data Ethics": "L5",
+            "Data Governance": "L5",
+            "Data Strategy ": "L5",
+            "Design Thinking Practice": "L5",
+            "Emerging Technology Synthesis": "L4",
+            "Intelligent Reasoning": "L5",
+            "Pattern Recognition Systems": "L5",
+            "Project Management": "L5",
+            "Quality Standards": "L5",
+            "Self-learning Systems": "L4",
+            "Solution Architecture": "L5",
+            "Software Design": "L5",
+            "Stakeholder Management ": "L4",
+            "Test Planning": "L5",
+            "Text Analytics and Processing": "L6"
+        },
+        "generic_sc": {
+            "Leadership": "Advanced",
+            "Developing People": "Intermediate",
+            "Computational Thinking": "Advanced",
+            "Communication": "Intermediate",
+            "Transdisciplinary Thinking": "Advanced"
+        }
+    },
+    {
+        "sector": "Infocomm Technology",
+        "track": "Data and Artificial Intelligence",
+        "subtrack": "Business Intelligence/Data Engineering",
+        "job_role": "Data Analyst/Associate Data Engineer",
+        "description": "The Data Analyst/Associate Data Engineer blends historical data from available industry reports, public information, field reports or purchased sources, basic data cleaning and transformation, and performs analysis to support business and product decisions. He/She uses development tools to generate reports, dashboards, clean and prepare the data and analytical solutions according to business rules and specifications. He is a part of important projects and coordinates with internal teams to develop projections on outcomes of implementing business strategies that result in actionable insights.  He also assists in the data collection, processing and warehousing tasks, which may also include collection, parsing, analysing and visualising large sets of data\n\nHe works in a team setting and is proficient in the analytics tools and techniques required by the organisation. He is also familiar with the relevant software platforms on which the solution is deployed on.\n\nThe Data Analyst/Associate Data Engineer is meticulous and detailed-oriented.  He enjoys working with data and displays willingness to learn. He adopts an analytical approach to solving problems and displays confidence when communicating ideas.",
+        "critical_work_functions": {
+            "Identify business needs": [
+                "Identify information needs of stakeholders required for decision-making",
+                "Assist in the translation of business needs into analytics and reporting requirements",
+                "Recommend types of data and data sources needed to obtain the required information and insights",
+                "Assist in identifying potential business intelligence service offerings required by the business"
+            ],
+            "Prepare and analyse data": [
+                "Gather data from internal systems and external sources",
+                "Perform data entry tasks in data collection systems",
+                "Clean and update databases to remove duplicated, outdated or irrelevant information ",
+                "Perform data validation and quality control checks",
+                "Perform basic extract, transform and load related activities to prepare data for analysis or transfer",
+                "Analyse data to identify trends, patterns and correlations to support decision-making",
+                "Propose solutions and recommendations to address information need"
+            ],
+            "Present Insights": [
+                "Develop automated and logical data models and data output methods",
+                "Translate analyses into common business language to influence business decisions or actions",
+                "Design data reports and visualisation tools to facilitate data understanding through storytelling"
+            ]
+        },
+        "technical_sc": {
+            "Budgeting": "L3",
+            "Business Innovation": "L4",
+            "Business Needs Analysis": "L2",
+            "Business Performance Management": "L3",
+            "Data Analytics": "L2",
+            "Data Engineering": "L2",
+            "Data Ethics": "L3",
+            "Data Visualisation": "L3",
+            "Database Administration": "L2",
+            "Design Thinking Practice": "L3",
+            "Networking": "L3",
+            "Project Management": "L3",
+            "Stakeholder Management ": "L2"
+        },
+        "generic_sc": {
+            "Leadership": "Intermediate",
+            "Developing People": "Intermediate",
+            "Computational Thinking": "Intermediate",
+            "Communication": "Intermediate",
+            "Creative Thinking": "Intermediate"
+        }
+    },
+    {
+        "sector": "Infocomm Technology",
+        "track": "Data and Artificial Intelligence",
+        "subtrack": "Data Engineering",
+        "job_role": "Data Architect",
+        "description": "The Data Architect designs systems to facilitate access to and finding of information. He/She plans, designs, develops and tests internal information-delivery solutions and data models with the focus on providing positive user experience. He works with end users to specify requirements, create and implement designs to meet internal and client-facing objectives. He develops information management standards and practices, in compliance with data privacy policies and ethics and governance frameworks.\n\nHe works in a team setting and is proficient in database systems, scripting and programming languages required by the organisation. He is also familiar with the relevant software platforms on which the solution is deployed on. \n\nThe Data Architect integrates diverse needs and perspectives from internal and external clients, and possesses a creative mind to develop new and fresh ideas and solutions. He possesses strong leadership and communication abilities and is able to influence key stakeholders and clients he interfaces with.",
+        "critical_work_functions": {
+            "Identify business needs": [
+                "Determine data engineering requirements across all systems, platforms and applications based on artificial intelligence solutions",
+                "Advise the business on data requirements based on information and insights desired",
+                "Establish and implement data ethics, privacy and security guidelines and policies for potential new business cases that involve data engineering processes",
+                "Advise on latest machine learning libraries, strategies, and products in database and data processing software based on business requirements"
+            ],
+            "Design data architecture": [
+                "Define the desired state of information flows through the organisation to determine the organisation's data architecture",
+                "Assess existing systems to evaluate their usability, usefulness, visual design and content",
+                "Guide the alignment of information management standards with the enterprise architectural plan and information security standards",
+                "Develop strategies for seamless and low-risk migration of data between systems",
+                "Communicate the data architecture, design and recommendations to stakeholders"
+            ],
+            "Bring artificial intelligence (AI)/machine learning (ML) models into production": [
+                "Formulate strategies for code compilation for model production",
+                "Formulate AI/ML development pipeline strategies and infrastructure for the organisation",
+                "Provide technical guidance for scaling and pre-deployment of AI/ML models "
+            ],
+            "Deploy AI/ML models ": [
+                "Create deployment blueprints for AI/ML models",
+                "Provide technical guidance for deployment and optimisation of AI/ML models",
+                "Ensure deployed AI/ML models are aligned with the organisation's core values and comply with data governance and ethics guidelines"
+            ],
+            "Manage people and organisation": [
+                "Review operational strategies, policies and targets across teams and projects ",
+                "Develop strategies for resource planning and utilisation",
+                "Review the utilisation of resources",
+                "Oversee the development of learning roadmaps for teams and functions",
+                "Establish performance indicators to benchmark effectiveness of learning and development programmes against best practices",
+                "Implement succession planning initiatives for key management positions "
+            ]
+        },
+        "technical_sc": {
+            "Business Needs Analysis": "L4",
+            "Change Management": "L5",
+            "Computational Modelling": "L5",
+            "Configuration Tracking": "L4",
+            "Data Design": "L5",
+            "Data Engineering": "L5",
+            "Data Ethics": "L6",
+            "Data Governance": "L6",
+            "Data Strategy ": "L6",
+            "Database Administration": "L5",
+            "Emerging Technology Synthesis": "L4",
+            "Learning and Development": "L5",
+            "Manpower Planning": "L4",
+            "People and Performance Management": "L4",
+            "Project Management": "L6",
+            "Quality Standards": "L5",
+            "Security Architecture": "L4",
+            "Stakeholder Management ": "L5",
+            "Strategy Planning": "L5",
+            "System Integration": "L6"
+        },
+        "generic_sc": {
+            "Leadership": "Advanced",
+            "Communication": "Advanced",
+            "Developing People": "Intermediate",
+            "Transdisciplinary Thinking": "Advanced",
+            "Computational Thinking": "Advanced"
+        }
+    },
+    {
+        "sector": "Infocomm Technology",
+        "track": "Data and Artificial Intelligence",
+        "subtrack": "",
+        "job_role": "Data Engineer",
+        "description": "The Data Engineer supports the design, implementation and maintenance of data flow channels and data processing systems that support the collection, storage, batch and real-time processing, and analysis of information in a scalable, repeatable and secure manner. He/She focuses on defining optimal solutions to data collection, processing and warehousing. He designs, codes and tests data systems and works on implementing those into the internal infrastructure. He focuses on collecting, parsing, managing, analysing and visualising large sets of data to turn information into insights accessible through multiple platforms.\n\nHe is proficient in database systems, scripting and programming languages required by the organisation. He is also familiar with the relevant software platforms on which the solution is deployed on. \n\nThe Data Engineer is passionate about numbers and works with large data sets. He has a keenness for understanding business processes and resolving challenges in order to provide solutions with the help of clean and interlinked databases and architectures.",
+        "critical_work_functions": {
+            "Identify business needs": [
+                "Identify suitable data structures based on business needs to ensure availability and accessibility of data ",
+                "Determine technical system requirements based on data needs",
+                "Keep abreast of latest technologies and products in database and data processing software, and technologies"
+            ],
+            "Build and maintain data pipeline": [
+                "Assist in building scalable data pipelines to extract, transform, load and integrate data",
+                "Develop codes and scripts to process structured and unstructured data in real-time from a variety of data sources",
+                "Test data pipelines for scalability and reliability to process high data volume, variety and velocity",
+                "Consolidate and create data storage solutions for storage and retrieval of information",
+                "Develop prototypes and Proof-of-Concepts for data solutions",
+                "Monitor data system performance ",
+                "Support the handling and logging of errors",
+                "Develop backup data archiving systems to ensure system continuity",
+                "Implement and monitor data security and privacy measures on existing data solutions"
+            ],
+            "Optimise solution performance": [
+                "Assist in the integration of data systems with existing infrastructure ",
+                "Develop tools to improve data flows between internal and/or external systems and the data warehouse ",
+                "Automate the data collection and analysis processes, data releasing and reporting tools",
+                "Test data system configurations to increase efficiency"
+            ]
+        },
+        "technical_sc": {
+            "Business Needs Analysis": "L2",
+            "Change Management": "L3",
+            "Computational Modelling": "L3",
+            "Configuration Tracking": "L1",
+            "Data Design": "L3",
+            "Data Engineering": "L3",
+            "Data Ethics": "L4",
+            "Data Governance": "L4",
+            "Data Migration": "L3",
+            "Database Administration": "L3",
+            "Emerging Technology Synthesis": "L4",
+            "Project Management": "L4",
+            "Quality Standards": "L4",
+            "Security Architecture": "L3",
+            "Stakeholder Management": "L3",
+            "Strategy Implementation": "L3",
+            "System Integration": "L4"
+        },
+        "generic_sc": {
+            "Leadership": "Intermediate",
+            "Developing People": "Intermediate",
+            "Communication": "Intermediate",
+            "Transdisciplinary Thinking": "Intermediate",
+            "Computational Thinking": "Intermediate"
+        }
+    },
+    {
+        "sector": "Infocomm Technology",
+        "track": "Data and Artificial Intelligence",
+        "subtrack": "",
+        "job_role": "Head of Data Science and Artificial Intelligence",
+        "description": "The Head of Data Science and Artificial Intelligence formulates and implement data and artificial intelligence (AI) strategies to optimise business value derived from data assets. He/She guides the AI research direction to create new algorithms and models, and reviews the feasibility of translating research and development outcomes into data and AI solutions. He oversees the development of data and AI solutions for the business to inform strategy and planning, decision-making and drive performance. He identifies potential intellectual property commercialisation opportunities for AI solutions and/or models, and oversees the preparation and application for intellectual property rights.\n\nHe manages a team and is proficient in statistics, scripting and programming languages required by the organisation. He is also familiar with the relevant software platforms on which the solution is deployed on. \n\nThe Head of Data Science and Artificial Intelligence is a highly effective communicator, articulating the potential value and impact of data and AI solutions on the business and influencing key business stakeholders. He is a proactive and innovative individual, possessing a strong drive to succeed amidst an evolving business environment. He develops the data and AI team's technical and leadership capabilities, and ensures compliance to the organisation's data privacy policies, ethics and governance framework, and intellectual property legislation.",
+        "critical_work_functions": {
+            "Implement data and artificial intelligence (AI) strategy": [
+                "Formulate and implement strategies to identify, acquire and use appropriate data and AI models",
+                "Guide AI research direction based on the current and future needs of the organisation",
+                "Drive implementation of new data management technologies",
+                "Drive the organisation's AI research and development strategy and focus",
+                "Communicate and ensure compliance to the organisation's data privacy policies, and ethics and governance framework",
+                "Direct engagement initiatives to communicate the potential and value of data and AI across the organisation",
+                "Review research and development outcomes to ensure alignment with the organisation's vision, mission and values, and data and AI strategy",
+                "Establish internal policies and processes to perform regular model tuning to cater for changes in customer behaviour over time"
+            ],
+            "Formulate objectives and requirements from a business perspective": [
+                "Develop feasibility analysis plans for AI and Data Science Projects based on business requirements and expected outcomes",
+                "Synthesise insights from research on emerging trends, market developments and environmental scans to support feasibility analysis",
+                "Approve proposed AI solution for development based on an evaluation of cost-benefit, competitive and feasibility analysis",
+                "Communicate insights of feasibility analysis and relevant success strategies with key business stakeholders for decision making",
+                "Build partnerships with key service partners and customers within and across industries to accelerate the adoption of Data Science and AI initiatives"
+            ],
+            "Manage intellectual property (IP) strategies, processes and procedures": [
+                "Identify potential IP commercialisation opportunities for AI solutions and/or models",
+                "Liaise with external vendors on preparation and finalisation of IP applications",
+                "Ensure compliance to IP legislation and guidelines"
+            ],
+            "Present data driven business value of data science/artificial intelligence (AI) models": [
+                "Present data and AI model development outcomes to key stakeholders",
+                "Create leading-edge resources, including playbooks, guides, blog posts, videos, to advance data and AI within the organisation and for end-users",
+                "Present insights of data and AI model to key stakeholders",
+                "Articulate the potential business value and commercial impact derived from data and AI solutions"
+            ],
+            "Manage people and organisation": [
+                "Review operational strategies, policies and targets across teams and projects ",
+                "Develop strategies for resource planning and utilisation",
+                "Review the utilisation of resources",
+                "Oversee the development of learning roadmaps for teams and functions",
+                "Establish performance indicators to benchmark effectiveness of learning and development programmes against best practices",
+                "Implement succession planning initiatives for key management positions "
+            ]
+        },
+        "technical_sc": {
+            "Budgeting ": "L5",
+            "Business Agility": "L5",
+            "Business Continuity": "L5",
+            "Business Innovation": "L6",
+            "Business Needs Analysis": "L5",
+            "Business Performance Management": "L6",
+            "Business Risk Management": "L5",
+            "Change Management": "L5",
+            "Computer Vision Technology": "L5",
+            "Data Design": "L5",
+            "Data Engineering": "L5",
+            "Data Ethics": "L5",
+            "Data Governance": "L5",
+            "Data Strategy ": "L5",
+            "Emerging Technology Synthesis": "L5",
+            "Intelligent Reasoning": "L5",
+            "Learning and Development": "L6",
+            "Manpower Planning": "L5",
+            "Networking": "L5",
+            "Organisational Analysis": "L5",
+            "Pattern Recognition Systems": "L5",
+            "People and Performance Management": "L5",
+            "Performance Management": "L5",
+            "Project Management": "L6",
+            "Quality Standards": "L5",
+            "Research": "L5",
+            "Self-learning Systems": "L5",
+            "Software Design": "L5",
+            "Solution Architecture": "L5",
+            "Stakeholder Management ": "L5",
+            "Strategy Implementation": "L4",
+            "Strategy Planning": "L5",
+            "Sustainability Management": "L5",
+            "Text Analytics and Processing": "L5"
+        },
+        "generic_sc": {
+            "Problem Solving": "Advanced",
+            "Communication": "Advanced",
+            "Leadership": "Advanced",
+            "Interpersonal Skills": "Advanced",
+            "Transdisciplinary Thinking": "Advanced"
+        }
+    },
+    {
+        "sector": "Infocomm Technology",
+        "track": "Data and Artificial Intelligence",
+        "subtrack": "Machine Learning Engineering",
+        "job_role": "Senior Artificial Intelligence/Machine Learning Engineer",
+        "description": "The Senior Artificial Intelligence/Machine Learning Engineer oversees projects for the production of scalable and optimised artificial intelligence (AI)/machine learning (ML) models, and ensures communication and collaboration with appropriate stakeholders. He/She is responsible for evaluating techniques or algorithms used and ensuring performance of the models deployed, and guiding or coaching the team in achieving quality in technical areas of the projects.\n\nHe works in a team setting and is proficient in statistics, scripting and programming languages required by the organisation. He is also familiar with the relevant software platforms on which the solution is deployed on. \n\nThe Senior AI/Machine Learning Engineer is passionate about delivering end-to-end data projects, from scoping and discovery to post-deployment. He is skilled in stakeholder management, possesses the ability to communicate ideas and recommendations to and influence various internal stakeholders, both within and beyond the team.",
+        "critical_work_functions": {
+            "Develop artificial intelligence (AI)/machine learning (ML) models for production": [
+                "Evaluate AI/ML model scaling and packaging codes for refinement",
+                "Assess performance of production-level AI/ML models for scalability",
+                "Manage AI/ML development pipeline and infrastructure",
+                "Lead the extraction, transformation, loading and integration of unstructured data for modelling",
+                "Review scaled AI/ML models  to ensure desired performance can be achieved when deployed",
+                "Drive optimisation of AI solutions to increase performance"
+            ],
+            "Deploy AI/ML models": [
+                "Oversee the deployment of AI/ML solutions",
+                "Create test plans for post-deployment",
+                "Communicate deployment issues and resolution plans to stakeholders",
+                "Lead the development and deployment of supervised and/or unsupervised techniques for problem solving"
+            ],
+            "Manage AI/ML projects": [
+                "Plan the end-to-end deployment of AI/ML solutions from initial testing, deployment, to optimisation in terms of system performance and run time",
+                "Lead project estimations and code reviews ",
+                "Set project timelines and work quality guidelines",
+                "Apply project management tools and processes to ensure project is cost-effective",
+                "Communicate project objectives at critical junctions to obtain buy-in from all stakeholders",
+                "Deliver scalable AI/ML solutions"
+            ]
+        },
+        "technical_sc": {
+            "Business Needs Analysis": "L5",
+            "Change Management": "L4",
+            "Cloud Computing": "L4",
+            "Computational Modelling": "L4",
+            "Computer Vision Technology": "L5",
+            "Configuration Tracking": "L4",
+            "Data Design": "L5",
+            "Data Engineering": "L4",
+            "Data Governance": "L5",
+            "Data Strategy ": "L5",
+            "Database Administration": "L4",
+            "Emerging Technology Synthesis": "L5",
+            "Intelligent Reasoning": "L5",
+            "Pattern Recognition Systems": "L5",
+            "Problem Management": "L5",
+            "Project Management": "L5",
+            "Security Architecture": "L4",
+            "Self-Learning Systems": "L5",
+            "Stakeholder Management ": "L5",
+            "System Integration": "L4",
+            "Test Planning": "L4",
+            "Text Analytics and Processing": "L5"
+        },
+        "generic_sc": {
+            "Leadership": "Advanced",
+            "Developing People": "Intermediate",
+            "Transdisciplinary Thinking": "Advanced",
+            "Computational Thinking": "Intermediate",
+            "Communication": "Intermediate"
+        }
+    },
+    {
+        "sector": "Infocomm Technology",
+        "track": "Data and Artificial Intelligence",
+        "subtrack": "Data Engineering",
+        "job_role": "Senior Data Engineer",
+        "description": "The Senior Data Engineer designs, implements and oversees maintenance of data flow channels and data processing systems that support the collection, storage, batch and real-time processing, and analysis of information from structured and unstructured sources in a scalable, repeatable and secure manner. He/She assists data scientists with the extraction of valuable insights from data sets to derive valuable and actionable insights and recommendations that support business requirements. He involves in rollouts, upgrades, implementation and release of data system changes as required for streamlining of internal practices.\n\nHe is proficient in database systems, scripting and programming languages required by the organisation. He is also familiar with the relevant software platforms on which the solution is deployed on. \n\nThe Senior Data Engineer possesses natural inclination for understanding business processes and relevant data requirements. He easily builds rapport with others and is able to put forth his ideas and recommendations in a persuasive manner, to influence stakeholders and decisions.",
+        "critical_work_functions": {
+            "Identify business needs": [
+                "Assess the suitability of data structures to ensure availability, integrity, quality, scalability and accessibility of data",
+                "Translate business' data needs to technical system requirements",
+                "Evaluate suitability of technologies and products in database and data processing for integration and storage"
+            ],
+            "Build and maintain data pipeline": [
+                "Build data flow channels and processing systems to extract, transform, load and integrate data",
+                "Validate data extraction, preparation and processing systems for accuracy of data and outputs",
+                "Create data storage plans and solutions for information storage and extraction",
+                "Lead project rollouts, upgrades, implementation and release of data system changes",
+                "Analyse data system performance and develop solutions for improvements",
+                "Build a metadata system to ensure documentation and cataloguing of all available data ",
+                "Formulate data backup and fail-safe plans as part of business continuity planning",
+                "Ensure the security, privacy and anonymity of users accessing data systems"
+            ],
+            "Optimise performance of solutions": [
+                "Evaluate existing technologies and technology practices ",
+                "Resolve data integrity, performance, and availability issues ",
+                "Identify opportunities for improvements and optimisation to systems and processes",
+                "Automate processes focusing on repeatability and reliability"
+            ]
+        },
+        "technical_sc": {
+            "Business Needs Analysis": "L3",
+            "Change Management": "L4",
+            "Computational Modelling": "L4",
+            "Configuration Tracking": "L3",
+            "Data Design": "L4",
+            "Data Engineering": "L4",
+            "Data Ethics": "L5",
+            "Data Governance": "L5",
+            "Data Migration": "L4",
+            "Data Strategy ": "L5",
+            "Database Administration": "L4",
+            "Emerging Technology Synthesis": "L5",
+            "Learning and Development": "L4",
+            "Manpower Planning": "L4",
+            "People and Performance Management": "L3",
+            "Project Management": "L5",
+            "Quality Standards ": "L4",
+            "Security Architecture": "L3",
+            "Stakeholder Management ": "L4",
+            "Strategy Implementation": "L4",
+            "Strategy Planning": "L4",
+            "System Integration": "L5"
+        },
+        "generic_sc": {
+            "Leadership": "Advanced",
+            "Developing People": "Intermediate",
+            "Communication": "Intermediate",
+            "Transdisciplinary Thinking": "Advanced",
+            "Computational Thinking": "Advanced"
+        }
+    }
+]
