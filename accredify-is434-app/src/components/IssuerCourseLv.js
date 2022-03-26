@@ -15,7 +15,6 @@ import React from "react"
 //     }
 //   }
 
-//infienfnownn
 
   // 2) Use Axios to call API asynchronously
   axios.get("https://jsonplaceholder.typicode.com/users")
