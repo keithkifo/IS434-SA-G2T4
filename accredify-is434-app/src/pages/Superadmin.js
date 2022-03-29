@@ -18,17 +18,17 @@ import ActivityBox from "../components/ActivityBox";
 import FilterComponent from "../components/FilterComponent";
 import Heatmap from "../components/Heatmap";
 
-const InstitutionAdmin = () => {
+const SuperAdmin = () => {
 	const institutionId = 1; // hard coded
 	const [tabIndex, setTabIndex] = useState(0);
 
-	const [yearList, setYearList] = useState([]);
+	const [institutionList, setInstitutionList] = useState([]);
 	const [courseList, setCourseList] = useState([]);
-	const [issuerList, setIssuerList] = useState([]);
+	const [yearList, setYearList] = useState([]);
 
-	const [yearFilter, setYearFilter] = useState("");
+	const [institutionFilter, setInstitutionFilter] = useState("");
 	const [courseFilter, setCourseFilter] = useState("");
-	const [issuerFilter, setIssuerFilter] = useState("");
+	const [yearFilter, setYearFilter] = useState("");
 
 	const [calendarData, setCalendarData] = useState([]);
 	const [activityBreakdown, setActivityBreakdown] = useState({});
@@ -39,12 +39,12 @@ const InstitutionAdmin = () => {
 	const baseEndpoint = `https://is434.accredify.io/api/v1/issuance?institutionId=${institutionId}`;
 	const institutionEndpoints = [
 		`&year=${yearFilter}&flatten=true`,
-		`&year=${yearFilter}&issuerId=${issuerFilter}`,
-		`&year=${yearFilter}&issuerId=${issuerFilter}&courseCode=${courseFilter}`,
+		`&year=${yearFilter}&institutionId=${institutionFilter}`,
+		`&year=${yearFilter}&institutionId=${institutionFilter}&courseCode=${courseFilter}`,
 	];
 
 	const tableHeaders = [
-		["Issuer", "Course Code", "Count"],
+		["Institution", "Course Code", "Count"],
 		["Course Code", "Count"],
 		["Course Code", "Count"],
 	];
@@ -68,14 +68,14 @@ const InstitutionAdmin = () => {
 			});
 	}, []);
 
-	// Get unique years and unique courses under Issuer
-	const handleIssuerChange = (e) => {
-		setIssuerFilter(e.target.value);
+	// Get unique years and unique courses under Institution
+	const handleInstitutionChange = (e) => {
+		setInstitutionFilter(e.target.value);
 	
-		// Issuer's courses
+		// Institution's courses
 		axios
 			.get(
-				`https://is434.accredify.io/api/v1/issuance?institutionId=${institutionId}&issuer=${issuerFilter}`
+				`https://is434.accredify.io/api/v1/issuance?institutionId=${institutionId}&institution=${institutionFilter}`
 			)
 			.then((res) => {
 				let dataObj = res.data.data;
@@ -88,10 +88,10 @@ const InstitutionAdmin = () => {
 				setCourseList(uniqueCourses);
 			});
 
-		// Issuer's years
+		// Institution's years
 		axios
 			.get(
-				`https://is434.accredify.io/api/v1/issuance?institutionId=${institutionId}&flatten=true&issuer=${issuerFilter}`
+				`https://is434.accredify.io/api/v1/issuance?institutionId=${institutionId}&flatten=true&institution =${institutionFilter}`
 			)
 			.then((res) => {
 				let uniqueYears = [];
@@ -106,7 +106,7 @@ const InstitutionAdmin = () => {
 	};
 
 	useEffect(() => {
-		if ((tabIndex === 0 && yearFilter !== "") || (tabIndex === 1 && yearFilter !== "" && issuerFilter !== "") || (tabIndex === 2 && yearFilter !== "" && issuerFilter !== "" && courseFilter !== "")) {
+		if ((tabIndex === 0 && yearFilter !== "") || (tabIndex === 1 && yearFilter !== "" && institutionFilter !== "") || (tabIndex === 2 && yearFilter !== "" && institutionFilter !== "" && courseFilter !== "")) {
 			axios.get(baseEndpoint + institutionEndpoints[tabIndex] + "&flatten=true")
 			.then((res) => {
 				let cleanData = [];
@@ -120,7 +120,7 @@ const InstitutionAdmin = () => {
 				setCalendarReady(true);
 			});
 		}
-	}, [yearFilter, issuerFilter, courseFilter, tabIndex])
+	}, [yearFilter, institutionFilter, courseFilter, tabIndex])
 
 	const handleCalendarClick = (day, e) => {
 		setShowActivity(true);
@@ -128,9 +128,9 @@ const InstitutionAdmin = () => {
 		if (tabIndex === 0) {
 			endpoint = `https://is434.accredify.io/api/v1/issuance?institutionId=${institutionId}&date=${day.data.day}`;
 		} else if (tabIndex === 1) {
-			endpoint = `https://is434.accredify.io/api/v1/issuance?institutionId=${institutionId}&issuerId=${issuerFilter}&date=${day.data.day}`;
+			endpoint = `https://is434.accredify.io/api/v1/issuance?institutionId=${institutionId}&institution=${institutionFilter}&date=${day.data.day}`;
 		} else {
-			endpoint = `https://is434.accredify.io/api/v1/issuance?institutionId=${institutionId}&issuerId=${issuerFilter}&date=${day.data.day}&courseCode=${courseFilter}`;
+			endpoint = `https://is434.accredify.io/api/v1/issuance?institutionId=${institutionId}&institution=${institutionFilter}&date=${day.data.day}&courseCode=${courseFilter}`;
 		}
 
 		axios.get(endpoint).then((res) => {
@@ -143,49 +143,49 @@ const InstitutionAdmin = () => {
 		<>
 			<Heading mb={3}> Welcome Superadmin! </Heading>
 			<VStack align="left">
-							<FilterComponent
-								filter={{ name: "Institution" }}
-								selectOptions={issuerList} // change to institution...
-								handleOnChange={(e) => handleIssuerChange(e)}
-							/>
-							<FilterComponent
-								filter={{ name: "Course" }}
-								selectOptions={courseList}
-								handleOnChange={(e) => {
-									let renameCourse = "%23" + e.target.value.substring(1)
-									setCourseFilter(renameCourse)
-								}}
-							/>
-							<FilterComponent
-								filter={{ name: "Year" }}
-								selectOptions={yearList}
-								handleOnChange={(e) => setYearFilter(e.target.value)}
-							/>
-						</VStack>
-						<Box style={{ height: 200 }}>
-							{calendarReady === true ? (
-								<Heatmap
-									calendarData={calendarData}
-									yearFilter={yearFilter}
-									handleClick={handleCalendarClick}
-								/>
-							) : (
-								<Text mt={5}>
-									Select an Institution, a Course and a Year to view heatmap.
-								</Text>
-							)}
-						</Box>
-						<Divider mb={2} />
-						{showActivity ? (
-							<ActivityBox
-								activityBreakdown={activityBreakdown}
-								tableHeaders={tableHeaders[tabIndex]}
-								clickCalDate={clickCalDate}
-							/>
-						) : null}
+				<FilterComponent
+					filter={{ name: "Institution" }}
+					selectOptions={institutionList} // change to institution...
+					handleOnChange={(e) => handleInstitutionChange(e)}
+				/>
+				<FilterComponent
+					filter={{ name: "Course" }}
+					selectOptions={courseList}
+					handleOnChange={(e) => {
+					let renameCourse = "%23" + e.target.value.substring(1)
+					setCourseFilter(renameCourse)
+				}}
+				/>
+				<FilterComponent
+					filter={{ name: "Year" }}
+					selectOptions={yearList}
+					handleOnChange={(e) => setYearFilter(e.target.value)}
+				/>
+				</VStack>
+				<Box style={{ height: 200 }}>
+				{calendarReady === true ? (
+					<Heatmap
+						calendarData={calendarData}
+						yearFilter={yearFilter}
+						handleClick={handleCalendarClick}
+					/>
+				) : (
+				<Text mt={5}>
+					Select an Institution, a Course and a Year to view heatmap.
+				</Text>
+				)}
+				</Box>
+				<Divider mb={2} />
+				{showActivity ? (
+					<ActivityBox
+						activityBreakdown={activityBreakdown}
+						tableHeaders={tableHeaders[tabIndex]}
+						clickCalDate={clickCalDate}
+					/>
+				) : null}
 		
 		</>
 	);
 };
 
-export default InstitutionAdmin;
+export default SuperAdmin;
