@@ -187,6 +187,11 @@ const InstitutionAdmin = () => {
 									setYearFilter(e.target.value);
 								}}
 							/>
+							<FilterComponent
+								filter={{ name: "Year" }}
+								selectOptions={yearList}
+								handleOnChange={(e) => setYearFilter(e.target.value)}
+							/>
 						</VStack>
 
 						<Box style={{ height: 200 }}>
@@ -198,7 +203,7 @@ const InstitutionAdmin = () => {
 								/>
 							) : (
 								<Text mt={5}>
-									Select a Course to view heatmap.
+									Select a Course and Year to view heatmap.
 								</Text>
 							)}
 						</Box>

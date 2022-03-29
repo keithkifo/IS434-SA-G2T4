@@ -153,8 +153,8 @@ const SuperAdmin = () => {
 					selectOptions={courseList}
 					handleOnChange={(e) => {
 					let renameCourse = "%23" + e.target.value.substring(1)
-					setCourseFilter(renameCourse)
-				}}
+						setCourseFilter(renameCourse)
+					}}
 				/>
 				<FilterComponent
 					filter={{ name: "Year" }}
