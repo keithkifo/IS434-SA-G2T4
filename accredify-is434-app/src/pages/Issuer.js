@@ -18,7 +18,7 @@ import ActivityBox from "../components/ActivityBox";
 import FilterComponent from "../components/FilterComponent";
 import Heatmap from "../components/Heatmap";
 
-const InstitutionAdmin = () => {
+const Issuer = () => {
 	const institutionId = 1; // hard coded
 	const [tabIndex, setTabIndex] = useState(0);
 
@@ -106,6 +106,7 @@ const InstitutionAdmin = () => {
 			)
 			.then((res) => {
 				let dataObj = res.data.data;
+				console.log(dataObj)
 				let uniqueCourses = [];
 				for (let course in dataObj[e.target.value]) {
 					if (!uniqueCourses.includes(course)) {
@@ -172,53 +173,13 @@ const InstitutionAdmin = () => {
 
 			<Tabs index={tabIndex} onChange={handleTabChange}>
 				<TabList>
-					<Tab>Course</Tab>
 					<Tab>All Courses</Tab>
+					<Tab>Courses</Tab>
 				</TabList>
-
 				<TabPanels>
-					{/* Course */}
-					<TabPanel>
-						<VStack align="left">
-							<FilterComponent
-								filter={{ name: "Course" }}
-								selectOptions={yearList}
-								handleOnChange={(e) => {
-									setYearFilter(e.target.value);
-								}}
-							/>
-							<FilterComponent
-								filter={{ name: "Year" }}
-								selectOptions={yearList}
-								handleOnChange={(e) => setYearFilter(e.target.value)}
-							/>
-						</VStack>
 
-						<Box style={{ height: 200 }}>
-							{calendarReady === true ? (
-								<Heatmap
-									calendarData={calendarData}
-									yearFilter={yearFilter}
-									handleClick={handleCalendarClick}
-								/>
-							) : (
-								<Text mt={5}>
-									Select a Course and Year to view heatmap.
-								</Text>
-							)}
-						</Box>
-						<Divider mb={2} />
-						{showActivity ? (
-							<ActivityBox
-								activityBreakdown={activityBreakdown}
-								tableHeaders={tableHeaders[tabIndex]}
-								clickCalDate={clickCalDate}
-							/>
-						) : null}
-					</TabPanel>
-
-					{/* All courses */}
-					<TabPanel>
+					{/* All Courses */}
+						<TabPanel>
 						<VStack align="left">
 							<FilterComponent
 								filter={{ name: "Issuer" }}
@@ -254,10 +215,45 @@ const InstitutionAdmin = () => {
 						</Box>
 						<Divider mb={2} />
 					</TabPanel>
+
+						{/* Courses */}
+						<TabPanel>
+						<VStack align="left">
+							<FilterComponent
+								filter={{ name: "Year" }}
+								selectOptions={yearList}
+								handleOnChange={(e) => {
+									setYearFilter(e.target.value);
+								}}
+							/>
+						</VStack>
+
+						<Box style={{ height: 200 }}>
+							{calendarReady === true ? (
+								<Heatmap
+									calendarData={calendarData}
+									yearFilter={yearFilter}
+									handleClick={handleCalendarClick}
+								/>
+							) : (
+								<Text mt={5}>
+									Select a Year to view heatmap.
+								</Text>
+							)}
+						</Box>
+						<Divider mb={2} />
+						{showActivity ? (
+							<ActivityBox
+								activityBreakdown={activityBreakdown}
+								tableHeaders={tableHeaders[tabIndex]}
+								clickCalDate={clickCalDate}
+							/>
+						) : null}
+					</TabPanel>
 				</TabPanels>
 			</Tabs>
 		</>
 	);
 };
 
-export default InstitutionAdmin;
+export default Issuer;
