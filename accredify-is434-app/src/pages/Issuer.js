@@ -173,12 +173,45 @@ const Issuer = () => {
 
 			<Tabs index={tabIndex} onChange={handleTabChange}>
 				<TabList>
+					<Tab>Course</Tab>
 					<Tab>All Courses</Tab>
-					<Tab>Courses</Tab>
 				</TabList>
 				<TabPanels>
+						{/* Courses */}
+						<TabPanel>
+						<VStack align="left">
+							<FilterComponent
+								filter={{ name: "Year" }}
+								selectOptions={yearList}
+								handleOnChange={(e) => {
+									setYearFilter(e.target.value);
+								}}
+							/>
+						</VStack>
 
-					{/* All Courses */}
+						<Box style={{ height: 200 }}>
+							{calendarReady === true ? (
+								<Heatmap
+									calendarData={calendarData}
+									yearFilter={yearFilter}
+									handleClick={handleCalendarClick}
+								/>
+							) : (
+								<Text mt={5}>
+									Select a Year to view heatmap.
+								</Text>
+							)}
+						</Box>
+						<Divider mb={2} />
+						{showActivity ? (
+							<ActivityBox
+								activityBreakdown={activityBreakdown}
+								tableHeaders={tableHeaders[tabIndex]}
+								clickCalDate={clickCalDate}
+							/>
+						) : null}
+					</TabPanel>
+						{/* All Courses */}
 						<TabPanel>
 						<VStack align="left">
 							<FilterComponent
@@ -214,41 +247,6 @@ const Issuer = () => {
 							)}
 						</Box>
 						<Divider mb={2} />
-					</TabPanel>
-
-						{/* Courses */}
-						<TabPanel>
-						<VStack align="left">
-							<FilterComponent
-								filter={{ name: "Year" }}
-								selectOptions={yearList}
-								handleOnChange={(e) => {
-									setYearFilter(e.target.value);
-								}}
-							/>
-						</VStack>
-
-						<Box style={{ height: 200 }}>
-							{calendarReady === true ? (
-								<Heatmap
-									calendarData={calendarData}
-									yearFilter={yearFilter}
-									handleClick={handleCalendarClick}
-								/>
-							) : (
-								<Text mt={5}>
-									Select a Year to view heatmap.
-								</Text>
-							)}
-						</Box>
-						<Divider mb={2} />
-						{showActivity ? (
-							<ActivityBox
-								activityBreakdown={activityBreakdown}
-								tableHeaders={tableHeaders[tabIndex]}
-								clickCalDate={clickCalDate}
-							/>
-						) : null}
 					</TabPanel>
 				</TabPanels>
 			</Tabs>
