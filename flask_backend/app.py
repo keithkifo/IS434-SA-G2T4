@@ -8,27 +8,6 @@ app = Flask(__name__)
 
 @app.route('/recommend_jobs' , methods=['GET'] )
 def recommend_jobs():
-    ''' Sample JSON response structure
-    [
-        {
-            "sector": "Infocomm Technology",
-            "track": "Data and Artificial Intelligence",
-            "job_role": "Artificial Intelligence/Machine Learning Engineer",
-            "percentage_match": 0.8472,
-            "qualified": {
-                "Business Needs Analysis": "L4",
-            },
-            "under_qualified": {
-                "Data Design": {
-                    "job_level": "L4",
-                    "user_level": "L3"
-            },
-            "not_obtained": {
-                "Computer Vision Technology": "L4",
-            }
-        },
-    ]
-    '''
     response_dict = {
         "status": "",
         "data": []
@@ -36,13 +15,11 @@ def recommend_jobs():
 
     try:
         # Step 1: Retrieve payload: Sector and Track 
-        # payload = request.args.to_dict()
+        payload = request.args.to_dict()
 
         # Step 2: Retrieve all jobs from a given sector (ICT) and track
-        # r = requests.get('https://is434.accredify.io/api/v1/jobs', params=payload, headers={'user-agent': 'is434.accredify.flask'})
-        # data = r.json()['data']
-        with open("./data/sample_track.json", "r") as read_file:
-            data = json.load(read_file)
+        r = requests.get('https://is434.accredify.io/api/v1/jobs', params=payload, headers={'user-agent': 'is434.accredify.flask'})
+        data = r.json()['data']
 
         # Step 3: Retrieve user's skills
         # r = requests.get('some_endpoint')
@@ -58,10 +35,10 @@ def recommend_jobs():
             jobs_match_dict = calculate_skill_job_match(job, user_skills)
             jobs_match_list.append( jobs_match_dict )
 
-        jobs_match_sorted = sorted(jobs_match_list, key = lambda job : job['percentage_match'], reverse=True)
+        jobs_match_sorted = sorted(jobs_match_list, key = lambda job : job['percent_match_overall'], reverse=True)
 
         response_dict["status"] = 200
-        response_dict["jobs_match_sorted"] = jobs_match_sorted
+        response_dict["data"] = jobs_match_sorted
 
     except Exception as e:
         # Error has occurred
@@ -74,7 +51,11 @@ def recommend_jobs():
 
     finally:
         # Step 4: Convert into JSON string and return
-        response = json.dumps( response_dict )
+        response = json.dumps( response_dict, indent=4 )
+
+        with open('new_response.json', 'w') as outfile:
+            outfile.write( json.dumps( response_dict, indent = 4) )
+        
         return response
 
 if __name__ == "__main__":
