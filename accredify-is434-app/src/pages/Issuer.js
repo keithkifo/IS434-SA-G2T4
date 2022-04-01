@@ -177,7 +177,7 @@ const Issuer = () => {
 					<Tab>Course</Tab>
 				</TabList>
 				<TabPanels>
-						{/* Courses */}
+						{/* All Courses */}
 						<TabPanel>
 						<VStack align="left">
 							<FilterComponent
@@ -211,7 +211,7 @@ const Issuer = () => {
 							/>
 						) : null}
 					</TabPanel>
-						{/* All Courses */}
+						{/* Courses */}
 						<TabPanel>
 						<VStack align="left">
 							<FilterComponent
@@ -247,6 +247,13 @@ const Issuer = () => {
 							)}
 						</Box>
 						<Divider mb={2} />
+						{showActivity ? (
+							<ActivityBox
+								activityBreakdown={activityBreakdown}
+								tableHeaders={tableHeaders[tabIndex]}
+								clickCalDate={clickCalDate}
+							/>
+						) : null}
 					</TabPanel>
 				</TabPanels>
 			</Tabs>

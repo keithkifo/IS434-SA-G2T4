@@ -19,7 +19,7 @@ import FilterComponent from "../components/FilterComponent";
 import Heatmap from "../components/Heatmap";
 
 const Superadmin = () => {
-	const institutionId = 1; // hard coded
+	const institutionId = 2; // hard coded
 
 	const [yearList, setYearList] = useState([]);
 	const [courseList, setCourseList] = useState([]);

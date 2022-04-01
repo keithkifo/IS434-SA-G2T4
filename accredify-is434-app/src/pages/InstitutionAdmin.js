@@ -288,6 +288,13 @@ const InstitutionAdmin = () => {
 							)}
 						</Box>
 						<Divider mb={2} />
+						{showActivity ? (
+							<ActivityBox
+								activityBreakdown={activityBreakdown}
+								tableHeaders={tableHeaders[tabIndex]}
+								clickCalDate={clickCalDate}
+							/>
+						) : null}
 					</TabPanel>
 				</TabPanels>
 			</Tabs>
