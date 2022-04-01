@@ -19,7 +19,7 @@ import FilterComponent from "../components/FilterComponent";
 import Heatmap from "../components/Heatmap";
 
 const Issuer = () => {
-	const institutionId = 1; // hard coded
+	const institutionId = 2; // hard coded
 	const [tabIndex, setTabIndex] = useState(0);
 
 	const [yearList, setYearList] = useState([]);
@@ -173,8 +173,8 @@ const Issuer = () => {
 
 			<Tabs index={tabIndex} onChange={handleTabChange}>
 				<TabList>
-					<Tab>Course</Tab>
 					<Tab>All Courses</Tab>
+					<Tab>Course</Tab>
 				</TabList>
 				<TabPanels>
 						{/* Courses */}
