@@ -43,7 +43,7 @@ const Superadmin = () => {
 	];
 
 	const tableHeaders = [
-		["Issuer", "Course Code", "Count"],
+		["Institution", "Course Code", "Count"],
 		["Course Code", "Count"],
 		["Course Code", "Count"],
 	];
@@ -161,48 +161,47 @@ const Superadmin = () => {
 	return (
 		<>
 			<Heading mb={3}> Welcome Superadmin! </Heading>
-				
-					{/* Specific issuer and course */}
-						<VStack align="left">
-							<FilterComponent
-								filter={{ name: "Issuer" }}
-								selectOptions={issuerList}
-								handleOnChange={(e) => handleIssuerChange(e)}
-							/>
-							<FilterComponent
-								filter={{ name: "Course" }}
-								selectOptions={courseList}
-								handleOnChange={(e) => {
-									let renameCourse = "%23" + e.target.value.substring(1)
-									setCourseFilter(renameCourse)
-								}}
-							/>
-							<FilterComponent
-								filter={{ name: "Year" }}
-								selectOptions={yearList}
-								handleOnChange={(e) => setYearFilter(e.target.value)}
-							/>
-						</VStack>
-						<Box style={{ height: 200 }}>
-							{calendarReady === true ? (
-								<Heatmap
-									calendarData={calendarData}
-									yearFilter={yearFilter}
-								/>
-							) : (
-								<Text mt={5}>
-									Select an Issuer, a Course and a Year to view heatmap.
-								</Text>
-							)}
-						</Box>
-						<Divider mb={2} />
-						{showActivity ? (
-							<ActivityBox
-								activityBreakdown={activityBreakdown}
-								tableHeaders={tableHeaders}
-								clickCalDate={clickCalDate}
-							/>
-						) : null}
+
+				<VStack align="left">
+					<FilterComponent
+						filter={{ name: "Instituion" }}
+						selectOptions={issuerList}
+						handleOnChange={(e) => handleIssuerChange(e)}
+					/>
+					<FilterComponent
+						filter={{ name: "Course" }}
+						selectOptions={courseList}
+						handleOnChange={(e) => {
+							let renameCourse = "%23" + e.target.value.substring(1)
+							setCourseFilter(renameCourse)
+						}}
+					/>
+					<FilterComponent
+						filter={{ name: "Year" }}
+						selectOptions={yearList}
+						handleOnChange={(e) => setYearFilter(e.target.value)}
+					/>
+				</VStack>
+				<Box style={{ height: 200 }}>
+					{calendarReady === true ? (
+						<Heatmap
+							calendarData={calendarData}
+							yearFilter={yearFilter}
+						/>
+					) : (
+						<Text mt={5}>
+							Select an Institution, a Course and a Year to view heatmap.
+						</Text>
+					)}
+				</Box>
+				<Divider mb={2} />
+				{showActivity ? (
+					<ActivityBox
+						activityBreakdown={activityBreakdown}
+						tableHeaders={tableHeaders}
+						clickCalDate={clickCalDate}
+					/>
+				) : null}
 		</>
 	);
 };
