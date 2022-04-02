@@ -10,6 +10,8 @@ import {
 	Heading,
 	Alert,
 	AlertIcon,
+	Text,
+	Heading,
 } from "@chakra-ui/react";
 import axios from "axios";
 import { useEffect, useState } from "react";
