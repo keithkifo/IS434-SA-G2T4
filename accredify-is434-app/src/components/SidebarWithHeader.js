@@ -87,13 +87,13 @@ export default function SidebarWithHeader({ children }) {
 	var userItem = {}
 
 	for (let item of LinkItems) {
-		if (item["address"] === location.pathname) {
+		if (location.pathname.includes(item["address"])) {
 			userItem = item
 		}
 	}
 
 	return (
-		<Box minH="100vh" bg={useColorModeValue("gray.100", "gray.900")}>
+		<Box minH="100vh" bg={"white"}>
 			<SidebarContent
 				onClose={() => onClose}
 				display={{ base: "none", md: "block" }}
@@ -198,9 +198,7 @@ const MobileNav = ({ onOpen, userItem, ...rest }) => {
 			px={{ base: 4, md: 4 }}
 			height="20"
 			alignItems="center"
-			bg={useColorModeValue("white", "gray.900")}
-			borderBottomWidth="1px"
-			borderBottomColor={useColorModeValue("gray.200", "gray.700")}
+			bg={"white"}
 			justifyContent={{ base: "space-between", md: "flex-end" }}
 			{...rest}
 		>
