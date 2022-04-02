@@ -6,6 +6,7 @@ def calculate_skill_job_match( job, user_skills ):
         "sector": job["sector"],
         "track": job["track"],
         "job_role": job["role"],
+        "job_description": job["description"],
         "percent_match_overall": "",
         "percent_match_technical" : "",
         "percent_match_generic": "",
@@ -61,7 +62,6 @@ def calculate_skill_job_match( job, user_skills ):
         # To store information that is to be populated in the front-end, by default user is not qualified
         job_info_dict = {
             "skill_type": skill_dict['skill']['type'].split("_")[0].capitalize(),
-            "description": skill_dict['description'],
             "job_level": skill_dict['level'],
             "user_level": "NA", # default
             "status": "Not Qualified" # default

@@ -5,6 +5,7 @@
             "sector": "Infocomm Technology",
             "track": "Data and Artificial Intelligence",
             "job_role": "Artificial Intelligence/Machine Learning Engineer",
+            "job_description": "The Artificial Intelligence /Machine Learning Engineer supports the production of scalable and optimised artificial intelligence (AI)/machine learning (ML) models. He/She focuses on building algorithms for the extraction, transformation and loading of large volumes of real-time, unstructured data in order to deploy AI/ML solutions from theoretical data science models. He runs experiments to test the performance of deployed models, and identifies and resolves bugs that arise in the process. He works in a team setting and is proficient in statistics, scripting and programming languages required by the organisation. He is also familiar with the relevant software platforms in which the models are deployed. He should be knowledgeable of the requirements under the Model AI Governance Framework and the Personal Data Protection Act (PDPA) in the course of his work on AI/ML models. The AI/ML Engineer is a determined individual who is comfortable working with large data sets, has a keen interest in problem solving and experimentation, and enjoys the iterative process of development and resolving issues.",
             "percent_match_overall": 0.8171,
             "percent_match_technical": 0.8472,
             "percent_match_generic": 0.6,
@@ -13,7 +14,6 @@
                     "15": {
                         "Business Needs Analysis": {
                             "skill_type": "Technical",
-                            "description": "Investigate existing business processes evaluate requirements and define the scope for recommended solutions and programmes",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -24,7 +24,6 @@
                     "22": {
                         "Cloud Computing": {
                             "skill_type": "Technical",
-                            "description": "Deploy cloud solutions and resolve cloud integration issues",
                             "job_level": "Level 3",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -35,7 +34,6 @@
                     "23": {
                         "Computational Modelling": {
                             "skill_type": "Technical",
-                            "description": "Identify and utilise appropriate statistical algorithms and data models to test hypotheses and derive patterns or solutions",
                             "job_level": "Level 3",
                             "user_level": "L3",
                             "status": "Qualified"
@@ -46,7 +44,6 @@
                     "24": {
                         "Computer Vision Technology": {
                             "skill_type": "Technical",
-                            "description": "Set-up and deploy video analytics algorithms and perform system performance evaluations",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -57,7 +54,6 @@
                     "25": {
                         "Configuration Tracking": {
                             "skill_type": "Technical",
-                            "description": "Develop and update a configuration management plan determining systems and techniques to track changes and revisions",
                             "job_level": "Level 3",
                             "user_level": "L3",
                             "status": "Qualified"
@@ -68,7 +64,6 @@
                     "40": {
                         "Data Design": {
                             "skill_type": "Technical",
-                            "description": "Design data models and data flow diagrams and mechanisms to optimise the flow maintenance storage and retrieval of data",
                             "job_level": "Level 4",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -79,7 +74,6 @@
                     "41": {
                         "Data Engineering": {
                             "skill_type": "Technical",
-                            "description": "Implement data management processes and systems to map data sources processes and relationships and transform and process multiple streams of data",
                             "job_level": "Level 3",
                             "user_level": "L3",
                             "status": "Qualified"
@@ -90,7 +84,6 @@
                     "43": {
                         "Data Governance": {
                             "skill_type": "Technical",
-                            "description": "Implement guidelines laws statutes and regulations on appropriate handling of data at various stages in their lifecycle and monitor compliance with data policies",
                             "job_level": "Level 4",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -101,7 +94,6 @@
                     "47": {
                         "Data Strategy": {
                             "skill_type": "Technical",
-                            "description": "Develop data management structures and recommend policies processes and tools for effective data storage handling and utilisation",
                             "job_level": "Level 4",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -112,7 +104,6 @@
                     "49": {
                         "Database Administration": {
                             "skill_type": "Technical",
-                            "description": "Monitor and maintain databases and troubleshoot database errors faced and ensure appropriate levels of user access to databases",
                             "job_level": "Level 3",
                             "user_level": "L3",
                             "status": "Qualified"
@@ -123,7 +114,6 @@
                     "57": {
                         "Emerging Technology Synthesis": {
                             "skill_type": "Technical",
-                            "description": "Evaluate new and emerging technology and trends against the organisational needs and processes",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -134,7 +124,6 @@
                     "69": {
                         "Intelligent Reasoning": {
                             "skill_type": "Technical",
-                            "description": "Build knowledge-based intelligent software applications using machine reasoning techniques and computer programming",
                             "job_level": "Level 4",
                             "user_level": "L5",
                             "status": "Qualified"
@@ -145,7 +134,6 @@
                     "88": {
                         "Pattern Recognition Systems": {
                             "skill_type": "Technical",
-                            "description": "Analyse data by deriving useful hidden patterns in the data select and apply the most suitable pattern recognition techniques to solve problems and develop pattern recognition systems",
                             "job_level": "Level 4",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -156,7 +144,6 @@
                     "99": {
                         "Project Management": {
                             "skill_type": "Technical",
-                            "description": "Plan and drive medium  scale projects or programmes including allocating resources to different parts and engaging stakeholders on the project's progress and outcomes",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -167,7 +154,6 @@
                     "108": {
                         "Security Architecture": {
                             "skill_type": "Technical",
-                            "description": "Design secure systems and define security specifications of components integrating appropriate security controls",
                             "job_level": "Level 3",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -178,7 +164,6 @@
                     "114": {
                         "Self-Learning Systems": {
                             "skill_type": "Technical",
-                            "description": "Plan the end-to-end process to design build and deploy adaptive software robots in hardware and devices validating and optimising software robots in different application areas",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -189,7 +174,6 @@
                     "120": {
                         "Stakeholder Management": {
                             "skill_type": "Technical",
-                            "description": "Develop a stakeholder engagement plan and negotiate with stakeholders to arrive at mutually- beneficial arrangements",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -200,7 +184,6 @@
                     "124": {
                         "System Integration": {
                             "skill_type": "Technical",
-                            "description": "Perform basic compatibility assessments and integrate selected system components according to a plan",
                             "job_level": "Level 3",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -211,7 +194,6 @@
                     "127": {
                         "Test Planning": {
                             "skill_type": "Technical",
-                            "description": "Determine requirements and develop a phase test plan identifying optimal  schedules and means for executing test scripts",
                             "job_level": "Level 3",
                             "user_level": "L3",
                             "status": "Qualified"
@@ -222,7 +204,6 @@
                     "128": {
                         "Text Analytics and Processing": {
                             "skill_type": "Technical",
-                            "description": "Analyse text data to discover themes patterns and trends to improve business processes and decision making",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -233,7 +214,6 @@
                     "135": {
                         "Communication": {
                             "skill_type": "Generic",
-                            "description": "Articulate and discuss ideas and persuade others to achieve common outcomes.",
                             "job_level": "Intermediate",
                             "user_level": "Intermediate",
                             "status": "Qualified"
@@ -244,7 +224,6 @@
                     "136": {
                         "Computational Thinking": {
                             "skill_type": "Generic",
-                            "description": "Modify existing computational models tools and techniques to develop different solutions.",
                             "job_level": "Intermediate",
                             "user_level": "Intermediate",
                             "status": "Qualified"
@@ -255,7 +234,6 @@
                     "139": {
                         "Developing People": {
                             "skill_type": "Generic",
-                            "description": "Provide coaching to others to develop their skills and knowledge on their jobs to enhance performance.",
                             "job_level": "Intermediate",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -266,7 +244,6 @@
                     "143": {
                         "Leadership": {
                             "skill_type": "Generic",
-                            "description": "Lead by example at team level. Encourage and guide others to adopt a point of view make changes or take action. Provide a team environment that facilitates relationships building teamwork and the development of others.",
                             "job_level": "Intermediate",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -277,7 +254,6 @@
                     "151": {
                         "Transdisciplinary Thinking": {
                             "skill_type": "Generic",
-                            "description": "Co-relate material from diverse knowledge bases to guide decisions and policy making.  Participate in reflective and trans-disciplinary communities within and outside the organisation.",
                             "job_level": "Intermediate",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -290,6 +266,7 @@
             "sector": "Infocomm Technology",
             "track": "Data and Artificial Intelligence",
             "job_role": "Senior Artificial Intelligence/Machine Learning Engineer",
+            "job_description": "The Senior Artificial Intelligence/Machine Learning Engineer oversees projects for the production of scalable and optimised artificial intelligence (AI)/machine learning (ML) models, and ensures communication and collaboration with appropriate stakeholders. He/She is responsible for evaluating techniques or algorithms used and ensuring performance of the models deployed, and guiding or coaching the team in achieving quality in technical areas of the projects. He works in a team setting and is proficient in statistics, scripting and programming languages required by the organisation. He is also familiar with the relevant software platforms on which the solution is deployed on. The Senior AI/Machine Learning Engineer is passionate about delivering end-to-end data projects, from scoping and discovery to post-deployment. He is skilled in stakeholder management, possesses the ability to communicate ideas and recommendations to and influence various internal stakeholders, both within and beyond the team.",
             "percent_match_overall": 0.6195,
             "percent_match_technical": 0.6337,
             "percent_match_generic": 0.5,
@@ -298,7 +275,6 @@
                     "15": {
                         "Business Needs Analysis": {
                             "skill_type": "Technical",
-                            "description": "Lead comprehensive analysis to understand underlying drivers and present a compelling business case for proposed IT solutions",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -309,7 +285,6 @@
                     "21": {
                         "Change Management": {
                             "skill_type": "Technical",
-                            "description": "Recommend business activities required to integrate and roll out new changes and drive the execution of change control procedures engaging stakeholders in the process",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -320,7 +295,6 @@
                     "22": {
                         "Cloud Computing": {
                             "skill_type": "Technical",
-                            "description": "Develop plans to implement cloud solutions",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -331,7 +305,6 @@
                     "23": {
                         "Computational Modelling": {
                             "skill_type": "Technical",
-                            "description": "Develop and utilise new algorithms and advanced statistical models to enable the production of desired outcomes",
                             "job_level": "Level 4",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -342,7 +315,6 @@
                     "24": {
                         "Computer Vision Technology": {
                             "skill_type": "Technical",
-                            "description": "Build spatial sensing and spatial reasoning systems",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -353,7 +325,6 @@
                     "25": {
                         "Configuration Tracking": {
                             "skill_type": "Technical",
-                            "description": "Develop policies processes and guidelines for the organisation's configuration management and tracking",
                             "job_level": "Level 4",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -364,7 +335,6 @@
                     "40": {
                         "Data Design": {
                             "skill_type": "Technical",
-                            "description": "Establish a strategy for the creation of large-scale data models and structures and spearhead the implementation of database technology architectures software and facilities",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -375,7 +345,6 @@
                     "41": {
                         "Data Engineering": {
                             "skill_type": "Technical",
-                            "description": "Translate business requirements into data structures and processes to standardise data verify data reliability and validity store extract transform load and integrate data",
                             "job_level": "Level 4",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -386,7 +355,6 @@
                     "43": {
                         "Data Governance": {
                             "skill_type": "Technical",
-                            "description": "Develop organisation practices and standards for handling data throughout their lifecycle resolve breaches and oversee transfer of data between organisations",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -397,7 +365,6 @@
                     "47": {
                         "Data Strategy": {
                             "skill_type": "Technical",
-                            "description": "Establish data management strategies to extract maximum value from information assets and support decision-making and business processes",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -408,7 +375,6 @@
                     "49": {
                         "Database Administration": {
                             "skill_type": "Technical",
-                            "description": "Plan for installation configuration and upgrading of databases and oversee database maintenance troubleshooting back up and recovery activities",
                             "job_level": "Level 4",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -419,7 +385,6 @@
                     "57": {
                         "Emerging Technology Synthesis": {
                             "skill_type": "Technical",
-                            "description": "Establish internal structures and processes to guide the exploration integration and evaluation of new technologies",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -430,7 +395,6 @@
                     "69": {
                         "Intelligent Reasoning": {
                             "skill_type": "Technical",
-                            "description": "Evaluate design and build intelligent software systems",
                             "job_level": "Level 5",
                             "user_level": "L5",
                             "status": "Qualified"
@@ -441,7 +405,6 @@
                     "88": {
                         "Pattern Recognition Systems": {
                             "skill_type": "Technical",
-                            "description": "Develop intelligent systems using machine learning techniques",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -452,7 +415,6 @@
                     "93": {
                         "Problem Management": {
                             "skill_type": "Technical",
-                            "description": "Establish problem management strategies protocols and mechanisms to guide the prevention resolution and minimisation of problems and their effects",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -463,7 +425,6 @@
                     "99": {
                         "Project Management": {
                             "skill_type": "Technical",
-                            "description": "Lead end-to-end management of large programmes or multiple projects concurrently coordinating project interdependencies",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -474,7 +435,6 @@
                     "108": {
                         "Security Architecture": {
                             "skill_type": "Technical",
-                            "description": "Design a security blueprint and direct the design of a robust and coherent security architecture based on a suite of security solutions and key design principles",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -485,7 +445,6 @@
                     "114": {
                         "Self-Learning Systems": {
                             "skill_type": "Technical",
-                            "description": "Design and develop self- learning systems using reinforcement learning and evolutionary learning techniques",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -496,7 +455,6 @@
                     "120": {
                         "Stakeholder Management": {
                             "skill_type": "Technical",
-                            "description": "Define a strategic stakeholder management roadmap and lead critical discussions and negotiations addressing escalated issues or problems encountered",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -507,7 +465,6 @@
                     "124": {
                         "System Integration": {
                             "skill_type": "Technical",
-                            "description": "Determine interoperability of system components and develop a system integration plan",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -518,7 +475,6 @@
                     "127": {
                         "Test Planning": {
                             "skill_type": "Technical",
-                            "description": "Define testing objectives and design a master test plan including a series of systematic test procedures to achieve them",
                             "job_level": "Level 4",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -529,7 +485,6 @@
                     "128": {
                         "Text Analytics and Processing": {
                             "skill_type": "Technical",
-                            "description": "Implement advanced machine learning techniques in building natural language processing NLP models for performing common text processing tasks",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -540,7 +495,6 @@
                     "135": {
                         "Communication": {
                             "skill_type": "Generic",
-                            "description": "Articulate and discuss ideas and persuade others to achieve common outcomes.",
                             "job_level": "Intermediate",
                             "user_level": "Intermediate",
                             "status": "Qualified"
@@ -551,7 +505,6 @@
                     "136": {
                         "Computational Thinking": {
                             "skill_type": "Generic",
-                            "description": "Modify existing computational models tools and techniques to develop different solutions.",
                             "job_level": "Intermediate",
                             "user_level": "Intermediate",
                             "status": "Qualified"
@@ -562,7 +515,6 @@
                     "139": {
                         "Developing People": {
                             "skill_type": "Generic",
-                            "description": "Provide coaching to others to develop their skills and knowledge on their jobs to enhance performance.",
                             "job_level": "Intermediate",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -573,7 +525,6 @@
                     "143": {
                         "Leadership": {
                             "skill_type": "Generic",
-                            "description": "Lead by example at organisational level. Inspire motivate and guide others to adopt a point of view make changes or take action. Cultivate an open cooperative and collaborative learning culture for the organisation.",
                             "job_level": "Advanced",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -584,7 +535,6 @@
                     "151": {
                         "Transdisciplinary Thinking": {
                             "skill_type": "Generic",
-                            "description": "Synthesise knowledge and insights across disciplinary boundaries to aid strategic decisions and foster cooperation within and outside of the organisation.",
                             "job_level": "Advanced",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -597,6 +547,7 @@
             "sector": "Infocomm Technology",
             "track": "Data and Artificial Intelligence",
             "job_role": "Data Engineer",
+            "job_description": "The Data Engineer supports the design, implementation and maintenance of data flow channels and data processing systems that support the collection, storage, batch and real-time processing, and analysis of information in a scalable, repeatable and secure manner. He/She focuses on defining optimal solutions to data collection, processing and warehousing. He designs, codes and tests data systems and works on implementing those into the internal infrastructure. He focuses on collecting, parsing, managing, analysing and visualising large sets of data to turn information into insights accessible through multiple platforms. He is proficient in database systems, scripting and programming languages required by the organisation. He is also familiar with the relevant software platforms on which the solution is deployed on. The Data Engineer is passionate about numbers and works with large data sets. He has a keenness for understanding business processes and resolving challenges in order to provide solutions with the help of clean and interlinked databases and architectures.",
             "percent_match_overall": 0.6154,
             "percent_match_technical": 0.6182,
             "percent_match_generic": 0.6,
@@ -605,7 +556,6 @@
                     "15": {
                         "Business Needs Analysis": {
                             "skill_type": "Technical",
-                            "description": "Document business requirements and identify basic needs as well as potential solutions",
                             "job_level": "Level 2",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -616,7 +566,6 @@
                     "21": {
                         "Change Management": {
                             "skill_type": "Technical",
-                            "description": "Apply change control procedures in work processes assess impact of change and develop communications to prepare stakeholders for the change",
                             "job_level": "Level 3",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -627,7 +576,6 @@
                     "23": {
                         "Computational Modelling": {
                             "skill_type": "Technical",
-                            "description": "Identify and utilise appropriate statistical algorithms and data models to test hypotheses and derive patterns or solutions",
                             "job_level": "Level 3",
                             "user_level": "L3",
                             "status": "Qualified"
@@ -638,7 +586,6 @@
                     "25": {
                         "Configuration Tracking": {
                             "skill_type": "Technical",
-                            "description": "Label track and document all configuration items and changes to software projects using standard tools and templates",
                             "job_level": "Level 1",
                             "user_level": "L3",
                             "status": "Qualified"
@@ -649,7 +596,6 @@
                     "25": {
                         "Configuration Tracking": {
                             "skill_type": "Technical",
-                            "description": "Verify accuracy completeness and currency of information in configuration logs and review unauthorised changes diversions or inappropriate use of software assets",
                             "job_level": "Level 2",
                             "user_level": "L3",
                             "status": "Qualified"
@@ -660,7 +606,6 @@
                     "40": {
                         "Data Design": {
                             "skill_type": "Technical",
-                            "description": "Identify data requirements and support the design of database models incorporating parameters fields and mechanisms for the maintenance storage and retrieval of data",
                             "job_level": "Level 3",
                             "user_level": "L3",
                             "status": "Qualified"
@@ -671,7 +616,6 @@
                     "41": {
                         "Data Engineering": {
                             "skill_type": "Technical",
-                            "description": "Implement data management processes and systems to map data sources processes and relationships and transform and process multiple streams of data",
                             "job_level": "Level 3",
                             "user_level": "L3",
                             "status": "Qualified"
@@ -682,7 +626,6 @@
                     "42": {
                         "Data Ethics": {
                             "skill_type": "Technical",
-                            "description": "Analyse unethical practices and apply ethical decision- making models and strategies to address ethical dilemmas and issues",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -693,7 +636,6 @@
                     "43": {
                         "Data Governance": {
                             "skill_type": "Technical",
-                            "description": "Implement guidelines laws statutes and regulations on appropriate handling of data at various stages in their lifecycle and monitor compliance with data policies",
                             "job_level": "Level 4",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -704,7 +646,6 @@
                     "44": {
                         "Data Migration": {
                             "skill_type": "Technical",
-                            "description": "Prepare data and perform manual or automated data migration troubleshoot database errors faced and validate migrated data post- migration to ensure accuracy",
                             "job_level": "Level 3",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -715,7 +656,6 @@
                     "49": {
                         "Database Administration": {
                             "skill_type": "Technical",
-                            "description": "Monitor and maintain databases and troubleshoot database errors faced and ensure appropriate levels of user access to databases",
                             "job_level": "Level 3",
                             "user_level": "L3",
                             "status": "Qualified"
@@ -726,7 +666,6 @@
                     "57": {
                         "Emerging Technology Synthesis": {
                             "skill_type": "Technical",
-                            "description": "Evaluate new and emerging technology and trends against the organisational needs and processes",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -737,7 +676,6 @@
                     "99": {
                         "Project Management": {
                             "skill_type": "Technical",
-                            "description": "Plan and drive medium  scale projects or programmes including allocating resources to different parts and engaging stakeholders on the project's progress and outcomes",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -748,7 +686,6 @@
                     "102": {
                         "Quality Standards": {
                             "skill_type": "Technical",
-                            "description": "Assess existing quality standards and align processes and activities with IT product and service quality expectations",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -759,7 +696,6 @@
                     "108": {
                         "Security Architecture": {
                             "skill_type": "Technical",
-                            "description": "Design secure systems and define security specifications of components integrating appropriate security controls",
                             "job_level": "Level 3",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -770,7 +706,6 @@
                     "120": {
                         "Stakeholder Management": {
                             "skill_type": "Technical",
-                            "description": "Serve as the organisation's main contact point for stakeholder communications clarifying responsibilities among stakholders and engaging them to align expectations",
                             "job_level": "Level 3",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -781,7 +716,6 @@
                     "121": {
                         "Strategy Implementation": {
                             "skill_type": "Technical",
-                            "description": "Analyse strategies for critical business functions to ensure plans are within risk mitigation factors",
                             "job_level": "Level 3",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -792,7 +726,6 @@
                     "124": {
                         "System Integration": {
                             "skill_type": "Technical",
-                            "description": "Determine interoperability of system components and develop a system integration plan",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -803,7 +736,6 @@
                     "135": {
                         "Communication": {
                             "skill_type": "Generic",
-                            "description": "Articulate and discuss ideas and persuade others to achieve common outcomes.",
                             "job_level": "Intermediate",
                             "user_level": "Intermediate",
                             "status": "Qualified"
@@ -814,7 +746,6 @@
                     "136": {
                         "Computational Thinking": {
                             "skill_type": "Generic",
-                            "description": "Modify existing computational models tools and techniques to develop different solutions.",
                             "job_level": "Intermediate",
                             "user_level": "Intermediate",
                             "status": "Qualified"
@@ -825,7 +756,6 @@
                     "139": {
                         "Developing People": {
                             "skill_type": "Generic",
-                            "description": "Provide coaching to others to develop their skills and knowledge on their jobs to enhance performance.",
                             "job_level": "Intermediate",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -836,7 +766,6 @@
                     "143": {
                         "Leadership": {
                             "skill_type": "Generic",
-                            "description": "Lead by example at team level. Encourage and guide others to adopt a point of view make changes or take action. Provide a team environment that facilitates relationships building teamwork and the development of others.",
                             "job_level": "Intermediate",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -847,7 +776,6 @@
                     "151": {
                         "Transdisciplinary Thinking": {
                             "skill_type": "Generic",
-                            "description": "Co-relate material from diverse knowledge bases to guide decisions and policy making.  Participate in reflective and trans-disciplinary communities within and outside the organisation.",
                             "job_level": "Intermediate",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -860,6 +788,7 @@
             "sector": "Infocomm Technology",
             "track": "Data and Artificial Intelligence",
             "job_role": "Artificial Intelligence Applied Researcher",
+            "job_description": "The Artificial Intelligence Applied Researcher is responsible for the design and conduct of artificial intelligence (AI) research and development, synthesising insights to identify potential use cases of AI for the business. He/She presents AI research and development outcomes to senior management, business stakeholders at public forums. He determines the patentability of AI solutions and assists in the process for obtaining intellectual property rights for AI solutions. He works in a team setting and is proficient in statistics, scripting and programming languages required by  the organisation. He is also familiar with the relevant software platforms on which the solutions are deployed. The AI Applied Researcher has a strong passion and curiosity for uncovering the possibilities of applying AI to address real-life business challenges and enhance organisation performance.",
             "percent_match_overall": 0.4848,
             "percent_match_technical": 0.4713,
             "percent_match_generic": 0.5833,
@@ -868,7 +797,6 @@
                     "14": {
                         "Business Innovation": {
                             "skill_type": "Technical",
-                            "description": "Prioritise business innovation opportunities and design digital architectures and processes to facilitate the creation of an innovative business environment",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -879,7 +807,6 @@
                     "15": {
                         "Business Needs Analysis": {
                             "skill_type": "Technical",
-                            "description": "Lead comprehensive analysis to understand underlying drivers and present a compelling business case for proposed IT solutions",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -890,7 +817,6 @@
                     "24": {
                         "Computer Vision Technology": {
                             "skill_type": "Technical",
-                            "description": "Set-up and deploy video analytics algorithms and perform system performance evaluations",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -901,7 +827,6 @@
                     "40": {
                         "Data Design": {
                             "skill_type": "Technical",
-                            "description": "Establish a strategy for the creation of large-scale data models and structures and spearhead the implementation of database technology architectures software and facilities",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -912,7 +837,6 @@
                     "42": {
                         "Data Ethics": {
                             "skill_type": "Technical",
-                            "description": "Formulate the organisation's code of ethics systems and processes to ensure adherence to professional legal and ethical requirements for data usage",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -923,7 +847,6 @@
                     "43": {
                         "Data Governance": {
                             "skill_type": "Technical",
-                            "description": "Develop organisation practices and standards for handling data throughout their lifecycle resolve breaches and oversee transfer of data between organisations",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -934,7 +857,6 @@
                     "47": {
                         "Data Strategy": {
                             "skill_type": "Technical",
-                            "description": "Establish data management strategies to extract maximum value from information assets and support decision-making and business processes",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -945,7 +867,6 @@
                     "52": {
                         "Design Thinking Practice": {
                             "skill_type": "Technical",
-                            "description": "Establish effective design thinking processes methodologies and frameworks to proliferate design thinking across the organisation",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -956,7 +877,6 @@
                     "57": {
                         "Emerging Technology Synthesis": {
                             "skill_type": "Technical",
-                            "description": "Establish internal structures and processes to guide the exploration integration and evaluation of new technologies",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -967,7 +887,6 @@
                     "69": {
                         "Intelligent Reasoning": {
                             "skill_type": "Technical",
-                            "description": "Evaluate design and build intelligent software systems",
                             "job_level": "Level 5",
                             "user_level": "L5",
                             "status": "Qualified"
@@ -978,7 +897,6 @@
                     "86": {
                         "Organisational Design": {
                             "skill_type": "Technical",
-                            "description": "Design organisational structures systems and processes",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -989,7 +907,6 @@
                     "88": {
                         "Pattern Recognition Systems": {
                             "skill_type": "Technical",
-                            "description": "Develop intelligent systems using machine learning techniques",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1000,7 +917,6 @@
                     "99": {
                         "Project Management": {
                             "skill_type": "Technical",
-                            "description": "Lead end-to-end management of large programmes or multiple projects concurrently coordinating project interdependencies",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -1011,7 +927,6 @@
                     "102": {
                         "Quality Standards": {
                             "skill_type": "Technical",
-                            "description": "Establish and control quality expectations in line with organisation directions and selected benchmarks",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1022,7 +937,6 @@
                     "104": {
                         "Research": {
                             "skill_type": "Technical",
-                            "description": "Design a research strategy and propose projects to meet identified research needs",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1033,7 +947,6 @@
                     "114": {
                         "Self-Learning Systems": {
                             "skill_type": "Technical",
-                            "description": "Plan the end-to-end process to design build and deploy adaptive software robots in hardware and devices validating and optimising software robots in different application areas",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -1044,7 +957,6 @@
                     "120": {
                         "Stakeholder Management": {
                             "skill_type": "Technical",
-                            "description": "Develop a stakeholder engagement plan and negotiate with stakeholders to arrive at mutually- beneficial arrangements",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -1055,7 +967,6 @@
                     "128": {
                         "Text Analytics and Processing": {
                             "skill_type": "Technical",
-                            "description": "Design and implement systems that can interact with users using spoken or written natural language",
                             "job_level": "Level 6",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -1066,7 +977,6 @@
                     "135": {
                         "Communication": {
                             "skill_type": "Generic",
-                            "description": "Articulate and discuss ideas and persuade others to achieve common outcomes.",
                             "job_level": "Intermediate",
                             "user_level": "Intermediate",
                             "status": "Qualified"
@@ -1077,7 +987,6 @@
                     "136": {
                         "Computational Thinking": {
                             "skill_type": "Generic",
-                            "description": "Modify existing computational models tools and techniques to develop different solutions.",
                             "job_level": "Intermediate",
                             "user_level": "Intermediate",
                             "status": "Qualified"
@@ -1088,7 +997,6 @@
                     "139": {
                         "Developing People": {
                             "skill_type": "Generic",
-                            "description": "Provide mentorship to help others to develop their professional and personal development to improve performance and further their careers.",
                             "job_level": "Advanced",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -1099,7 +1007,6 @@
                     "143": {
                         "Leadership": {
                             "skill_type": "Generic",
-                            "description": "Lead by example at organisational level. Inspire motivate and guide others to adopt a point of view make changes or take action. Cultivate an open cooperative and collaborative learning culture for the organisation.",
                             "job_level": "Advanced",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -1110,7 +1017,6 @@
                     "144": {
                         "Lifelong Learning": {
                             "skill_type": "Generic",
-                            "description": "Engage in collaborative learning by discussing one's learning with others and soliciting feedback to continually improve oneself.",
                             "job_level": "Intermediate",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -1123,6 +1029,7 @@
             "sector": "Infocomm Technology",
             "track": "Data and Artificial Intelligence",
             "job_role": "Data Scientist/Artificial Intelligence Scientist",
+            "job_description": "The Data Scientist/Artificial Intelligence Scientist plans and leads the development of new and advanced data analytic techniques, methodologies and analytical solutions from design, prototyping and testing. He/She identifies and develops core data and artificial intelligence (AI) science components for the delivery of projects, architects specialised database and computing environments, explores and visualises complex data set to provide incremental business value. He extracts and integrates data from various sources, and creates advanced models and algorithms suitable for the business use case. He conducts testing on data and AI models, interprets findings from testing, and evaluates model performance for scaling and deployment. He develops compelling and logically structured communication materials to facilitate stakeholder buy-in. He works in a team setting and is proficient in statistics, scripting and programming languages required by  the organisation. He is also familiar with the relevant software platforms on which the solution is deployed on. The Data Scientist/AI Scientist has strong analytical and critical thinking skills to identify and solve problems. He is passionate about analysing and resolving complex business problems, displaying intellectual curiosity towards using data and AI to address business needs and challenges. He is a data storyteller, and is able to influence key stakeholders and spearhead a data driven approach to resolve business issues.",
             "percent_match_overall": 0.4818,
             "percent_match_technical": 0.4845,
             "percent_match_generic": 0.4615,
@@ -1131,7 +1038,6 @@
                     "14": {
                         "Business Innovation": {
                             "skill_type": "Technical",
-                            "description": "Prioritise business innovation opportunities and design digital architectures and processes to facilitate the creation of an innovative business environment",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1142,7 +1048,6 @@
                     "15": {
                         "Business Needs Analysis": {
                             "skill_type": "Technical",
-                            "description": "Lead comprehensive analysis to understand underlying drivers and present a compelling business case for proposed IT solutions",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -1153,7 +1058,6 @@
                     "23": {
                         "Computational Modelling": {
                             "skill_type": "Technical",
-                            "description": "Design advanced statistical and computational models and spearhead the application of algorithms and modelling techniques to new domains",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1164,7 +1068,6 @@
                     "24": {
                         "Computer Vision Technology": {
                             "skill_type": "Technical",
-                            "description": "Set-up and deploy video analytics algorithms and perform system performance evaluations",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1175,7 +1078,6 @@
                     "40": {
                         "Data Design": {
                             "skill_type": "Technical",
-                            "description": "Establish a strategy for the creation of large-scale data models and structures and spearhead the implementation of database technology architectures software and facilities",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1186,7 +1088,6 @@
                     "42": {
                         "Data Ethics": {
                             "skill_type": "Technical",
-                            "description": "Formulate the organisation's code of ethics systems and processes to ensure adherence to professional legal and ethical requirements for data usage",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1197,7 +1098,6 @@
                     "43": {
                         "Data Governance": {
                             "skill_type": "Technical",
-                            "description": "Develop organisation practices and standards for handling data throughout their lifecycle resolve breaches and oversee transfer of data between organisations",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1208,7 +1108,6 @@
                     "47": {
                         "Data Strategy": {
                             "skill_type": "Technical",
-                            "description": "Establish data management strategies to extract maximum value from information assets and support decision-making and business processes",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1219,7 +1118,6 @@
                     "52": {
                         "Design Thinking Practice": {
                             "skill_type": "Technical",
-                            "description": "Establish effective design thinking processes methodologies and frameworks to proliferate design thinking across the organisation",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1230,7 +1128,6 @@
                     "57": {
                         "Emerging Technology Synthesis": {
                             "skill_type": "Technical",
-                            "description": "Evaluate new and emerging technology and trends against the organisational needs and processes",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -1241,7 +1138,6 @@
                     "69": {
                         "Intelligent Reasoning": {
                             "skill_type": "Technical",
-                            "description": "Evaluate design and build intelligent software systems",
                             "job_level": "Level 5",
                             "user_level": "L5",
                             "status": "Qualified"
@@ -1252,7 +1148,6 @@
                     "88": {
                         "Pattern Recognition Systems": {
                             "skill_type": "Technical",
-                            "description": "Develop intelligent systems using machine learning techniques",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1263,7 +1158,6 @@
                     "99": {
                         "Project Management": {
                             "skill_type": "Technical",
-                            "description": "Lead end-to-end management of large programmes or multiple projects concurrently coordinating project interdependencies",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -1274,7 +1168,6 @@
                     "102": {
                         "Quality Standards": {
                             "skill_type": "Technical",
-                            "description": "Establish and control quality expectations in line with organisation directions and selected benchmarks",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1285,7 +1178,6 @@
                     "114": {
                         "Self-Learning Systems": {
                             "skill_type": "Technical",
-                            "description": "Plan the end-to-end process to design build and deploy adaptive software robots in hardware and devices validating and optimising software robots in different application areas",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -1296,7 +1188,6 @@
                     "117": {
                         "Software Design": {
                             "skill_type": "Technical",
-                            "description": "Translate complex software ideas and concepts into a design blueprint and establish key design principles and methodologies",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1307,7 +1198,6 @@
                     "119": {
                         "Solution Architecture": {
                             "skill_type": "Technical",
-                            "description": "Establish frameworks and determine relevant tools and techniques to guide the development IT solutions",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1318,7 +1208,6 @@
                     "120": {
                         "Stakeholder Management": {
                             "skill_type": "Technical",
-                            "description": "Develop a stakeholder engagement plan and negotiate with stakeholders to arrive at mutually- beneficial arrangements",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -1329,7 +1218,6 @@
                     "127": {
                         "Test Planning": {
                             "skill_type": "Technical",
-                            "description": "Develop a test strategy and establish testing policies guidelines and metrics according to internal and external standards",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1340,7 +1228,6 @@
                     "128": {
                         "Text Analytics and Processing": {
                             "skill_type": "Technical",
-                            "description": "Design and implement systems that can interact with users using spoken or written natural language",
                             "job_level": "Level 6",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -1351,7 +1238,6 @@
                     "135": {
                         "Communication": {
                             "skill_type": "Generic",
-                            "description": "Articulate and discuss ideas and persuade others to achieve common outcomes.",
                             "job_level": "Intermediate",
                             "user_level": "Intermediate",
                             "status": "Qualified"
@@ -1362,7 +1248,6 @@
                     "136": {
                         "Computational Thinking": {
                             "skill_type": "Generic",
-                            "description": "Develop and create computational models tools and techniques to implement new solutions and apply to other problems.",
                             "job_level": "Advanced",
                             "user_level": "Intermediate",
                             "status": "Under Qualified"
@@ -1373,7 +1258,6 @@
                     "139": {
                         "Developing People": {
                             "skill_type": "Generic",
-                            "description": "Provide coaching to others to develop their skills and knowledge on their jobs to enhance performance.",
                             "job_level": "Intermediate",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -1384,7 +1268,6 @@
                     "143": {
                         "Leadership": {
                             "skill_type": "Generic",
-                            "description": "Lead by example at organisational level. Inspire motivate and guide others to adopt a point of view make changes or take action. Cultivate an open cooperative and collaborative learning culture for the organisation.",
                             "job_level": "Advanced",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -1395,7 +1278,6 @@
                     "151": {
                         "Transdisciplinary Thinking": {
                             "skill_type": "Generic",
-                            "description": "Synthesise knowledge and insights across disciplinary boundaries to aid strategic decisions and foster cooperation within and outside of the organisation.",
                             "job_level": "Advanced",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1408,6 +1290,7 @@
             "sector": "Infocomm Technology",
             "track": "Data and Artificial Intelligence",
             "job_role": "Senior Data Engineer",
+            "job_description": "The Senior Data Engineer designs, implements and oversees maintenance of data flow channels and data processing systems that support the collection, storage, batch and real-time processing, and analysis of information from structured and unstructured sources in a scalable, repeatable and secure manner. He/She assists data scientists with the extraction of valuable insights from data sets to derive valuable and actionable insights and recommendations that support business requirements. He involves in rollouts, upgrades, implementation and release of data system changes as required for streamlining of internal practices. He is proficient in database systems, scripting and programming languages required by the organisation. He is also familiar with the relevant software platforms on which the solution is deployed on. The Senior Data Engineer possesses natural inclination for understanding business processes and relevant data requirements. He easily builds rapport with others and is able to put forth his ideas and recommendations in a persuasive manner, to influence stakeholders and decisions.",
             "percent_match_overall": 0.4466,
             "percent_match_technical": 0.4444,
             "percent_match_generic": 0.4615,
@@ -1416,7 +1299,6 @@
                     "15": {
                         "Business Needs Analysis": {
                             "skill_type": "Technical",
-                            "description": "Elicit and analyse business requirements from key stakeholders and assess relevant solutions and their potential impact",
                             "job_level": "Level 3",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -1427,7 +1309,6 @@
                     "21": {
                         "Change Management": {
                             "skill_type": "Technical",
-                            "description": "Recommend business activities required to integrate and roll out new changes and drive the execution of change control procedures engaging stakeholders in the process",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1438,7 +1319,6 @@
                     "23": {
                         "Computational Modelling": {
                             "skill_type": "Technical",
-                            "description": "Develop and utilise new algorithms and advanced statistical models to enable the production of desired outcomes",
                             "job_level": "Level 4",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1449,7 +1329,6 @@
                     "25": {
                         "Configuration Tracking": {
                             "skill_type": "Technical",
-                            "description": "Develop and update a configuration management plan determining systems and techniques to track changes and revisions",
                             "job_level": "Level 3",
                             "user_level": "L3",
                             "status": "Qualified"
@@ -1460,7 +1339,6 @@
                     "40": {
                         "Data Design": {
                             "skill_type": "Technical",
-                            "description": "Design data models and data flow diagrams and mechanisms to optimise the flow maintenance storage and retrieval of data",
                             "job_level": "Level 4",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1471,7 +1349,6 @@
                     "41": {
                         "Data Engineering": {
                             "skill_type": "Technical",
-                            "description": "Translate business requirements into data structures and processes to standardise data verify data reliability and validity store extract transform load and integrate data",
                             "job_level": "Level 4",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1482,7 +1359,6 @@
                     "42": {
                         "Data Ethics": {
                             "skill_type": "Technical",
-                            "description": "Formulate the organisation's code of ethics systems and processes to ensure adherence to professional legal and ethical requirements for data usage",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1493,7 +1369,6 @@
                     "43": {
                         "Data Governance": {
                             "skill_type": "Technical",
-                            "description": "Develop organisation practices and standards for handling data throughout their lifecycle resolve breaches and oversee transfer of data between organisations",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1504,7 +1379,6 @@
                     "44": {
                         "Data Migration": {
                             "skill_type": "Technical",
-                            "description": "Determine the business need for data migration and plan data migration activities establishing guidelines and strategies to minimise impact on daily business operations",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1515,7 +1389,6 @@
                     "47": {
                         "Data Strategy": {
                             "skill_type": "Technical",
-                            "description": "Establish data management strategies to extract maximum value from information assets and support decision-making and business processes",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1526,7 +1399,6 @@
                     "49": {
                         "Database Administration": {
                             "skill_type": "Technical",
-                            "description": "Plan for installation configuration and upgrading of databases and oversee database maintenance troubleshooting back up and recovery activities",
                             "job_level": "Level 4",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1537,7 +1409,6 @@
                     "57": {
                         "Emerging Technology Synthesis": {
                             "skill_type": "Technical",
-                            "description": "Establish internal structures and processes to guide the exploration integration and evaluation of new technologies",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -1548,7 +1419,6 @@
                     "70": {
                         "Learning and Development": {
                             "skill_type": "Technical",
-                            "description": "Support employees to develop their skills and facilitate learning opportunities and coaching junior management employees",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1559,7 +1429,6 @@
                     "71": {
                         "Manpower Planning": {
                             "skill_type": "Technical",
-                            "description": "Conduct project level manpower forecasts to bridge gaps between manpower demand and supply and facilitate development of recruitment strategies",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1570,7 +1439,6 @@
                     "89": {
                         "People and Performance Management": {
                             "skill_type": "Technical",
-                            "description": "Implement performance management programmes",
                             "job_level": "Level 3",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1581,7 +1449,6 @@
                     "99": {
                         "Project Management": {
                             "skill_type": "Technical",
-                            "description": "Lead end-to-end management of large programmes or multiple projects concurrently coordinating project interdependencies",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -1592,7 +1459,6 @@
                     "102": {
                         "Quality Standards": {
                             "skill_type": "Technical",
-                            "description": "Assess existing quality standards and align processes and activities with IT product and service quality expectations",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1603,7 +1469,6 @@
                     "108": {
                         "Security Architecture": {
                             "skill_type": "Technical",
-                            "description": "Design secure systems and define security specifications of components integrating appropriate security controls",
                             "job_level": "Level 3",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1614,7 +1479,6 @@
                     "120": {
                         "Stakeholder Management": {
                             "skill_type": "Technical",
-                            "description": "Develop a stakeholder engagement plan and negotiate with stakeholders to arrive at mutually- beneficial arrangements",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -1625,7 +1489,6 @@
                     "121": {
                         "Strategy Implementation": {
                             "skill_type": "Technical",
-                            "description": "Evaluate strategies for critical business functions to ensure plans are realistic and reflect health of business",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1636,7 +1499,6 @@
                     "122": {
                         "Strategy Planning": {
                             "skill_type": "Technical",
-                            "description": "Develop resource allocation plans and implement strategies and policies",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1647,7 +1509,6 @@
                     "124": {
                         "System Integration": {
                             "skill_type": "Technical",
-                            "description": "Design a feasible integration roadmap monitor system integration outcomes and drive enhancements to integration plans",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -1658,7 +1519,6 @@
                     "135": {
                         "Communication": {
                             "skill_type": "Generic",
-                            "description": "Articulate and discuss ideas and persuade others to achieve common outcomes.",
                             "job_level": "Intermediate",
                             "user_level": "Intermediate",
                             "status": "Qualified"
@@ -1669,7 +1529,6 @@
                     "136": {
                         "Computational Thinking": {
                             "skill_type": "Generic",
-                            "description": "Develop and create computational models tools and techniques to implement new solutions and apply to other problems.",
                             "job_level": "Advanced",
                             "user_level": "Intermediate",
                             "status": "Under Qualified"
@@ -1680,7 +1539,6 @@
                     "139": {
                         "Developing People": {
                             "skill_type": "Generic",
-                            "description": "Provide coaching to others to develop their skills and knowledge on their jobs to enhance performance.",
                             "job_level": "Intermediate",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -1691,7 +1549,6 @@
                     "143": {
                         "Leadership": {
                             "skill_type": "Generic",
-                            "description": "Lead by example at organisational level. Inspire motivate and guide others to adopt a point of view make changes or take action. Cultivate an open cooperative and collaborative learning culture for the organisation.",
                             "job_level": "Advanced",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -1702,7 +1559,6 @@
                     "151": {
                         "Transdisciplinary Thinking": {
                             "skill_type": "Generic",
-                            "description": "Synthesise knowledge and insights across disciplinary boundaries to aid strategic decisions and foster cooperation within and outside of the organisation.",
                             "job_level": "Advanced",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1715,6 +1571,7 @@
             "sector": "Infocomm Technology",
             "track": "Data and Artificial Intelligence",
             "job_role": "Data Architect",
+            "job_description": "The Data Architect designs systems to facilitate access to and finding of information. He/She plans, designs, develops and tests internal information-delivery solutions and data models with the focus on providing positive user experience. He works with end users to specify requirements, create and implement designs to meet internal and client-facing objectives. He develops information management standards and practices, in compliance with data privacy policies and ethics and governance frameworks. He works in a team setting and is proficient in database systems, scripting and programming languages required by the organisation. He is also familiar with the relevant software platforms on which the solution is deployed on. The Data Architect integrates diverse needs and perspectives from internal and external clients, and possesses a creative mind to develop new and fresh ideas and solutions. He possesses strong leadership and communication abilities and is able to influence key stakeholders and clients he interfaces with.",
             "percent_match_overall": 0.4123,
             "percent_match_technical": 0.41,
             "percent_match_generic": 0.4286,
@@ -1723,7 +1580,6 @@
                     "15": {
                         "Business Needs Analysis": {
                             "skill_type": "Technical",
-                            "description": "Investigate existing business processes evaluate requirements and define the scope for recommended solutions and programmes",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -1734,7 +1590,6 @@
                     "21": {
                         "Change Management": {
                             "skill_type": "Technical",
-                            "description": "Develop business readiness plan and direct business activities processes and resources to facilitate changes and transitions and plan change control procedures for IT initiatives",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1745,7 +1600,6 @@
                     "23": {
                         "Computational Modelling": {
                             "skill_type": "Technical",
-                            "description": "Design advanced statistical and computational models and spearhead the application of algorithms and modelling techniques to new domains",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1756,7 +1610,6 @@
                     "25": {
                         "Configuration Tracking": {
                             "skill_type": "Technical",
-                            "description": "Develop policies processes and guidelines for the organisation's configuration management and tracking",
                             "job_level": "Level 4",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1767,7 +1620,6 @@
                     "40": {
                         "Data Design": {
                             "skill_type": "Technical",
-                            "description": "Establish a strategy for the creation of large-scale data models and structures and spearhead the implementation of database technology architectures software and facilities",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1778,7 +1630,6 @@
                     "41": {
                         "Data Engineering": {
                             "skill_type": "Technical",
-                            "description": "Lead the creation of data management procedures and oversee the integration of data ensuring optimisation of the organisation's data pipeline",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1789,7 +1640,6 @@
                     "42": {
                         "Data Ethics": {
                             "skill_type": "Technical",
-                            "description": "Drive professional legal and ethical accountability and responsibility within and across organisations",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1800,7 +1650,6 @@
                     "43": {
                         "Data Governance": {
                             "skill_type": "Technical",
-                            "description": "Establish policies for data security and usage facilitate industry consensus around data ethics and provide expert advice on data transfer across geographies",
                             "job_level": "Level 6",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1811,7 +1660,6 @@
                     "47": {
                         "Data Strategy": {
                             "skill_type": "Technical",
-                            "description": "Define a coherent data strategy and spearhead new approaches to enrich synthesise and apply data to maximise the value of data as a critical business asset and driver",
                             "job_level": "Level 6",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1822,7 +1670,6 @@
                     "49": {
                         "Database Administration": {
                             "skill_type": "Technical",
-                            "description": "Establish strategy and guidelines for database management and administration directing processes resources and IT investments to optimise database performance",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -1833,7 +1680,6 @@
                     "57": {
                         "Emerging Technology Synthesis": {
                             "skill_type": "Technical",
-                            "description": "Evaluate new and emerging technology and trends against the organisational needs and processes",
                             "job_level": "Level 4",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -1844,7 +1690,6 @@
                     "70": {
                         "Learning and Development": {
                             "skill_type": "Technical",
-                            "description": "Drive employee developmental programmes in alignment to business needs",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1855,7 +1700,6 @@
                     "71": {
                         "Manpower Planning": {
                             "skill_type": "Technical",
-                            "description": "Conduct project level manpower forecasts to bridge gaps between manpower demand and supply and facilitate development of recruitment strategies",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1866,7 +1710,6 @@
                     "89": {
                         "People and Performance Management": {
                             "skill_type": "Technical",
-                            "description": "Develop performance management programmes",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1877,7 +1720,6 @@
                     "99": {
                         "Project Management": {
                             "skill_type": "Technical",
-                            "description": "Direct the management and authorise ownership of multiple large complex programmes and projects ensuring alignment with strategic business priorities",
                             "job_level": "Level 6",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -1888,7 +1730,6 @@
                     "102": {
                         "Quality Standards": {
                             "skill_type": "Technical",
-                            "description": "Establish and control quality expectations in line with organisation directions and selected benchmarks",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1899,7 +1740,6 @@
                     "108": {
                         "Security Architecture": {
                             "skill_type": "Technical",
-                            "description": "Design a security blueprint and direct the design of a robust and coherent security architecture based on a suite of security solutions and key design principles",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1910,7 +1750,6 @@
                     "108": {
                         "Security Architecture": {
                             "skill_type": "Technical",
-                            "description": "Establish organisational guidelines and principles for the design of security architecture and controls and drive the enhancement of organisation-wide security systems",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1921,7 +1760,6 @@
                     "120": {
                         "Stakeholder Management": {
                             "skill_type": "Technical",
-                            "description": "Define a strategic stakeholder management roadmap and lead critical discussions and negotiations addressing escalated issues or problems encountered",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -1932,7 +1770,6 @@
                     "122": {
                         "Strategy Planning": {
                             "skill_type": "Technical",
-                            "description": "Formulate the strategies and policies that are forward- looking and focuses on bottom line results",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -1943,7 +1780,6 @@
                     "124": {
                         "System Integration": {
                             "skill_type": "Technical",
-                            "description": "Establish an integration strategy and a clear vision for an integrated ICT architectural design.",
                             "job_level": "Level 6",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -1954,7 +1790,6 @@
                     "135": {
                         "Communication": {
                             "skill_type": "Generic",
-                            "description": "Negotiate with others to address issues and achieve mutual consensus.",
                             "job_level": "Advanced",
                             "user_level": "Intermediate",
                             "status": "Under Qualified"
@@ -1965,7 +1800,6 @@
                     "136": {
                         "Computational Thinking": {
                             "skill_type": "Generic",
-                            "description": "Develop and create computational models tools and techniques to implement new solutions and apply to other problems.",
                             "job_level": "Advanced",
                             "user_level": "Intermediate",
                             "status": "Under Qualified"
@@ -1976,7 +1810,6 @@
                     "139": {
                         "Developing People": {
                             "skill_type": "Generic",
-                            "description": "Provide coaching to others to develop their skills and knowledge on their jobs to enhance performance.",
                             "job_level": "Intermediate",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -1987,7 +1820,6 @@
                     "143": {
                         "Leadership": {
                             "skill_type": "Generic",
-                            "description": "Lead by example at organisational level. Inspire motivate and guide others to adopt a point of view make changes or take action. Cultivate an open cooperative and collaborative learning culture for the organisation.",
                             "job_level": "Advanced",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -1998,7 +1830,6 @@
                     "151": {
                         "Transdisciplinary Thinking": {
                             "skill_type": "Generic",
-                            "description": "Synthesise knowledge and insights across disciplinary boundaries to aid strategic decisions and foster cooperation within and outside of the organisation.",
                             "job_level": "Advanced",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2011,6 +1842,7 @@
             "sector": "Infocomm Technology",
             "track": "Data and Artificial Intelligence",
             "job_role": "Data Analyst/Associate Data Engineer",
+            "job_description": "The Data Analyst/Associate Data Engineer blends historical data from available industry reports, public information, field reports or purchased sources, basic data cleaning and transformation, and performs analysis to support business and product decisions. He/She uses development tools to generate reports, dashboards, clean and prepare the data and analytical solutions according to business rules and specifications. He is a part of important projects and coordinates with internal teams to develop projections on outcomes of implementing business strategies that result in actionable insights.  He also assists in the data collection, processing and warehousing tasks, which may also include collection, parsing, analysing and visualising large sets of data He works in a team setting and is proficient in the analytics tools and techniques required by the organisation. He is also familiar with the relevant software platforms on which the solution is deployed on. The Data Analyst/Associate Data Engineer is meticulous and detailed-oriented. He enjoys working with data and displays willingness to learn. He adopts an analytical approach to solving problems and displays confidence when communicating ideas.",
             "percent_match_overall": 0.3696,
             "percent_match_technical": 0.3056,
             "percent_match_generic": 0.6,
@@ -2019,7 +1851,6 @@
                     "9": {
                         "Budgeting": {
                             "skill_type": "Technical",
-                            "description": "Prepare business unit's operational budgets",
                             "job_level": "Level 3",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2030,7 +1861,6 @@
                     "14": {
                         "Business Innovation": {
                             "skill_type": "Technical",
-                            "description": "Explore opportunities for business innovation and reform and lead the implementation of innovative business initiatives",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2041,7 +1871,6 @@
                     "15": {
                         "Business Needs Analysis": {
                             "skill_type": "Technical",
-                            "description": "Document business requirements and identify basic needs as well as potential solutions",
                             "job_level": "Level 2",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -2052,7 +1881,6 @@
                     "17": {
                         "Business Performance Management": {
                             "skill_type": "Technical",
-                            "description": "Monitor performance of the department",
                             "job_level": "Level 3",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2063,7 +1891,6 @@
                     "38": {
                         "Data Analytics": {
                             "skill_type": "Technical",
-                            "description": "Identify underlying trends and patterns in business data using statistical and computational techniques and tools.",
                             "job_level": "Level 2",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2074,7 +1901,6 @@
                     "38": {
                         "Data Analytics": {
                             "skill_type": "Technical",
-                            "description": "Develop apply and evaluate algorithms predictive data modelling and data visualisation to identify underlying trends and patterns in data.",
                             "job_level": "Level 3",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2085,7 +1911,6 @@
                     "41": {
                         "Data Engineering": {
                             "skill_type": "Technical",
-                            "description": "Utilise appropriate tools systems and techniques to collect store extract transform and load data according to set guidelines",
                             "job_level": "Level 2",
                             "user_level": "L3",
                             "status": "Qualified"
@@ -2096,7 +1921,6 @@
                     "42": {
                         "Data Ethics": {
                             "skill_type": "Technical",
-                            "description": "Apply and uphold principles of professional legal and ethical conduct policies and procedures in the handling of data",
                             "job_level": "Level 3",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2107,7 +1931,6 @@
                     "48": {
                         "Data Visualisation": {
                             "skill_type": "Technical",
-                            "description": "Select appropriate visualisation techniques and develop dashboards to reflect data trends and findings",
                             "job_level": "Level 3",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2118,7 +1941,6 @@
                     "49": {
                         "Database Administration": {
                             "skill_type": "Technical",
-                            "description": "Conduct basic installation configuration and upgrade of databases and servers and perform routine data backup and recovery activities",
                             "job_level": "Level 2",
                             "user_level": "L3",
                             "status": "Qualified"
@@ -2129,7 +1951,6 @@
                     "52": {
                         "Design Thinking Practice": {
                             "skill_type": "Technical",
-                            "description": "Apply design thinking methodologies and execute design thinking processes to challenge norms and conventions in the organisation",
                             "job_level": "Level 3",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2140,7 +1961,6 @@
                     "84": {
                         "Networking": {
                             "skill_type": "Technical",
-                            "description": "Identify and analyse business opportunities",
                             "job_level": "Level 3",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2151,7 +1971,6 @@
                     "99": {
                         "Project Management": {
                             "skill_type": "Technical",
-                            "description": "Oversee small projects or programmes managing timelines resources risks and stakeholders",
                             "job_level": "Level 3",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -2162,7 +1981,6 @@
                     "120": {
                         "Stakeholder Management": {
                             "skill_type": "Technical",
-                            "description": "Identify key stakeholder relationships needs and interests and coordinate with stakeholders on a day- to-day basis",
                             "job_level": "Level 2",
                             "user_level": "L4",
                             "status": "Qualified"
@@ -2173,7 +1991,6 @@
                     "135": {
                         "Communication": {
                             "skill_type": "Generic",
-                            "description": "Articulate and discuss ideas and persuade others to achieve common outcomes.",
                             "job_level": "Intermediate",
                             "user_level": "Intermediate",
                             "status": "Qualified"
@@ -2184,7 +2001,6 @@
                     "136": {
                         "Computational Thinking": {
                             "skill_type": "Generic",
-                            "description": "Modify existing computational models tools and techniques to develop different solutions.",
                             "job_level": "Intermediate",
                             "user_level": "Intermediate",
                             "status": "Qualified"
@@ -2195,7 +2011,6 @@
                     "137": {
                         "Creative Thinking": {
                             "skill_type": "Generic",
-                            "description": "Connect or combine ideas or information from unrelated fields or applications to generate multiple ideas to bring about a specific outcome.",
                             "job_level": "Intermediate",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2206,7 +2021,6 @@
                     "139": {
                         "Developing People": {
                             "skill_type": "Generic",
-                            "description": "Provide coaching to others to develop their skills and knowledge on their jobs to enhance performance.",
                             "job_level": "Intermediate",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -2217,7 +2031,6 @@
                     "143": {
                         "Leadership": {
                             "skill_type": "Generic",
-                            "description": "Lead by example at team level. Encourage and guide others to adopt a point of view make changes or take action. Provide a team environment that facilitates relationships building teamwork and the development of others.",
                             "job_level": "Intermediate",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -2230,6 +2043,7 @@
             "sector": "Infocomm Technology",
             "track": "Data and Artificial Intelligence",
             "job_role": "Head of Data Science and Artificial Intelligence",
+            "job_description": "The Head of Data Science and Artificial Intelligence formulates and implement data and artificial intelligence (AI) strategies to optimise business value derived from data assets. He/She guides the AI research direction to create new algorithms and models, and reviews the feasibility of translating research and development outcomes into data and AI solutions. He oversees the development of data and AI solutions for the business to inform strategy and planning, decision-making and drive performance. He identifies potential intellectual property commercialisation opportunities for AI solutions and/or models, and oversees the preparation and application for intellectual property rights. He manages a team and is proficient in statistics, scripting and programming languages required by the organisation. He is also familiar with the relevant software platforms on which the solution is deployed on. The Head of Data Science and Artificial Intelligence is a highly effective communicator, articulating the potential value and impact of data and AI solutions on the business and influencing key business stakeholders. He is a proactive and innovative individual, possessing a strong drive to succeed amidst an evolving business environment. He develops the data and AI team's technical and leadership capabilities, and ensures compliance to the organisation's data privacy policies, ethics and governance framework, and intellectual property legislation.",
             "percent_match_overall": 0.25,
             "percent_match_technical": 0.2543,
             "percent_match_generic": 0.2,
@@ -2238,7 +2052,6 @@
                     "9": {
                         "Budgeting": {
                             "skill_type": "Technical",
-                            "description": "Develop long-term financial plans and budget requirements",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2249,7 +2062,6 @@
                     "10": {
                         "Business Agility": {
                             "skill_type": "Technical",
-                            "description": "Adapt overall processes and create a working environment of business agility",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2260,7 +2072,6 @@
                     "11": {
                         "Business Continuity": {
                             "skill_type": "Technical",
-                            "description": "Develop business continuity plans and direct resources to establish and maintain business continuity processes",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2271,7 +2082,6 @@
                     "14": {
                         "Business Innovation": {
                             "skill_type": "Technical",
-                            "description": "Inspire a culture of business and digital innovation within and beyond the organisation",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2282,7 +2092,6 @@
                     "15": {
                         "Business Needs Analysis": {
                             "skill_type": "Technical",
-                            "description": "Lead comprehensive analysis to understand underlying drivers and present a compelling business case for proposed IT solutions",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -2293,7 +2102,6 @@
                     "17": {
                         "Business Performance Management": {
                             "skill_type": "Technical",
-                            "description": "Establish organisational guidelines for performance systems according to organisational mission and objectives",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2304,7 +2112,6 @@
                     "20": {
                         "Business Risk Management": {
                             "skill_type": "Technical",
-                            "description": "Critically evaluate review and drive organisation-wide risk mitigation and management initiatives",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2315,7 +2122,6 @@
                     "21": {
                         "Change Management": {
                             "skill_type": "Technical",
-                            "description": "Develop business readiness plan and direct business activities processes and resources to facilitate changes and transitions and plan change control procedures for IT initiatives",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2326,7 +2132,6 @@
                     "24": {
                         "Computer Vision Technology": {
                             "skill_type": "Technical",
-                            "description": "Build spatial sensing and spatial reasoning systems",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2337,7 +2142,6 @@
                     "40": {
                         "Data Design": {
                             "skill_type": "Technical",
-                            "description": "Establish a strategy for the creation of large-scale data models and structures and spearhead the implementation of database technology architectures software and facilities",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -2348,7 +2152,6 @@
                     "41": {
                         "Data Engineering": {
                             "skill_type": "Technical",
-                            "description": "Lead the creation of data management procedures and oversee the integration of data ensuring optimisation of the organisation's data pipeline",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -2359,7 +2162,6 @@
                     "42": {
                         "Data Ethics": {
                             "skill_type": "Technical",
-                            "description": "Formulate the organisation's code of ethics systems and processes to ensure adherence to professional legal and ethical requirements for data usage",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2370,7 +2172,6 @@
                     "43": {
                         "Data Governance": {
                             "skill_type": "Technical",
-                            "description": "Develop organisation practices and standards for handling data throughout their lifecycle resolve breaches and oversee transfer of data between organisations",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -2381,7 +2182,6 @@
                     "47": {
                         "Data Strategy": {
                             "skill_type": "Technical",
-                            "description": "Establish data management strategies to extract maximum value from information assets and support decision-making and business processes",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -2392,7 +2192,6 @@
                     "57": {
                         "Emerging Technology Synthesis": {
                             "skill_type": "Technical",
-                            "description": "Establish internal structures and processes to guide the exploration integration and evaluation of new technologies",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -2403,7 +2202,6 @@
                     "69": {
                         "Intelligent Reasoning": {
                             "skill_type": "Technical",
-                            "description": "Evaluate design and build intelligent software systems",
                             "job_level": "Level 5",
                             "user_level": "L5",
                             "status": "Qualified"
@@ -2414,7 +2212,6 @@
                     "70": {
                         "Learning and Development": {
                             "skill_type": "Technical",
-                            "description": "Mentor successors support organisational learning and develop and engage employees to develop a strong organisational base",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2425,7 +2222,6 @@
                     "71": {
                         "Manpower Planning": {
                             "skill_type": "Technical",
-                            "description": "Formulate organisational manpower plans to bridge gaps between manpower demand and supply based on current and projected needs of the organisation",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2436,7 +2232,6 @@
                     "84": {
                         "Networking": {
                             "skill_type": "Technical",
-                            "description": "Implementing strategies to capitalise on new business opportunities",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2447,7 +2242,6 @@
                     "85": {
                         "Organisational Analysis": {
                             "skill_type": "Technical",
-                            "description": "Lead the conduct of functional analysis and recommending areas for enhancement in functional operations",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2458,7 +2252,6 @@
                     "88": {
                         "Pattern Recognition Systems": {
                             "skill_type": "Technical",
-                            "description": "Develop intelligent systems using machine learning techniques",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -2469,7 +2262,6 @@
                     "89": {
                         "People and Performance Management": {
                             "skill_type": "Technical",
-                            "description": "Establish organisation-wide performance management strategies",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2480,7 +2272,6 @@
                     "90": {
                         "Performance Management": {
                             "skill_type": "Technical",
-                            "description": "Evaluate and integrate new mechanisms and technology and leverage analytics to optimise performance data and determine implications of performance levels reported",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2491,7 +2282,6 @@
                     "99": {
                         "Project Management": {
                             "skill_type": "Technical",
-                            "description": "Direct the management and authorise ownership of multiple large complex programmes and projects ensuring alignment with strategic business priorities",
                             "job_level": "Level 6",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -2502,7 +2292,6 @@
                     "102": {
                         "Quality Standards": {
                             "skill_type": "Technical",
-                            "description": "Establish and control quality expectations in line with organisation directions and selected benchmarks",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2513,7 +2302,6 @@
                     "104": {
                         "Research": {
                             "skill_type": "Technical",
-                            "description": "Oversee and review the effective implementation of the research project within known resource constraints",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2524,7 +2312,6 @@
                     "114": {
                         "Self-Learning Systems": {
                             "skill_type": "Technical",
-                            "description": "Design and develop self- learning systems using reinforcement learning and evolutionary learning techniques",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -2535,7 +2322,6 @@
                     "117": {
                         "Software Design": {
                             "skill_type": "Technical",
-                            "description": "Translate complex software ideas and concepts into a design blueprint and establish key design principles and methodologies",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2546,7 +2332,6 @@
                     "119": {
                         "Solution Architecture": {
                             "skill_type": "Technical",
-                            "description": "Establish frameworks and determine relevant tools and techniques to guide the development IT solutions",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2557,7 +2342,6 @@
                     "120": {
                         "Stakeholder Management": {
                             "skill_type": "Technical",
-                            "description": "Define a strategic stakeholder management roadmap and lead critical discussions and negotiations addressing escalated issues or problems encountered",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -2568,7 +2352,6 @@
                     "121": {
                         "Strategy Implementation": {
                             "skill_type": "Technical",
-                            "description": "Evaluate strategies for critical business functions to ensure plans are realistic and reflect health of business",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2579,7 +2362,6 @@
                     "122": {
                         "Strategy Planning": {
                             "skill_type": "Technical",
-                            "description": "Formulate the strategies and policies that are forward- looking and focuses on bottom line results",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2590,7 +2372,6 @@
                     "123": {
                         "Sustainability Management": {
                             "skill_type": "Technical",
-                            "description": "Define action plans solutions and technologies to address energy efficiency gaps and implement sustainability practices that encourage organisational commitment",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2601,7 +2382,6 @@
                     "128": {
                         "Text Analytics and Processing": {
                             "skill_type": "Technical",
-                            "description": "Implement advanced machine learning techniques in building natural language processing NLP models for performing common text processing tasks",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -2612,7 +2392,6 @@
                     "135": {
                         "Communication": {
                             "skill_type": "Generic",
-                            "description": "Negotiate with others to address issues and achieve mutual consensus.",
                             "job_level": "Advanced",
                             "user_level": "Intermediate",
                             "status": "Under Qualified"
@@ -2623,7 +2402,6 @@
                     "142": {
                         "Interpersonal Skills": {
                             "skill_type": "Generic",
-                            "description": "Influence guide and handle others' emotions to build instrumental relationships and manage conflicts and disagreements.",
                             "job_level": "Advanced",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2634,7 +2412,6 @@
                     "143": {
                         "Leadership": {
                             "skill_type": "Generic",
-                            "description": "Lead by example at organisational level. Inspire motivate and guide others to adopt a point of view make changes or take action. Cultivate an open cooperative and collaborative learning culture for the organisation.",
                             "job_level": "Advanced",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -2645,7 +2422,6 @@
                     "146": {
                         "Problem Solving": {
                             "skill_type": "Generic",
-                            "description": "Anticipate potential problems beyond the current scope and apply higher order problem solving tools and techniques to turn problems into opportunities.",
                             "job_level": "Advanced",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2656,7 +2432,6 @@
                     "151": {
                         "Transdisciplinary Thinking": {
                             "skill_type": "Generic",
-                            "description": "Synthesise knowledge and insights across disciplinary boundaries to aid strategic decisions and foster cooperation within and outside of the organisation.",
                             "job_level": "Advanced",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2669,6 +2444,7 @@
             "sector": "Infocomm Technology",
             "track": "Data and Artificial Intelligence",
             "job_role": "Business Intelligence Director",
+            "job_description": "The Business Intelligence Director sets the strategy, vision and policy for managing the day-to-day strategic and tactical operations of the business intelligence (BI) teams. He/She holds responsibilities associated with historical data sourcing and preparation, data storage, reporting, analytics, data exploration and information delivery. He works with senior management to understand and prioritise data and information requirements. He is responsible for setting up the BI Strategy within the organisation. He oversees the development of testing methodology and criteria, standards, policies and procedures for the structure and attributes of the business intelligence tools and systems. He oversees budgeting and planning. He manages a team and is proficient in the analytics tools and techniques required by the organisation. He is also familiar with the relevant software platforms on which the solution is deployed on. The BI Director has the ability to adopt a broader perspective and display analytical thinking for BI solutions. He is able to influence key stakeholders and spearhead a data driven approach to resolve business issues.",
             "percent_match_overall": 0.19,
             "percent_match_technical": 0.1744,
             "percent_match_generic": 0.2857,
@@ -2677,7 +2453,6 @@
                     "9": {
                         "Budgeting": {
                             "skill_type": "Technical",
-                            "description": "Develop long-term financial plans and budget requirements",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2688,7 +2463,6 @@
                     "14": {
                         "Business Innovation": {
                             "skill_type": "Technical",
-                            "description": "Inspire a culture of business and digital innovation within and beyond the organisation",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2699,7 +2473,6 @@
                     "15": {
                         "Business Needs Analysis": {
                             "skill_type": "Technical",
-                            "description": "Lead comprehensive analysis to understand underlying drivers and present a compelling business case for proposed IT solutions",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -2710,7 +2483,6 @@
                     "17": {
                         "Business Performance Management": {
                             "skill_type": "Technical",
-                            "description": "Formulate organisational performance systems and key performance indicators in alignment with organisation's vision mission and values",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2721,7 +2493,6 @@
                     "38": {
                         "Data Analytics": {
                             "skill_type": "Technical",
-                            "description": "Manage and enhance organisational data science capability by refining financial and other business performance criteria and design data studies.",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2732,7 +2503,6 @@
                     "42": {
                         "Data Ethics": {
                             "skill_type": "Technical",
-                            "description": "Formulate the organisation's code of ethics systems and processes to ensure adherence to professional legal and ethical requirements for data usage",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2743,7 +2513,6 @@
                     "43": {
                         "Data Governance": {
                             "skill_type": "Technical",
-                            "description": "Develop organisation practices and standards for handling data throughout their lifecycle resolve breaches and oversee transfer of data between organisations",
                             "job_level": "Level 5",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -2754,7 +2523,6 @@
                     "48": {
                         "Data Visualisation": {
                             "skill_type": "Technical",
-                            "description": "Establish an effective data visualisation architecture and design intelligent and adaptable displays employing optimal delivery modes mechanisms and timings",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2765,7 +2533,6 @@
                     "52": {
                         "Design Thinking Practice": {
                             "skill_type": "Technical",
-                            "description": "Establish effective design thinking processes methodologies and frameworks to proliferate design thinking across the organisation",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2776,7 +2543,6 @@
                     "70": {
                         "Learning and Development": {
                             "skill_type": "Technical",
-                            "description": "Drive employee developmental programmes in alignment to business needs",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2787,7 +2553,6 @@
                     "70": {
                         "Learning and Development": {
                             "skill_type": "Technical",
-                            "description": "Mentor successors support organisational learning and develop and engage employees to develop a strong organisational base",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2798,7 +2563,6 @@
                     "71": {
                         "Manpower Planning": {
                             "skill_type": "Technical",
-                            "description": "Formulate organisational manpower plans to bridge gaps between manpower demand and supply based on current and projected needs of the organisation",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2809,7 +2573,6 @@
                     "84": {
                         "Networking": {
                             "skill_type": "Technical",
-                            "description": "Implementing strategies to capitalise on new business opportunities",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2820,7 +2583,6 @@
                     "89": {
                         "People and Performance Management": {
                             "skill_type": "Technical",
-                            "description": "Establish organisation-wide performance management strategies",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2831,7 +2593,6 @@
                     "99": {
                         "Project Management": {
                             "skill_type": "Technical",
-                            "description": "Lead end-to-end management of large programmes or multiple projects concurrently coordinating project interdependencies",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -2842,7 +2603,6 @@
                     "120": {
                         "Stakeholder Management": {
                             "skill_type": "Technical",
-                            "description": "Define a strategic stakeholder management roadmap and lead critical discussions and negotiations addressing escalated issues or problems encountered",
                             "job_level": "Level 5",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -2853,7 +2613,6 @@
                     "121": {
                         "Strategy Implementation": {
                             "skill_type": "Technical",
-                            "description": "Evaluate strategies for critical business functions to ensure plans are realistic and reflect health of business",
                             "job_level": "Level 4",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2864,7 +2623,6 @@
                     "122": {
                         "Strategy Planning": {
                             "skill_type": "Technical",
-                            "description": "Formulate the strategies and policies that are forward- looking and focuses on bottom line results",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2875,7 +2633,6 @@
                     "135": {
                         "Communication": {
                             "skill_type": "Generic",
-                            "description": "Negotiate with others to address issues and achieve mutual consensus.",
                             "job_level": "Advanced",
                             "user_level": "Intermediate",
                             "status": "Under Qualified"
@@ -2886,7 +2643,6 @@
                     "142": {
                         "Interpersonal Skills": {
                             "skill_type": "Generic",
-                            "description": "Influence guide and handle others' emotions to build instrumental relationships and manage conflicts and disagreements.",
                             "job_level": "Advanced",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2897,7 +2653,6 @@
                     "143": {
                         "Leadership": {
                             "skill_type": "Generic",
-                            "description": "Lead by example at team level. Encourage and guide others to adopt a point of view make changes or take action. Provide a team environment that facilitates relationships building teamwork and the development of others.",
                             "job_level": "Intermediate",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -2908,7 +2663,6 @@
                     "144": {
                         "Lifelong Learning": {
                             "skill_type": "Generic",
-                            "description": "Conduct self-reflective practices to review one's learning to facilitate continual growth in one's career or profession.",
                             "job_level": "Advanced",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -2919,7 +2673,6 @@
                     "146": {
                         "Problem Solving": {
                             "skill_type": "Generic",
-                            "description": "Anticipate potential problems beyond the current scope and apply higher order problem solving tools and techniques to turn problems into opportunities.",
                             "job_level": "Advanced",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2932,6 +2685,7 @@
             "sector": "Infocomm Technology",
             "track": "Data and Artificial Intelligence",
             "job_role": "Chief Data Officer/Chief Artificial Intelligence Officer",
+            "job_description": "The Chief Data Officer/Chief Artificial Intelligence Officer establishes the organisation's data and artificial intelligence (AI) strategy, and ethics and governance framework, fostering a culture of compliance to data privacy regulations and the Model AI Governance Framework. He/She is accountable for the quality, accessibility, analysis and management of data to inform business strategy, decision-making and drive performance. He designs initiatives and programs to realise the optimal business value derivable from the organisation's data assets. He formulates data and AI project prioritisation and resourcing strategies and establishes performance measures to evaluate outcomes data and AI-driven solutions. He identifies potential intellectual property (IP) opportunities from analyses and insights from market intelligence reports, and advises the business on infringements against the organisation's IP related to AI solutions. He creates a shared vision and objectives on the use of data and AI in the organisation, building strategic relationships with key business and industry stakeholders to achieve business goals. The Chief Data Officer/Chief Artificial Intelligence Officer is highly skilled in influencing and engaging stakeholders to secure their buy-in and support. He has strong business acumen, is highly innovative, and is able to make calculated-risk decisions, performing effectively in a complex and difficult environment. He possesses strong leadership and management skills required to develop the organisation's data and AI capabilities.",
             "percent_match_overall": 0.1328,
             "percent_match_technical": 0.1239,
             "percent_match_generic": 0.2,
@@ -2940,7 +2694,6 @@
                     "9": {
                         "Budgeting": {
                             "skill_type": "Technical",
-                            "description": "Endorse organisational financial and treasury management policies systems budgets and plans",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2951,7 +2704,6 @@
                     "10": {
                         "Business Agility": {
                             "skill_type": "Technical",
-                            "description": "Establish policies that enable adaptability and foster a culture of business agility in the organisation",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2962,7 +2714,6 @@
                     "11": {
                         "Business Continuity": {
                             "skill_type": "Technical",
-                            "description": "Define the optimal business continuity strategy and objectives for business continuity and contingency plans",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2973,7 +2724,6 @@
                     "20": {
                         "Business Risk Management": {
                             "skill_type": "Technical",
-                            "description": "Anticipate emerging threats and potential risks and define the overarching risk management strategy for the business",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2984,7 +2734,6 @@
                     "21": {
                         "Change Management": {
                             "skill_type": "Technical",
-                            "description": "Establish the organisation's change management strategy define key success indicators and inspire shared commitment to the change",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -2995,7 +2744,6 @@
                     "42": {
                         "Data Ethics": {
                             "skill_type": "Technical",
-                            "description": "Drive professional legal and ethical accountability and responsibility within and across organisations",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -3006,7 +2754,6 @@
                     "43": {
                         "Data Governance": {
                             "skill_type": "Technical",
-                            "description": "Establish policies for data security and usage facilitate industry consensus around data ethics and provide expert advice on data transfer across geographies",
                             "job_level": "Level 6",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -3017,7 +2764,6 @@
                     "47": {
                         "Data Strategy": {
                             "skill_type": "Technical",
-                            "description": "Define a coherent data strategy and spearhead new approaches to enrich synthesise and apply data to maximise the value of data as a critical business asset and driver",
                             "job_level": "Level 6",
                             "user_level": "L3",
                             "status": "Under Qualified"
@@ -3028,7 +2774,6 @@
                     "57": {
                         "Emerging Technology Synthesis": {
                             "skill_type": "Technical",
-                            "description": "Establish an emerging technology strategy and spearhead organisational norms to synthesise and leverage new technologies and trends to propel business growth",
                             "job_level": "Level 6",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -3039,7 +2784,6 @@
                     "58": {
                         "Enterprise Architecture": {
                             "skill_type": "Technical",
-                            "description": "Envision and lead the development of a future- ready enterprise architecture and strategically manage resources and capabilities to sustain the evolution of the business",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -3050,7 +2794,6 @@
                     "61": {
                         "IT Governance": {
                             "skill_type": "Technical",
-                            "description": "Establish the IT governance strategy and structure to guide policies and practices and facilitate industry-wide conversations around technology governance and standards",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -3061,7 +2804,6 @@
                     "62": {
                         "IT Standards": {
                             "skill_type": "Technical",
-                            "description": "Inspire enhancements and redefine IT standards in line with the evolving landscape and their impact on service expectations",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -3072,7 +2814,6 @@
                     "85": {
                         "Organisational Analysis": {
                             "skill_type": "Technical",
-                            "description": "Synergise organisational analysis reviewing and evaluating findings and communicating findings to relevant stakeholders as well as advising on improvements for the organisation",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -3083,7 +2824,6 @@
                     "90": {
                         "Performance Management": {
                             "skill_type": "Technical",
-                            "description": "Chart direction on key performance indicators of ICT infrastructure and develop a strategy to enable achievement to achieve long term business requirements",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -3094,7 +2834,6 @@
                     "102": {
                         "Quality Standards": {
                             "skill_type": "Technical",
-                            "description": "Review organisation's quality guidelines against emerging trends and industry best practices ensuring alignment with company values and objectives",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -3105,7 +2844,6 @@
                     "104": {
                         "Research": {
                             "skill_type": "Technical",
-                            "description": "Oversee and review the effective implementation of the research project within known resource constraints",
                             "job_level": "Level 5",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -3116,7 +2854,6 @@
                     "120": {
                         "Stakeholder Management": {
                             "skill_type": "Technical",
-                            "description": "Establish the overall vision for the alignment of organisation's and stakeholders' objectives co- creating shared goals and strategic initiatives with senior stakeholders.",
                             "job_level": "Level 6",
                             "user_level": "L4",
                             "status": "Under Qualified"
@@ -3127,7 +2864,6 @@
                     "122": {
                         "Strategy Planning": {
                             "skill_type": "Technical",
-                            "description": "Build actionable organisation strategy plans and policies that are forward-looking anticipate strategic risks and focus on bottom line results",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -3138,7 +2874,6 @@
                     "123": {
                         "Sustainability Management": {
                             "skill_type": "Technical",
-                            "description": "Establish an organisation- wide sustainability strategy and introduce new innovative practices and technologies to optimise energy and resource efficiency",
                             "job_level": "Level 6",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -3149,7 +2884,6 @@
                     "135": {
                         "Communication": {
                             "skill_type": "Generic",
-                            "description": "Negotiate with others to address issues and achieve mutual consensus.",
                             "job_level": "Advanced",
                             "user_level": "Intermediate",
                             "status": "Under Qualified"
@@ -3160,7 +2894,6 @@
                     "142": {
                         "Interpersonal Skills": {
                             "skill_type": "Generic",
-                            "description": "Influence guide and handle others' emotions to build instrumental relationships and manage conflicts and disagreements.",
                             "job_level": "Advanced",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -3171,7 +2904,6 @@
                     "143": {
                         "Leadership": {
                             "skill_type": "Generic",
-                            "description": "Lead by example at organisational level. Inspire motivate and guide others to adopt a point of view make changes or take action. Cultivate an open cooperative and collaborative learning culture for the organisation.",
                             "job_level": "Advanced",
                             "user_level": "Basic",
                             "status": "Under Qualified"
@@ -3182,7 +2914,6 @@
                     "146": {
                         "Problem Solving": {
                             "skill_type": "Generic",
-                            "description": "Anticipate potential problems beyond the current scope and apply higher order problem solving tools and techniques to turn problems into opportunities.",
                             "job_level": "Advanced",
                             "user_level": "NA",
                             "status": "Not Qualified"
@@ -3193,7 +2924,6 @@
                     "149": {
                         "Service Orientation": {
                             "skill_type": "Generic",
-                            "description": "Model lead train and motivate staff with a focus on sustaining a culture that encourages commitment to service excellence and high performance.",
                             "job_level": "Advanced",
                             "user_level": "NA",
                             "status": "Not Qualified"
