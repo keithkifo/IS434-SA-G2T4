@@ -45,7 +45,7 @@ const LinkItems = [
 			"https://media-exp1.licdn.com/dms/image/C5603AQGgH4JOeQ7awA/profile-displayphoto-shrink_200_200/0/1589885406154?e=1653523200&v=beta&t=ifw7Wb4VzK517Slepu3hT2CgqDwAfMZKHKNoSH3NkYc",
 	},
 	{
-		name: "Superadmin",
+		name: "Super Admin",
 		icon: FiTrendingUp,
 		address: "/superadmin",
 		username: "Derrick Lee",

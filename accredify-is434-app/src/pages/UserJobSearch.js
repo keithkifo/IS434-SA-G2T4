@@ -1,4 +1,4 @@
-import { Alert, AlertIcon, Divider, Heading, SimpleGrid, VStack } from "@chakra-ui/react";
+import { Alert, AlertIcon, Box, Divider, Heading, SimpleGrid, VStack } from "@chakra-ui/react";
 import JobCard from "../components/JobCard"
 import FilterComponent from "../components/FilterComponent"
 import { useEffect, useState } from "react";
@@ -20,7 +20,12 @@ const UserJobSearch = () => {
 		// .then(res => {
 		// 	setSectors()
 		// })
-		setSectors(["Infocomm Technology"]);
+		setSectors([
+			{
+				id: 1,
+				name: "Infocomm Technology"
+			}
+		]);
 	}, [])
 
 	const handleSectorChange = (e) => {
@@ -32,13 +37,34 @@ const UserJobSearch = () => {
 		// 	setTracks()
 		// });
 		setTracks([
-			"Strategy and Governance",
-			"Software and Applications",
-			"Software and Applications",
-			"Data and Artificial Intelligence",
-			"Operations and Support",
-			"Cyber Security",
-			"Sales and Marketing",
+			{
+				id: 1,
+				name: "Strategy and Governance",
+			},
+			{
+				id: 2,
+				name: "Software and Applications",
+			},
+			{
+				id: 3,
+				name: "Software and Applications",
+			},
+			{
+				id: 4,
+				name: "Data and Artificial Intelligence",
+			},
+			{
+				id: 5,
+				name: "Operations and Support",
+			},
+			{
+				id: 6,
+				name: "Cyber Security",
+			},
+			{
+				id: 7,
+				name: "Sales and Marketing",
+			}
 		]);
 	}
 
@@ -55,7 +81,7 @@ const UserJobSearch = () => {
 
 
 	return (
-		<>
+		<Box ml={10} mr={10}>
 			<Heading fontSize="4xl" mb={5}>
 				Job Role Search
 			</Heading>
@@ -87,7 +113,7 @@ const UserJobSearch = () => {
 					Select a Sector and Track to view your skill match.
 				</Alert>
 			)}
-		</>
+		</Box>
 	);
 };
 

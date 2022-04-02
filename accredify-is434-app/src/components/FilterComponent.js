@@ -15,15 +15,14 @@ const FilterComponent = ({ filter, selectOptions, handleOnChange }) => {
 					placeholder={"Select a " + filter.name}
 					onChange={handleOnChange}
 				>
-					{selectOptions === undefined
+					{selectOptions === null
 						? null
-						: selectOptions.map((item, i) => {
-								return (
-									<option key={item + i} value={item}>
-										{item}
-									</option>
-								);
-						  })}
+						: selectOptions.map((item) => (
+							<option key={`${item["id"]}-${item["name"]}` } value={item["id"]}>
+								{item["name"]}
+							</option>
+						)
+					)}
 				</Select>
 			</Box>
 		</HStack>

@@ -17,7 +17,7 @@ import {
 	HStack,
 	CircularProgressLabel,
 	Tbody,
-	Button, 
+	Button,
 	Modal,
 	ModalBody,
 	ModalCloseButton,
@@ -31,24 +31,30 @@ import {
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
-import axios from "axios"
+import axios from "axios";
 
 const JobRolePage = () => {
 	const location = useLocation();
 	const jobInfo = location.state;
-	const overall_percentage_match = Math.round(jobInfo.percent_match_overall * 100 * 10) / 10;
-	const generic_skills_match = Math.round(jobInfo.percent_match_generic * 100 * 10) / 10;
-	const technical_skills_match = Math.round(jobInfo.percent_match_technical * 100 * 10) / 10;
+	const overall_percentage_match =
+		Math.round(jobInfo.percent_match_overall * 100 * 10) / 10;
+	const generic_skills_match =
+		Math.round(jobInfo.percent_match_generic * 100 * 10) / 10;
+	const technical_skills_match =
+		Math.round(jobInfo.percent_match_technical * 100 * 10) / 10;
 	const chartColour = (value) => {
 		return value <= 50 ? "red" : value <= 70 ? "orange" : "green";
-	}	
+	};
 	const { isOpen, onOpen, onClose } = useDisclosure();
-	const [skillInfo, setSkillInfo] = useState({})
+	const [skillInfo, setSkillInfo] = useState({});
 	const handleClick = (skillId) => {
-		onOpen()
-		axios.get(`${process.env.REACT_APP_ACCREDIFY_ENDPOINT}/api/v1/skills?id=${skillId}`)
-		.then(res => setSkillInfo(res.data.data[0]))
-	}
+		onOpen();
+		axios
+			.get(
+				`${process.env.REACT_APP_ACCREDIFY_ENDPOINT}/api/v1/skills?id=${skillId}`
+			)
+			.then((res) => setSkillInfo(res.data.data[0]));
+	};
 
 	return (
 		<Box>
@@ -128,11 +134,20 @@ const JobRolePage = () => {
 									: skillInfo["status"] === "Under Qualified"
 									? "orange"
 									: "red";
+							let userLevelName =
+								skillInfo["user_level"].charAt(0) === "L"
+									? `Level ${skillInfo["user_level"].slice(
+											1
+									  )}`
+									: skillInfo["user_level"];
+
 							return (
 								<Tr key={skillId}>
-									<Td>{skillName} {skillId}</Td>
+									<Td>
+										{skillName} {skillId}
+									</Td>
 									<Td>{skillInfo["skill_type"]}</Td>
-									<Td>{skillInfo["user_level"]}</Td>
+									<Td>{userLevelName}</Td>
 									<Td>{skillInfo["job_level"]}</Td>
 									<Td>
 										<Tag
@@ -143,7 +158,11 @@ const JobRolePage = () => {
 										</Tag>
 									</Td>
 									<Td>
-										<Button onClick={() => handleClick(skillId)}>View Skill</Button>
+										<Button
+											onClick={() => handleClick(skillId)}
+										>
+											View Skill
+										</Button>
 									</Td>
 								</Tr>
 							);
@@ -152,7 +171,7 @@ const JobRolePage = () => {
 				</Table>
 			</TableContainer>
 
-			{Object.keys(skillInfo).length === 0 ? null :
+			{Object.keys(skillInfo).length === 0 ? null : (
 				<Modal onClose={onClose} isOpen={isOpen}>
 					<ModalOverlay />
 					<ModalContent>
@@ -160,33 +179,58 @@ const JobRolePage = () => {
 						<ModalCloseButton />
 						<ModalBody>
 							<Box mb={5}>
-								<Heading size="lg" mb={2}>Description</Heading>
+								<Heading size="lg" mb={2}>
+									Description
+								</Heading>
 								<Text>{skillInfo["description"]}</Text>
 							</Box>
 
 							<Box>
-								<Heading size="lg" mb={2}>Proficiencies</Heading>
+								<Heading size="lg" mb={2}>
+									Proficiencies
+								</Heading>
 								{skillInfo["proficiencies"].map((p) => (
 									<Box key={p.id} mb={5}>
 										<Box mb={3}>
-											<Heading size="md" color="teal">{p["level"]}</Heading>
+											<Heading size="md" color="teal">
+												{p["level"]}
+											</Heading>
 											<Text>{p["description"]}</Text>
 										</Box>
-										<Box mb={2}>
-											<Heading size="sm">Knowledge</Heading>
-											<UnorderedList>
-												{p["knowledge"].map((k) => <ListItem>{k}</ListItem>)}
-											</UnorderedList>
-										</Box>
-										<Box>
-											<Heading size="sm">Abilities</Heading>
-											<UnorderedList>
-												{p["abilities"].map((a) => <ListItem>{a}</ListItem>)}
-											</UnorderedList>
-										</Box>
+										{p["knowledge"] === null ? null : (
+											<>
+												<Box mb={2}>
+													<Heading size="sm">
+														Knowledge
+													</Heading>
+													<UnorderedList>
+														{p["knowledge"].map(
+															(k) => (
+																<ListItem>
+																	{k}
+																</ListItem>
+															)
+														)}
+													</UnorderedList>
+												</Box>
+												<Box>
+													<Heading size="sm">
+														Abilities
+													</Heading>
+													<UnorderedList>
+														{p["abilities"].map(
+															(a) => (
+																<ListItem>
+																	{a}
+																</ListItem>
+															)
+														)}
+													</UnorderedList>
+												</Box>
+											</>
+										)}
 									</Box>
 								))}
-
 							</Box>
 						</ModalBody>
 						<ModalFooter>
@@ -194,7 +238,7 @@ const JobRolePage = () => {
 						</ModalFooter>
 					</ModalContent>
 				</Modal>
-			}
+			)}
 		</Box>
 	);
 };

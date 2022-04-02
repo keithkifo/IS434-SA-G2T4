@@ -53,17 +53,16 @@ const InstitutionAdmin = () => {
 	useEffect(() => {
 		axios
 			.get(
-				`https://is434.accredify.io/api/v1/issuance?institutionId=${institutionId}&flatten=true`
+				`https://is434.accredify.io/api/v1/issuance/years?institutionId=${institutionId}`
 			)
 			.then((res) => {
-				let uniqueYears = [];
-				for (let date in res.data.data) {
-					let year = date.slice(0, 4);
-					if (!uniqueYears.includes(year)) {
-						uniqueYears.push(year);
-					}
+				for (let year of res.data.data) {
+					let obj = {
+						id: year,
+						name: year,
+					};
+					setYearList((old) => [...old, obj]);
 				}
-				setYearList(uniqueYears);
 			});
 	}, []);
 
@@ -86,70 +85,111 @@ const InstitutionAdmin = () => {
 		setShowActivity(false);
 		setCalendarReady(false);
 
-		// Load list of unique issuers
-		axios.get(baseEndpoint).then((res) => {
-			for (let issuer in res.data.data) {
-				setIssuerList((old) => [...old, issuer]);
-			}
-		});
-	};
-
-	// Get unique years and unique courses under Issuer
-	const handleIssuerChange = (e) => {
-		setIssuerFilter(e.target.value);
-	
-		// Issuer's courses
+		// Get issuers of Institution
 		axios
 			.get(
-				`https://is434.accredify.io/api/v1/issuance?institutionId=${institutionId}&issuer=${issuerFilter}`
+				`${process.env.REACT_APP_ACCREDIFY_ENDPOINT}/api/v1/issuers?institutionId=${institutionId}`
 			)
 			.then((res) => {
-				let dataObj = res.data.data;
-				let uniqueCourses = [];
-				for (let course in dataObj[e.target.value]) {
-					if (!uniqueCourses.includes(course)) {
-						uniqueCourses.push(course);
-					}
+				let issuers = [];
+				for (let issuer of res.data.data) {
+					issuers.push({
+						id: issuer["id"],
+						name: issuer["name"],
+					});
 				}
-				setCourseList(uniqueCourses);
+				setIssuerList(issuers);
 			});
+	};
+
+	// Get unique years of chosen Issuer
+	const handleIssuerChange = (e) => {
+		setIssuerFilter(e.target.value);
+
+		if (tabIndex === 1) {
+			axios
+				.get(
+					`https://is434.accredify.io/api/v1/issuance/years?institutionId=${institutionId}&issuerId=${e.target.value}`
+				)
+				.then((res) => {
+					for (let year of res.data.data) {
+						let obj = {
+							id: year,
+							name: year,
+						};
+						setYearList((old) => [...old, obj]);
+					}
+				});
+		} else {
+			// Issuer's courses
+			axios
+				.get(
+					`${process.env.REACT_APP_ACCREDIFY_ENDPOINT}/api/v1/courses?institutionId=${institutionId}&issuerId=${e.target.value}`
+				)
+				.then((res) => {
+					let courses = [];
+					for (let course of res.data.data) {
+						courses.push({
+							id: course["courseCode"],
+							name: course["courseTitle"],
+						});
+					}
+					setCourseList(courses);
+				});
+		}
+	};
+
+	// Get years of chosen Course and chosen Issuer
+	const handleCourseChange = (e) => {
+		setCourseFilter(e.target.value);
 
 		// Issuer's years
 		axios
 			.get(
-				`https://is434.accredify.io/api/v1/issuance?institutionId=${institutionId}&flatten=true&issuer=${issuerFilter}`
+				`${process.env.REACT_APP_ACCREDIFY_ENDPOINT}/api/v1/issuance/years?institutionId=${institutionId}&issuerId=${issuerFilter}&courseCode=${e.target.value}`
 			)
 			.then((res) => {
-				let uniqueYears = [];
-				for (let date in res.data.data) {
-					let year = date.slice(0, 4);
-					if (!uniqueYears.includes(year)) {
-						uniqueYears.push(year);
-					}
+				for (let year of res.data.data) {
+					let obj = {
+						id: year,
+						name: year,
+					};
+					setYearList((old) => [...old, obj]);
 				}
-				setYearList(uniqueYears);
 			});
 	};
 
+	// Triggers when all filters are selected with an option
 	useEffect(() => {
-		if ((tabIndex === 0 && yearFilter !== "") || (tabIndex === 1 && yearFilter !== "" && issuerFilter !== "") || (tabIndex === 2 && yearFilter !== "" && issuerFilter !== "" && courseFilter !== "")) {
-			axios.get(baseEndpoint + institutionEndpoints[tabIndex] + "&flatten=true")
-			.then((res) => {
-				let cleanData = [];
-				for (let date in res.data.data) {
-					cleanData.push({
-						value: res.data.data[date],
-						day: date,
-					});
-				}
-				setCalendarData(cleanData);
-				setCalendarReady(true);
-			});
+		if (
+			(tabIndex === 0 && yearFilter !== "") ||
+			(tabIndex === 1 && yearFilter !== "" && issuerFilter !== "") ||
+			(tabIndex === 2 &&
+				yearFilter !== "" &&
+				issuerFilter !== "" &&
+				courseFilter !== "")
+		) {
+			axios
+				.get(
+					baseEndpoint +
+						institutionEndpoints[tabIndex] +
+						"&flatten=true"
+				)
+				.then((res) => {
+					let cleanData = [];
+					for (let date in res.data.data) {
+						cleanData.push({
+							value: res.data.data[date],
+							day: date,
+						});
+					}
+					setCalendarData(cleanData);
+					setCalendarReady(true);
+				});
 		}
-	}, [yearFilter, issuerFilter, courseFilter, tabIndex])
+	}, [yearFilter, issuerFilter, courseFilter, tabIndex]);
 
 	const handleCalendarClick = (day, e) => {
-		setShowActivity(true);
 		let endpoint = "";
 		if (tabIndex === 0) {
 			endpoint = `https://is434.accredify.io/api/v1/issuance?institutionId=${institutionId}&date=${day.data.day}`;
@@ -162,12 +202,13 @@ const InstitutionAdmin = () => {
 		axios.get(endpoint).then((res) => {
 			setActivityBreakdown(res.data.data);
 			setClickCalDate(day.data.day);
+			setShowActivity(true);
 		});
 	};
 
 	return (
-		<>
-			<Heading fontSize="4xl" mb={20}>
+		<Box ml={10} mr={10}>
+			<Heading fontSize="4xl" mb={10}>
 				{" "}
 				Welcome SMU Academy Admin!{" "}
 			</Heading>
@@ -208,7 +249,10 @@ const InstitutionAdmin = () => {
 								<Divider mt={5} mb={5} />
 							</Box>
 						) : (
-							<Alert status="info" style={{"width": "fit-content"}}>
+							<Alert
+								status="info"
+								style={{ width: "fit-content" }}
+							>
 								<AlertIcon />
 								Select a Year to view heatmap.
 							</Alert>
@@ -234,9 +278,9 @@ const InstitutionAdmin = () => {
 							<FilterComponent
 								filter={{ name: "Year" }}
 								selectOptions={yearList}
-								handleOnChange={(e) => {
-									setYearFilter(e.target.value);
-								}}
+								handleOnChange={(e) =>
+									setYearFilter(e.target.value)
+								}
 							/>
 						</VStack>
 						<Divider mt={5} mb={5} />
@@ -251,7 +295,10 @@ const InstitutionAdmin = () => {
 								<Divider mt={5} mb={5} />
 							</Box>
 						) : (
-							<Alert status="info" style={{"width": "fit-content"}}>
+							<Alert
+								status="info"
+								style={{ width: "fit-content" }}
+							>
 								<AlertIcon />
 								Select an Issuer and a Year to view heatmap.
 							</Alert>
@@ -277,9 +324,7 @@ const InstitutionAdmin = () => {
 							<FilterComponent
 								filter={{ name: "Course" }}
 								selectOptions={courseList}
-								handleOnChange={(e) =>
-									setCourseFilter(e.target.value)
-								}
+								handleOnChange={(e) => handleCourseChange(e)}
 							/>
 							<FilterComponent
 								filter={{ name: "Year" }}
@@ -300,7 +345,10 @@ const InstitutionAdmin = () => {
 								/>
 							</Box>
 						) : (
-							<Alert status="info" style={{"width": "fit-content"}}>
+							<Alert
+								status="info"
+								style={{ width: "fit-content" }}
+							>
 								<AlertIcon />
 								Select an Issuer, a Course and a Year to view
 								heatmap.
@@ -309,7 +357,7 @@ const InstitutionAdmin = () => {
 					</TabPanel>
 				</TabPanels>
 			</Tabs>
-		</>
+		</Box>
 	);
 };
 

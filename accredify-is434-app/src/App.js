@@ -1,7 +1,7 @@
 import { ChakraProvider } from "@chakra-ui/react"
 import { Route, Routes } from "react-router-dom";
 import Issuer from "./pages/Issuer";
-import Superadmin from "./pages/Superadmin";
+import SuperAdmin from "./pages/SuperAdmin";
 import InstitutionAdmin from "./pages/InstitutionAdmin";
 import UserCert from "./pages/UserCert";
 import UserJobSearch from "./pages/UserJobSearch";
@@ -19,7 +19,7 @@ function App() {
 				/>
 				<Route
 					path="/superadmin"
-					element={<SidebarWithHeader children={<Superadmin />} />}
+					element={<SidebarWithHeader children={<SuperAdmin />} />}
 				/>
 				<Route
 					path="/institution-admin"
