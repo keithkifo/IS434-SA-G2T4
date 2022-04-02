@@ -1,11 +1,10 @@
 import { ResponsiveCalendar } from "@nivo/calendar";
-import data from "./calendarData.json";
 
-const Heatmap = (props) => (
+const Heatmap = ({ calendarData, yearFilter, handleClick }) => (
 	<ResponsiveCalendar
-		data={data.data}
-		from="2015-03-01"
-		to="2016-07-12"
+		data={calendarData}
+		from={`${yearFilter}-01-01`}
+		to={`${yearFilter}-12-31`}
 		emptyColor="#eeeeee"
 		colors={["#61cdbb", "#97e3d5", "#e8c1a0", "#f47560"]}
 		margin={{ top: 40, right: 40, bottom: 40, left: 40 }}
@@ -25,7 +24,7 @@ const Heatmap = (props) => (
 				itemDirection: "right-to-left",
 			},
 		]}
-		onClick={props.handleClick}
+		onClick={handleClick}
 	/>
 );
 

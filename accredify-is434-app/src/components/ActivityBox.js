@@ -1,9 +1,15 @@
-import { Box, Table, Thead, Tr, Th, Tbody, Td, Heading } from "@chakra-ui/react";
+import { Box, Table, Thead, Tr, Th, Tbody, Td, Heading, Center } from "@chakra-ui/react";
 const ActivityBox = ({ activityBreakdown, tableHeaders, clickCalDate }) => {
+    let d = new Date(clickCalDate)
+    let d_str = d.toDateString().split(" ")
+    let d_reorg = `${d_str[2]} ${d_str[1]} ${d_str[3]} (${d_str[0]})`;
+
     return (
-        <Box>
-            <Heading fontSize={"xl"}>Issuance Activity for {clickCalDate}</Heading>
-            <Table mt={3}>
+        <Box mt={10}>
+            <Center mb={20}>
+                <Heading fontSize={"2xl"}>Issuance Activity for {d_reorg}</Heading>
+            </Center>
+            <Table size="sm">
                 <Thead>
                     <Tr>
                         {tableHeaders.map(th => {

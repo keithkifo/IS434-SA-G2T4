@@ -9,7 +9,6 @@ import {
 	VStack,
 	Icon,
 	useColorModeValue,
-	Link as ChakraLink,
 	Drawer,
 	DrawerContent,
 	Text,
@@ -88,13 +87,13 @@ export default function SidebarWithHeader({ children }) {
 	var userItem = {}
 
 	for (let item of LinkItems) {
-		if (item["address"] === location.pathname) {
+		if (location.pathname.includes(item["address"])) {
 			userItem = item
 		}
 	}
 
 	return (
-		<Box minH="100vh" bg={useColorModeValue("gray.100", "gray.900")}>
+		<Box minH="100vh" bg={"white"}>
 			<SidebarContent
 				onClose={() => onClose}
 				display={{ base: "none", md: "block" }}
@@ -150,21 +149,18 @@ const SidebarContent = ({ onClose, ...rest }) => {
 				/>
 			</Flex>
 			{LinkItems.map((link) => (
-                <Link to={link.address}>
-                    <NavItem key={link.name} icon={link.icon}>
-                        {link.name}
-                    </NavItem>
-                </Link>
+				<NavItem icon={link.icon} key={link.name} to={link.address}> {link.name} </NavItem>
 			))}
 		</Box>
 	);
 };
 
-const NavItem = ({ icon, children, ...rest }) => {
+const NavItem = ({ icon, to, children, ...rest }) => {
 	return (
-		<ChakraLink
+		<Link
 			style={{ textDecoration: "none" }}
 			_focus={{ boxShadow: "none" }}
+			to={to}
 		>
 			<Flex
 				align="center"
@@ -191,7 +187,7 @@ const NavItem = ({ icon, children, ...rest }) => {
 				)}
 				{children}
 			</Flex>
-		</ChakraLink>
+		</Link>
 	);
 };
 
@@ -202,9 +198,7 @@ const MobileNav = ({ onOpen, userItem, ...rest }) => {
 			px={{ base: 4, md: 4 }}
 			height="20"
 			alignItems="center"
-			bg={useColorModeValue("white", "gray.900")}
-			borderBottomWidth="1px"
-			borderBottomColor={useColorModeValue("gray.200", "gray.700")}
+			bg={"white"}
 			justifyContent={{ base: "space-between", md: "flex-end" }}
 			{...rest}
 		>

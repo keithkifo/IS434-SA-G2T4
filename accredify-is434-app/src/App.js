@@ -6,6 +6,7 @@ import InstitutionAdmin from "./pages/InstitutionAdmin";
 import UserCert from "./pages/UserCert";
 import UserJobSearch from "./pages/UserJobSearch";
 import SidebarWithHeader from "./components/SidebarWithHeader";
+import JobRolePage from "./pages/JobRolePage";
 
 function App() {
 	return (
@@ -30,10 +31,21 @@ function App() {
 					path="/user/cert"
 					element={<SidebarWithHeader children={<UserCert />} />}
 				/>
-				<Route
-					path="/user/job-search"
-					element={<SidebarWithHeader children={<UserJobSearch />} />}
-				/>
+
+				<Route path="/user/job-search">
+					<Route
+						index
+						element={
+							<SidebarWithHeader children={<UserJobSearch />} />
+						}
+					/>
+					<Route
+						path=":jobRole"
+						element={
+							<SidebarWithHeader children={<JobRolePage />} />
+						}
+					/>
+				</Route>
 			</Routes>
 		</ChakraProvider>
 	);
