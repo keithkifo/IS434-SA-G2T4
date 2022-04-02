@@ -1,5 +1,5 @@
 import { Box, Center, Image, SimpleGrid } from "@chakra-ui/react";
-import JobCard from "../components/SocialProfileWithImageHorizontal"
+import JobCard from "../components/JobCard"
 
 const UserCert = () => {
 	return (

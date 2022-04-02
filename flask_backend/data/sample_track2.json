@@ -1,0 +1,653 @@
+{
+    "status": 200,
+    "data": [
+        {
+            "id": 1,
+            "sector": "Infocomm Technology",
+            "subsector": null,
+            "track": "Data and Artificial Intelligence",
+            "subtrack": "Artificial Intelligence Applied Research",
+            "occupation": "Artificial Intelligence Applied Researcher",
+            "role": "Artificial Intelligence Applied Researcher",
+            "description": "The Artificial Intelligence Applied Researcher is responsible for the design and conduct of artificial intelligence (AI) research and development, synthesising insights to identify potential use cases of AI for the business. He/She presents AI research and development outcomes to senior management, business stakeholders at public forums. He determines the patentability of AI solutions and assists in the process for obtaining intellectual property rights for AI solutions. He works in a team setting and is proficient in statistics, scripting and programming languages required by  the organisation. He is also familiar with the relevant software platforms on which the solutions are deployed. The AI Applied Researcher has a strong passion and curiosity for uncovering the possibilities of applying AI to address real-life business challenges and enhance organisation performance.",
+            "proficiencies": [
+                {
+                    "id": 47,
+                    "skill_id": 14,
+                    "level": "Level 5",
+                    "description": "Prioritise business innovation opportunities and design digital architectures and processes to facilitate the creation of an innovative business environment",
+                    "knowledge": [
+                        "Current and emerging industry-accepted technology services and business models",
+                        "The organisation's operating context business priorities domain and environment",
+                        "Business planning process and methodologies relating to business innovation",
+                        "Application of digitisation to the business",
+                        "Best practices in implementation process of business innovation",
+                        "Legal ethical and security issues relating to implementation of business innovation"
+                    ],
+                    "abilities": [
+                        "Investigate business strategies to identify business opportunities",
+                        "Evaluate opportunities for viability applicability to the organisation and compatibility with business goals and objectives",
+                        "Design digital architectures to structure the application of digital technologies to different parts of the business",
+                        "Develop a viable action plan to implement the business innovation processes in accordance with the organisation's business strategies",
+                        "Manage business innovation to review success of integration with the organisation's business strategies",
+                        "Facilitate information flow among key stakeholders to empower sharing and development of innovative ideas"
+                    ],
+                    "skill": {
+                        "id": 14,
+                        "name": "Business Innovation",
+                        "description": "Identify and evaluate digitisation and innovative business opportunities provided by new advancements in information and communication technology to establish new services or businesses to bridge the physical and digital worlds",
+                        "category": "Business and Project Management",
+                        "type": "TECHNICAL_SKILL"
+                    }
+                },
+                {
+                    "id": 52,
+                    "skill_id": 15,
+                    "level": "Level 5",
+                    "description": "Lead comprehensive analysis to understand underlying drivers and present a compelling business case for proposed IT solutions",
+                    "knowledge": [
+                        "Best practice methodologies in business requirement gathering",
+                        "Strategic planning and prioritisation for IT business requirements",
+                        "Business modelling techniques and tools",
+                        "Projection of long term implications of IT solutions or changes",
+                        "Business case development"
+                    ],
+                    "abilities": [
+                        "Design requirement elicitation process defining analysis and inputs required",
+                        "Lead complex and comprehensive analysis of business processes and inputs gathered to understand long-term business requirements and their driving factors",
+                        "Facilitate scoping and business priority setting for strategic and complex IT initiatives with senior stakeholders",
+                        "Obtain formal agreement from stakeholders and recipients to the scope prioritised requirements and establishment of a baseline for solution delivery",
+                        "Manage effective business processes through changes and enhancements in IT systems management and processes",
+                        "Establish the contribution that IT initiatives programmes and solutions can make to business objectives",
+                        "Oversee development and implementation of solutions taking into account the change implications to the organisation and all stakeholders",
+                        "Utilise in-depth analysis and business models to present a strong compelling business case for proposed IT changes and solutions",
+                        "Project long-term costs and benefits options risks and impact to senior stakeholders"
+                    ],
+                    "skill": {
+                        "id": 15,
+                        "name": "Business Needs Analysis",
+                        "description": "Identify and scope business requirements and priorities through rigorous information gathering and analysis as well as clarification of the solutions initiatives and programmes to enable effective delivery. This also involves the development of a compelling and defensible business case and the articulation of the potential impact of the solution to the business",
+                        "category": "Business and Project Management",
+                        "type": "TECHNICAL_SKILL"
+                    }
+                },
+                {
+                    "id": 81,
+                    "skill_id": 24,
+                    "level": "Level 4",
+                    "description": "Set-up and deploy video analytics algorithms and perform system performance evaluations",
+                    "knowledge": [
+                        "Vision system concepts",
+                        "Business applications of vision systems",
+                        "Methods to represent image and video data",
+                        "Image and video processing filtering and transformation methods",
+                        "Feature extraction and representation techniques",
+                        "Local feature descriptions edge colour texture and motion",
+                        "Global feature descriptions statistical and geometrical methods",
+                        "Deep learning concepts",
+                        "Object segmention detection and recognition",
+                        "Activity tracking generative models scene understanding and event discovery",
+                        "Vision system architecture",
+                        "Vision communication protocols",
+                        "Real-world design constraints and solution options"
+                    ],
+                    "abilities": [
+                        "Identify the needs of vision systems technology in industrial applications",
+                        "Apply the principles of processing filtering and analysis methods for video data",
+                        "Analyse global feature descriptions",
+                        "Design and implement feature extraction and representation methods",
+                        "Design and apply machine-learning based methods for object detection object tracking and activity recognition",
+                        "Design and apply video analytics algorithms for high-level video analytics tasks",
+                        "Design the architecture of appplied vision systems",
+                        "Design develop and evaluate edge-based and cloud-based systems"
+                    ],
+                    "skill": {
+                        "id": 24,
+                        "name": "Computer Vision Technology",
+                        "description": "Develop and deploy vision analytics algorithm and spatial sensing andor reasoning systems",
+                        "category": "Development and Implementation",
+                        "type": "TECHNICAL_SKILL"
+                    }
+                },
+                {
+                    "id": 140,
+                    "skill_id": 40,
+                    "level": "Level 5",
+                    "description": "Establish a strategy for the creation of large-scale data models and structures and spearhead the implementation of database technology architectures software and facilities",
+                    "knowledge": [
+                        "Database technology and their applications",
+                        "Principles of data flow within and beyond the enterprise",
+                        "Critical components in data warehouse blueprints",
+                        "Application of various database architectures software and facilities"
+                    ],
+                    "abilities": [
+                        "Establish strategy for the creation of large-scale  enterprise-wide data models and structures",
+                        "Spearhead the use of database technology where appropriate considering the complex interconnections between different hardware and software",
+                        "Commission the use and implementation of database architectures software and facilities",
+                        "Direct data flow and processes within and beyond the enterprise",
+                        "Endorse design specifications of database models ensuring alignment with business objectives",
+                        "Conceptualise data warehouse blueprints taking into account any specialist requirements"
+                    ],
+                    "skill": {
+                        "id": 40,
+                        "name": "Data Design",
+                        "description": "Specify and create a data structure or database model including the setting of various parameters or fields that can be modified to suit different structured or unstructured data requirements the design of data flow as well as the development of mechanisms for maintenance storage and retrieval of data based on the business requirements",
+                        "category": "Design and Architecture",
+                        "type": "TECHNICAL_SKILL"
+                    }
+                },
+                {
+                    "id": 147,
+                    "skill_id": 42,
+                    "level": "Level 5",
+                    "description": "Formulate the organisation's code of ethics systems and processes to ensure adherence to professional legal and ethical requirements for data usage",
+                    "knowledge": [
+                        "Implications of ethics in handling of data",
+                        "Organisational policies and procedures for reviewing and reporting on governance and compliance",
+                        "Underlying principles governing legislation and ethical decision-making",
+                        "Hierarchy of guiding principles in resolution of ethical dilemmas",
+                        "Legal ethical and regulatory requirements",
+                        "Personal Data Protection Act PDPA",
+                        "Model AI Governance Framework",
+                        "Industry-related code of ethics relating to data",
+                        "Global trends and developments in data ethics"
+                    ],
+                    "abilities": [
+                        "Establish procedures to identify and address ethical problems",
+                        "Develop and implement procedures to maintain confidentiality in accordance with data protection and ethics guidelines",
+                        "Evaluate compliance requirements",
+                        "Disseminate changes and updates in ethical- legal requirements professional code of conduct and standards of practice",
+                        "Maintain an environment conducive to upholding ethical data usage",
+                        "Facilitate resolution of ethical conflicts in situations of breach of data ethics"
+                    ],
+                    "skill": {
+                        "id": 42,
+                        "name": "Data Ethics",
+                        "description": "Apply legal and ethical principles in the collection use storage and disposal of data",
+                        "category": "Governance and Compliance",
+                        "type": "TECHNICAL_SKILL"
+                    }
+                },
+                {
+                    "id": 150,
+                    "skill_id": 43,
+                    "level": "Level 5",
+                    "description": "Develop organisation practices and standards for handling data throughout their lifecycle resolve breaches and oversee transfer of data between organisations",
+                    "knowledge": [
+                        "Organisation's perspective on fundamental IT and data principles",
+                        "Impact of poor data quality and practices on the business",
+                        "Strategies to mitigate poor data practices",
+                        "Legal parameters or business implications of data handling",
+                        "Underlying ethical principles governing data handling practices",
+                        "Privacy laws in a range of organisations and similarities or differences from own organisation",
+                        "Possible treatment of data breaches"
+                    ],
+                    "abilities": [
+                        "Develop organisation practices for handling the lifecycle of data",
+                        "Develop internal standards to guide data capture and validation access usage masking storage archival and retention",
+                        "Initiate process and programmes to mitigate business risk of poor data quality and practices",
+                        "Clarify ethically questionable situations at various stages of the data or information life cycle",
+                        "Oversee transfer of data between organisations governed by the same privacy laws",
+                        "Anticipate legal implications of data handling processes",
+                        "Resolve data breaches"
+                    ],
+                    "skill": {
+                        "id": 43,
+                        "name": "Data Governance",
+                        "description": "Develop and implement guidelines laws and regulations across the organisation for the handling of data at various stages in its lifecycle as well as the provision of advice on proper data handling and resolution of data breaches in a range of complex ambiguous or multi-faceted contexts",
+                        "category": "Governance and Compliance",
+                        "type": "TECHNICAL_SKILL"
+                    }
+                },
+                {
+                    "id": 161,
+                    "skill_id": 47,
+                    "level": "Level 5",
+                    "description": "Establish data management strategies to extract maximum value from information assets and support decision-making and business processes",
+                    "knowledge": [
+                        "Data architecture design and formulation",
+                        "Information or data flows of a business",
+                        "Data structure design",
+                        "Types of information assets and their business value",
+                        "Data management approaches and frameworks and their pros and cons",
+                        "Existing new and revised internal and external information regulation policies and",
+                        "requirements Knowledge of a specific industry domain"
+                    ],
+                    "abilities": [
+                        "Establish data standards internal processes and structures to enable the organisation to maximise value from data and information assets",
+                        "Direct the capturing retention and utilisation of critical data",
+                        "Oversee the organisation's data architecture including the monitoring and management of data flows",
+                        "Manage usage of various forms of data to support decision-making and business processes",
+                        "Anticipate the current and future information lifecycle needs of an organisation",
+                        "Establish the organisation's data management strategy",
+                        "Develop corporate Standard Operating Procedures SOP protocols and standards for data management sourcing handling and treatment",
+                        "Establish guidelines for effective data storage sharing and publishing within the organisation"
+                    ],
+                    "skill": {
+                        "id": 47,
+                        "name": "Data Strategy",
+                        "description": "Develop a robust and coherent data strategy and support architectures policies practices and procedures that enable the organisation to manage and utilise data in an effective manner. This includes introduction of innovative ways of organising managing and integrating the data of the organisation to ensure their viability and ability to drive business value. It also includes the setting of information storage sharing handling and usage protocols to support alignment with relevant legislation and business strategies",
+                        "category": "Strategy Planning and Implementation",
+                        "type": "TECHNICAL_SKILL"
+                    }
+                },
+                {
+                    "id": 178,
+                    "skill_id": 52,
+                    "level": "Level 5",
+                    "description": "Establish effective design thinking processes methodologies and frameworks to proliferate design thinking across the organisation",
+                    "knowledge": [
+                        "Latest trends in design thinking",
+                        "Concept of innovation management",
+                        "Drivers of organisational growth and success",
+                        "Concept and principles of resource management",
+                        "Project management tools and techniques"
+                    ],
+                    "abilities": [
+                        "Integrate design thinking methodologies into processes to drive innovation across the organisation",
+                        "Develop strategies to proliferate design thinking across the organisation",
+                        "Synthesise information from different sources and stakeholders in order to fully understand the needs of end users",
+                        "Drive the development of new strategies to enhance products andor services for the organisation",
+                        "Engage stakeholders during the design thinking process to uncover the motivations behind their actions and behaviours",
+                        "Cultivate design thinking as a viable tool and methodology to foster new innovations for the organisation",
+                        "Lead design thinking projects across the organisation"
+                    ],
+                    "skill": {
+                        "id": 52,
+                        "name": "Design Thinking Practice",
+                        "description": "Manage design thinking methodologies and processes to solve specific challenges for the organisation and guide stakeholders through the phases of inspiration empathy ideation and implementation",
+                        "category": "Design and Architecture",
+                        "type": "TECHNICAL_SKILL"
+                    }
+                },
+                {
+                    "id": 192,
+                    "skill_id": 57,
+                    "level": "Level 5",
+                    "description": "Establish internal structures and processes to guide the exploration integration and evaluation of new technologies",
+                    "knowledge": [
+                        "Key sources of information on new technologies in adjacent competing or relevant industries",
+                        "Risk analysis of the new technologies and implications on legal ethical or security dimensions of the business",
+                        "Change management and implementation considerations relating to introduction of new technologies",
+                        "Business priorities planning value chain and key processes",
+                        "Current and future impact analysis"
+                    ],
+                    "abilities": [
+                        "Lead the identification and evaluation of new and emerging technologies techniques and models",
+                        "Decipher impact of new and emerging technologies on business operations",
+                        "Experiment with the integration of new and emerging technology into the existing business context",
+                        "Establish internal processes and guidelines to facilitate the research on and evaluation of new technologies",
+                        "Establish organisational need and selection criteria for new technologies",
+                        "Articulate the business considerations and parameters relating to the adoption of new technologies",
+                        "Manage collaborations with external partners to gain access to and explore emerging technologies"
+                    ],
+                    "skill": {
+                        "id": 57,
+                        "name": "Emerging Technology Synthesis",
+                        "description": "Monitor and integrate emerging technology trends and developments structured data gathering for the identification of new and emerging technological products services and techniques. In addition the performance of cost-benefit analysis and evaluation of their relevance viability sustainability and potential value add to the business",
+                        "category": "Business and Project Management",
+                        "type": "TECHNICAL_SKILL"
+                    }
+                },
+                {
+                    "id": 230,
+                    "skill_id": 69,
+                    "level": "Level 5",
+                    "description": "Evaluate design and build intelligent software systems",
+                    "knowledge": [
+                        "Cognitive systems",
+                        "Cognitive knowledge representation and techniques",
+                        "Speech comprehension and processing",
+                        "Vision comprehension and processing",
+                        "Natural language comprehension and processing",
+                        "Reasoning systems",
+                        "Search techniques for search-based reasoning applications",
+                        "Optimisation techniques for optimisation reasoning applications",
+                        "Knowledge discovery techniques for reasoning applications",
+                        "Hybrid reasoning systems",
+                        "Data mining framework",
+                        "AI Ethics"
+                    ],
+                    "abilities": [
+                        "Identify required cognitive functions based on business needs",
+                        "Design cognitive applications based on business requirements",
+                        "Analyse business drivers and application areas of intelligent reasoning systems",
+                        "Design and apply search techniques to realise expected business outcomes",
+                        "De-compose complex application scenarios into subproblems",
+                        "Resolve subproblems by assembling cooperative intelligent subsystems",
+                        "Design cooperative reasoning modules based on decomposed business outcomes",
+                        "Create hybrid reasoning systems by applying suitable techniques and computer programming",
+                        "Build reasoning systems using hybrid reasoning techniques and sub- modules"
+                    ],
+                    "skill": {
+                        "id": 69,
+                        "name": "Intelligent Reasoning",
+                        "description": "Design and build intelligent machine reasoning systems that can integrate make sense of and act upon heterogeneous sensory information sources using domain knowledge accumulated in respective industries",
+                        "category": "Development and Implementation",
+                        "type": "TECHNICAL_SKILL"
+                    }
+                },
+                {
+                    "id": 286,
+                    "skill_id": 86,
+                    "level": "Level 5",
+                    "description": "Design organisational structures systems and processes",
+                    "knowledge": [
+                        "Professional or industry codes of practice and standards relating to organisational design",
+                        "Principles of organisational design",
+                        "Models of organisational design",
+                        "Dimensions of organisational design",
+                        "Implications of organisational design",
+                        "Methods of evaluating organisational design"
+                    ],
+                    "abilities": [
+                        "Review effectiveness of current organisational structures systems and processes to identify gaps",
+                        "Consult stakeholders to identify requirements of organisational design",
+                        "Drive changes to organisational structures systems and processes",
+                        "Determine resources required to support organisational design",
+                        "Recommend enhancements to organisational design to improve effectiveness"
+                    ],
+                    "skill": {
+                        "id": 86,
+                        "name": "Organisational Design",
+                        "description": "Develop and facilitate the implementation of organisational design to ensure its effectiveness and alignment with stakeholders' priorities",
+                        "category": "Design and Architecture",
+                        "type": "TECHNICAL_SKILL"
+                    }
+                },
+                {
+                    "id": 293,
+                    "skill_id": 88,
+                    "level": "Level 5",
+                    "description": "Develop intelligent systems using machine learning techniques",
+                    "knowledge": [
+                        "Pattern recognition and machine learning techniques",
+                        "Neural networks modelling and design",
+                        "Deep neural networks and deep learning",
+                        "Convolutional neural networks architecture and applications",
+                        "Recurrent neural networks architecture and applications",
+                        "Hybrid and ensemble approaches to problem solving",
+                        "AI Ethics"
+                    ],
+                    "abilities": [
+                        "Assess and compare the suitability of advanced pattern recognition and machine learning techniques across a range of problem domains",
+                        "Apply deep learning and other advanced machine learning techniques to solve problems",
+                        "Solve temporal sequential problems using recurrent neural networks",
+                        "Build intelligent systems using deep learning and other advanced pattern recognition techniques",
+                        "Design and implement signal processing methods using machine learning",
+                        "Design and implement signal processing methods for signal processing tasks",
+                        "Evaluate the performance of signal processing"
+                    ],
+                    "skill": {
+                        "id": 88,
+                        "name": "Pattern Recognition Systems",
+                        "description": "Develop and apply intelligent pattern recognition systems and techniques to analyse data and derive useful hidden patterns to solve problems",
+                        "category": "Development and Implementation",
+                        "type": "TECHNICAL_SKILL"
+                    }
+                },
+                {
+                    "id": 327,
+                    "skill_id": 99,
+                    "level": "Level 5",
+                    "description": "Lead end-to-end management of large programmes or multiple projects concurrently coordinating project interdependencies",
+                    "knowledge": [
+                        "Best practices in end-to- end programme management",
+                        "Current methodologies and tools in industry",
+                        "Strategies for alignment of different programmes",
+                        "Programme risk anticipation mitigation and planning",
+                        "Resource-management techniques",
+                        "Project budget planning",
+                        "Performance review processes for programmes"
+                    ],
+                    "abilities": [
+                        "Manage large programmes or multiple projects concurrently through the phases from definition scoping delivery and successful completion that are typically with significant business impact and high-risk dependencies",
+                        "Plan programmes in accordance to organisation requirements",
+                        "Identify programme implications and manage and coordinate project interdependencies with other projects",
+                        "Determine appropriate methodologies and tools ensuring that they are fit- for-purpose",
+                        "Develop a programme- specific risk management plan",
+                        "Develop a stakeholder engagement plan to secure the buy-in and support of critical stakeholders",
+                        "Plan programme budgets and strategically control and allocate resources across multiple projects",
+                        "Review progress and performance of individual projects and recommend actions for improvement"
+                    ],
+                    "skill": {
+                        "id": 99,
+                        "name": "Project Management",
+                        "description": "Perform planning organisation monitoring and control of all aspects of an IT programme and the strategic utilisation of resources to achieve the objectives within the agreed timelines costs and performance expectations. In addition the identification coordination and management of project interdependencies ensuring alignment with and achievement of business objectives",
+                        "category": "Business and Project Management",
+                        "type": "TECHNICAL_SKILL"
+                    }
+                },
+                {
+                    "id": 336,
+                    "skill_id": 102,
+                    "level": "Level 5",
+                    "description": "Establish and control quality expectations in line with organisation directions and selected benchmarks",
+                    "knowledge": [
+                        "Processes in the development of organisation quality standards",
+                        "Potential lapses or gaps in quality practices",
+                        "Quality expectations of IT products and services"
+                    ],
+                    "abilities": [
+                        "Control quality standards in line with organisation's directions",
+                        "Analyse lapses or misalignment in organisation's quality practices and propose possible ideas for improvements",
+                        "Develop updated or revised quality expectations based on management's strategic direction as well as requirements of different functions",
+                        "Specify quality requirements for IT products and services based on selected benchmarks and best practices",
+                        "Drive implementation of quality practices and procedures throughout the organisation"
+                    ],
+                    "skill": {
+                        "id": 102,
+                        "name": "Quality Standards",
+                        "description": "Develop review and communicate a clear quality expectations and standards within an organisation that are aligned to the company's values and business objectives. This encompasses the setting and implementation of quality expectations for IT products and services delivered to both internal or external clients",
+                        "category": "Governance and Compliance",
+                        "type": "TECHNICAL_SKILL"
+                    }
+                },
+                {
+                    "id": 342,
+                    "skill_id": 104,
+                    "level": "Level 4",
+                    "description": "Design a research strategy and propose projects to meet identified research needs",
+                    "knowledge": [
+                        "Project design approaches for research projects",
+                        "Techniques for budgets and resource management for research projects",
+                        "Purpose of the research and how it will be used",
+                        "Potential legal risks factual errors and breaches of codes of conduct involved in using research material",
+                        "Organisational guidelines affecting research project"
+                    ],
+                    "abilities": [
+                        "Define the key problems to be addressed in the research project",
+                        "Design a research strategy to meet identified research needs",
+                        "Review the relevance and usefulness of findings against research objectives outlined in research project plan",
+                        "Lead the production of the final research findings and its associated outcomes",
+                        "Develop reports to showcase business recommendations based on research findings",
+                        "Develop reports on future improvements to research processes",
+                        "Identify legal and ethical issues likely to arise from using any research material"
+                    ],
+                    "skill": {
+                        "id": 104,
+                        "name": "Research",
+                        "description": "Research on a concept or idea to provide inputs for content development",
+                        "category": "Development and Implementation",
+                        "type": "TECHNICAL_SKILL"
+                    }
+                },
+                {
+                    "id": 373,
+                    "skill_id": 114,
+                    "level": "Level 4",
+                    "description": "Plan the end-to-end process to design build and deploy adaptive software robots in hardware and devices validating and optimising software robots in different application areas",
+                    "knowledge": [
+                        "Autonomy and agency",
+                        "Automating repetitive tasks",
+                        "Differences between Single agents and multiple agents",
+                        "Sequences flowchart State Machine Workflow",
+                        "User interface automation",
+                        "System activities and user events",
+                        "Recording and scraping websites",
+                        "Testing and debugging",
+                        "Multi-agent robots",
+                        "Industry best practices in software robots",
+                        "Application integration",
+                        "Embedding and deploying robots",
+                        "Validation and verification"
+                    ],
+                    "abilities": [
+                        "Determine the best practices for building autonomous software robots",
+                        "Plan the processes to design and build software robots",
+                        "Define the technical requirements needed for the sofware robots",
+                        "Construct fully functional software robots",
+                        "Validate the design of the software robots",
+                        "Introduce new andor best practices in the design and planning of the software robots",
+                        "Gather feedback on the performance of the software robots",
+                        "Review the cording testing and design criteria",
+                        "Optimise the performance of the software robots during and after deployment"
+                    ],
+                    "skill": {
+                        "id": 114,
+                        "name": "Self-Learning Systems",
+                        "description": "Design and develop self-learning systems using reinforcement learning and evolutionary learning techniques",
+                        "category": "Development and Implementation",
+                        "type": "TECHNICAL_SKILL"
+                    }
+                },
+                {
+                    "id": 394,
+                    "skill_id": 120,
+                    "level": "Level 4",
+                    "description": "Develop a stakeholder engagement plan and negotiate with stakeholders to arrive at mutually- beneficial arrangements",
+                    "knowledge": [
+                        "Analysis of stakeholder relationships and levels of interest power and impact",
+                        "Process of setting and aligning expectations",
+                        "Negotiation techniques and approaches",
+                        "Conflict resolution techniques and approaches",
+                        "Escalation procedures for handling disputes"
+                    ],
+                    "abilities": [
+                        "Analyse the complexities of stakeholder relationships and determine their level of interest power and impact on the organisation",
+                        "Examine stakeholder positions agendas and priorities which may be explicitly articulated or unspoken",
+                        "Develop a stakeholder engagement plan to guide communications with different groups of stakeholders",
+                        "Set clear parameters and expectations of stakeholders' roles and responsibilities",
+                        "Negotiate with stakeholders to align interests or goals and arrive at mutually- beneficial arrangements",
+                        "Investigate problems or issues encountered in stakeholder relationships",
+                        "Review feedback from stakeholders and affected parties and recommend improvements to stakeholder management strategy"
+                    ],
+                    "skill": {
+                        "id": 120,
+                        "name": "Stakeholder Management",
+                        "description": "Manage stakeholder expectations and needs by aligning those with requirements and objectives of the organisation. This involves planning of actions to effectively communicate with negotiate with and influence stakeholders",
+                        "category": "Stakeholder and Contract Management",
+                        "type": "TECHNICAL_SKILL"
+                    }
+                },
+                {
+                    "id": 422,
+                    "skill_id": 128,
+                    "level": "Level 6",
+                    "description": "Design and implement systems that can interact with users using spoken or written natural language",
+                    "knowledge": [
+                        "Conversational user interfaces UIs",
+                        "Common roles and applications with conversational UIs",
+                        "Main concepts architecture and components of conversational UIs",
+                        "Conversation design",
+                        "Natural language understanding techniques",
+                        "Response generation",
+                        "Conversational UI with speech",
+                        "Systems that can interact with users including chatbots and virtual assistants"
+                    ],
+                    "abilities": [
+                        "Determine the roles that systems with conversational UI can play in fielded applications",
+                        "Identify and analyse the main components and the architectures of conversational interfaces",
+                        "Design conversational UI following practical methodologies and strategies",
+                        "Develop applications with conversational UI using traditional and machine learning approaches",
+                        "Generate responses to the users through natural language generation",
+                        "Evaluate the performance of the conversational UI using appropriate metrics",
+                        "Handle speech input and output for conversational UI using prevalent techniques"
+                    ],
+                    "skill": {
+                        "id": 128,
+                        "name": "Text Analytics and Processing",
+                        "description": "Identify extract and analyse text data using text analytics solutions to discover themes patterns and trends",
+                        "category": "Development and Implementation",
+                        "type": "TECHNICAL_SKILL"
+                    }
+                },
+                {
+                    "id": 446,
+                    "skill_id": 135,
+                    "level": "Intermediate",
+                    "description": "Articulate and discuss ideas and persuade others to achieve common outcomes.",
+                    "knowledge": null,
+                    "abilities": null,
+                    "skill": {
+                        "id": 135,
+                        "name": "Communication",
+                        "description": "Convey and exchange thoughts ideas and information effectively through various mediums and approaches.",
+                        "category": null,
+                        "type": "GENERIC_SKILL"
+                    }
+                },
+                {
+                    "id": 450,
+                    "skill_id": 136,
+                    "level": "Intermediate",
+                    "description": "Modify existing computational models tools and techniques to develop different solutions.",
+                    "knowledge": null,
+                    "abilities": null,
+                    "skill": {
+                        "id": 136,
+                        "name": "Computational Thinking",
+                        "description": "Develop and use computational models tools and techniques to interpret and understand data solve problems and guide decision-making.",
+                        "category": null,
+                        "type": "GENERIC_SKILL"
+                    }
+                },
+                {
+                    "id": 457,
+                    "skill_id": 139,
+                    "level": "Advanced",
+                    "description": "Provide mentorship to help others to develop their professional and personal development to improve performance and further their careers.",
+                    "knowledge": null,
+                    "abilities": null,
+                    "skill": {
+                        "id": 139,
+                        "name": "Developing People",
+                        "description": "Help others to learn an develop their capabilities to enhance their performance and achieve personal or professional goals.",
+                        "category": null,
+                        "type": "GENERIC_SKILL"
+                    }
+                },
+                {
+                    "id": 469,
+                    "skill_id": 143,
+                    "level": "Advanced",
+                    "description": "Lead by example at organisational level. Inspire motivate and guide others to adopt a point of view make changes or take action. Cultivate an open cooperative and collaborative learning culture for the organisation.",
+                    "knowledge": null,
+                    "abilities": null,
+                    "skill": {
+                        "id": 143,
+                        "name": "Leadership",
+                        "description": "Lead others to achieve objectives in the most efficient way. Provide an inclusive workspace that cultivates workplace relationships and teamwork and foster the development of others.",
+                        "category": null,
+                        "type": "GENERIC_SKILL"
+                    }
+                },
+                {
+                    "id": 472,
+                    "skill_id": 144,
+                    "level": "Intermediate",
+                    "description": "Engage in collaborative learning by discussing one's learning with others and soliciting feedback to continually improve oneself.",
+                    "knowledge": null,
+                    "abilities": null,
+                    "skill": {
+                        "id": 144,
+                        "name": "Lifelong Learning",
+                        "description": "Seek out opportunities to enhance one's knowledge and skills. Access and acquire new knowledge and skills actively for continual learning.",
+                        "category": null,
+                        "type": "GENERIC_SKILL"
+                    }
+                }
+            ]
+        }
+    ]
+}

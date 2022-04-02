@@ -7,10 +7,9 @@ import {
 	TabPanels,
 	Tabs,
 	VStack,
-	Text,
 	Heading,
-	Button,
-	HStack
+	Alert,
+	AlertIcon,
 } from "@chakra-ui/react";
 import axios from "axios";
 import { useEffect, useState } from "react";
@@ -19,7 +18,7 @@ import FilterComponent from "../components/FilterComponent";
 import Heatmap from "../components/Heatmap";
 
 const InstitutionAdmin = () => {
-	const institutionId = 1; // hard coded
+	const institutionId = 2; // hard coded - SMUA
 	const [tabIndex, setTabIndex] = useState(0);
 
 	const [yearList, setYearList] = useState([]);
@@ -168,9 +167,17 @@ const InstitutionAdmin = () => {
 
 	return (
 		<>
-			<Heading mb={3}> Welcome Institution! </Heading>
+			<Heading fontSize="4xl" mb={20}>
+				{" "}
+				Welcome SMU Academy Admin!{" "}
+			</Heading>
 
-			<Tabs index={tabIndex} onChange={handleTabChange}>
+			<Tabs
+				index={tabIndex}
+				onChange={handleTabChange}
+				variant="soft-rounded"
+				colorScheme="gray"
+			>
 				<TabList>
 					<Tab>Overview</Tab>
 					<Tab>Issuer Level</Tab>
@@ -189,21 +196,24 @@ const InstitutionAdmin = () => {
 								}}
 							/>
 						</VStack>
+						<Divider mt={5} mb={5} />
 
-						<Box style={{ height: 200 }}>
-							{calendarReady === true ? (
+						{calendarReady === true ? (
+							<Box style={{ height: 200 }}>
 								<Heatmap
 									calendarData={calendarData}
 									yearFilter={yearFilter}
 									handleClick={handleCalendarClick}
 								/>
-							) : (
-								<Text mt={5}>
-									Select a Year to view heatmap.
-								</Text>
-							)}
-						</Box>
-						<Divider mb={2} />
+								<Divider mt={5} mb={5} />
+							</Box>
+						) : (
+							<Alert status="info" style={{"width": "fit-content"}}>
+								<AlertIcon />
+								Select a Year to view heatmap.
+							</Alert>
+						)}
+
 						{showActivity ? (
 							<ActivityBox
 								activityBreakdown={activityBreakdown}
@@ -229,20 +239,24 @@ const InstitutionAdmin = () => {
 								}}
 							/>
 						</VStack>
-						<Box style={{ height: 200 }}>
-							{calendarReady === true ? (
+						<Divider mt={5} mb={5} />
+
+						{calendarReady === true ? (
+							<Box style={{ height: 200 }}>
 								<Heatmap
 									calendarData={calendarData}
 									yearFilter={yearFilter}
 									handleClick={handleCalendarClick}
 								/>
-							) : (
-								<Text mt={5}>
-									Select an Issuer and Year to view heatmap.
-								</Text>
-							)}
-						</Box>
-						<Divider mb={2} />
+								<Divider mt={5} mb={5} />
+							</Box>
+						) : (
+							<Alert status="info" style={{"width": "fit-content"}}>
+								<AlertIcon />
+								Select an Issuer and a Year to view heatmap.
+							</Alert>
+						)}
+
 						{showActivity ? (
 							<ActivityBox
 								activityBreakdown={activityBreakdown}
@@ -263,38 +277,35 @@ const InstitutionAdmin = () => {
 							<FilterComponent
 								filter={{ name: "Course" }}
 								selectOptions={courseList}
-								handleOnChange={(e) => {
-									let renameCourse = "%23" + e.target.value.substring(1)
-									setCourseFilter(renameCourse)
-								}}
+								handleOnChange={(e) =>
+									setCourseFilter(e.target.value)
+								}
 							/>
 							<FilterComponent
 								filter={{ name: "Year" }}
 								selectOptions={yearList}
-								handleOnChange={(e) => setYearFilter(e.target.value)}
+								handleOnChange={(e) =>
+									setYearFilter(e.target.value)
+								}
 							/>
 						</VStack>
-						<Box style={{ height: 200 }}>
-							{calendarReady === true ? (
+						<Divider mt={5} mb={5} />
+
+						{calendarReady === true ? (
+							<Box style={{ height: 200 }}>
 								<Heatmap
 									calendarData={calendarData}
 									yearFilter={yearFilter}
 									handleClick={handleCalendarClick}
 								/>
-							) : (
-								<Text mt={5}>
-									Select an Issuer, a Course and a Year to view heatmap.
-								</Text>
-							)}
-						</Box>
-						<Divider mb={2} />
-						{showActivity ? (
-							<ActivityBox
-								activityBreakdown={activityBreakdown}
-								tableHeaders={tableHeaders[tabIndex]}
-								clickCalDate={clickCalDate}
-							/>
-						) : null}
+							</Box>
+						) : (
+							<Alert status="info" style={{"width": "fit-content"}}>
+								<AlertIcon />
+								Select an Issuer, a Course and a Year to view
+								heatmap.
+							</Alert>
+						)}
 					</TabPanel>
 				</TabPanels>
 			</Tabs>
