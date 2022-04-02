@@ -1,0 +1,241 @@
+{
+    "sector": "Infocomm Technology",
+    "track": "Data and Artificial Intelligence",
+    "job_role": "Artificial Intelligence Applied Researcher",
+    "job_description": "The Artificial Intelligence Applied Researcher is responsible for the design and conduct of artificial intelligence (AI) research and development, synthesising insights to identify potential use cases of AI for the business. He/She presents AI research and development outcomes to senior management, business stakeholders at public forums. He determines the patentability of AI solutions and assists in the process for obtaining intellectual property rights for AI solutions. He works in a team setting and is proficient in statistics, scripting and programming languages required by  the organisation. He is also familiar with the relevant software platforms on which the solutions are deployed. The AI Applied Researcher has a strong passion and curiosity for uncovering the possibilities of applying AI to address real-life business challenges and enhance organisation performance.",
+    "percent_match_overall": 0.4848,
+    "percent_match_technical": 0.4713,
+    "percent_match_generic": 0.5833,
+    "skills": [
+        {
+            "14": {
+                "Business Innovation": {
+                    "skill_type": "Technical",
+                    "job_level": "Level 5",
+                    "user_level": "NA",
+                    "status": "Not Qualified"
+                }
+            }
+        },
+        {
+            "15": {
+                "Business Needs Analysis": {
+                    "skill_type": "Technical",
+                    "job_level": "Level 5",
+                    "user_level": "L4",
+                    "status": "Under Qualified"
+                }
+            }
+        },
+        {
+            "24": {
+                "Computer Vision Technology": {
+                    "skill_type": "Technical",
+                    "job_level": "Level 4",
+                    "user_level": "NA",
+                    "status": "Not Qualified"
+                }
+            }
+        },
+        {
+            "40": {
+                "Data Design": {
+                    "skill_type": "Technical",
+                    "job_level": "Level 5",
+                    "user_level": "L3",
+                    "status": "Under Qualified"
+                }
+            }
+        },
+        {
+            "42": {
+                "Data Ethics": {
+                    "skill_type": "Technical",
+                    "job_level": "Level 5",
+                    "user_level": "NA",
+                    "status": "Not Qualified"
+                }
+            }
+        },
+        {
+            "43": {
+                "Data Governance": {
+                    "skill_type": "Technical",
+                    "job_level": "Level 5",
+                    "user_level": "L3",
+                    "status": "Under Qualified"
+                }
+            }
+        },
+        {
+            "47": {
+                "Data Strategy": {
+                    "skill_type": "Technical",
+                    "job_level": "Level 5",
+                    "user_level": "L3",
+                    "status": "Under Qualified"
+                }
+            }
+        },
+        {
+            "52": {
+                "Design Thinking Practice": {
+                    "skill_type": "Technical",
+                    "job_level": "Level 5",
+                    "user_level": "NA",
+                    "status": "Not Qualified"
+                }
+            }
+        },
+        {
+            "57": {
+                "Emerging Technology Synthesis": {
+                    "skill_type": "Technical",
+                    "job_level": "Level 5",
+                    "user_level": "L4",
+                    "status": "Under Qualified"
+                }
+            }
+        },
+        {
+            "69": {
+                "Intelligent Reasoning": {
+                    "skill_type": "Technical",
+                    "job_level": "Level 5",
+                    "user_level": "L5",
+                    "status": "Qualified"
+                }
+            }
+        },
+        {
+            "86": {
+                "Organisational Design": {
+                    "skill_type": "Technical",
+                    "job_level": "Level 5",
+                    "user_level": "NA",
+                    "status": "Not Qualified"
+                }
+            }
+        },
+        {
+            "88": {
+                "Pattern Recognition Systems": {
+                    "skill_type": "Technical",
+                    "job_level": "Level 5",
+                    "user_level": "L3",
+                    "status": "Under Qualified"
+                }
+            }
+        },
+        {
+            "99": {
+                "Project Management": {
+                    "skill_type": "Technical",
+                    "job_level": "Level 5",
+                    "user_level": "L4",
+                    "status": "Under Qualified"
+                }
+            }
+        },
+        {
+            "102": {
+                "Quality Standards": {
+                    "skill_type": "Technical",
+                    "job_level": "Level 5",
+                    "user_level": "NA",
+                    "status": "Not Qualified"
+                }
+            }
+        },
+        {
+            "104": {
+                "Research": {
+                    "skill_type": "Technical",
+                    "job_level": "Level 4",
+                    "user_level": "NA",
+                    "status": "Not Qualified"
+                }
+            }
+        },
+        {
+            "114": {
+                "Self-Learning Systems": {
+                    "skill_type": "Technical",
+                    "job_level": "Level 4",
+                    "user_level": "L4",
+                    "status": "Qualified"
+                }
+            }
+        },
+        {
+            "120": {
+                "Stakeholder Management": {
+                    "skill_type": "Technical",
+                    "job_level": "Level 4",
+                    "user_level": "L4",
+                    "status": "Qualified"
+                }
+            }
+        },
+        {
+            "128": {
+                "Text Analytics and Processing": {
+                    "skill_type": "Technical",
+                    "job_level": "Level 6",
+                    "user_level": "L4",
+                    "status": "Under Qualified"
+                }
+            }
+        },
+        {
+            "135": {
+                "Communication": {
+                    "skill_type": "Generic",
+                    "job_level": "Intermediate",
+                    "user_level": "Intermediate",
+                    "status": "Qualified"
+                }
+            }
+        },
+        {
+            "136": {
+                "Computational Thinking": {
+                    "skill_type": "Generic",
+                    "job_level": "Intermediate",
+                    "user_level": "Intermediate",
+                    "status": "Qualified"
+                }
+            }
+        },
+        {
+            "139": {
+                "Developing People": {
+                    "skill_type": "Generic",
+                    "job_level": "Advanced",
+                    "user_level": "Basic",
+                    "status": "Under Qualified"
+                }
+            }
+        },
+        {
+            "143": {
+                "Leadership": {
+                    "skill_type": "Generic",
+                    "job_level": "Advanced",
+                    "user_level": "Basic",
+                    "status": "Under Qualified"
+                }
+            }
+        },
+        {
+            "144": {
+                "Lifelong Learning": {
+                    "skill_type": "Generic",
+                    "job_level": "Intermediate",
+                    "user_level": "Basic",
+                    "status": "Under Qualified"
+                }
+            }
+        }
+    ]
+}
