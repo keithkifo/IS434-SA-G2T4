@@ -1,7 +1,7 @@
 import { ChakraProvider } from "@chakra-ui/react"
 import { Route, Routes } from "react-router-dom";
 import Issuer from "./pages/Issuer";
-import SuperAdmin from "./pages/SuperAdmin";
+import SuperAdmin from "./pages/Superadmin";
 import InstitutionAdmin from "./pages/InstitutionAdmin";
 import UserCert from "./pages/UserCert";
 import UserJobSearch from "./pages/UserJobSearch";
