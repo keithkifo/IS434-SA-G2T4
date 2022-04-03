@@ -47,10 +47,13 @@ for certificate_array in certificate_arrays:
     if len(certificate_array) > 1:
         for i in range(len(certificate_array)-1):
             current_cert = certificate_array[i].strip()
-            if (current_cert, certificate_array[i+1].strip()) in graph_dict:
+            if (current_cert, certificate_array[i+1].strip()) in graph_dict: #(a,b)
                 graph_dict[(current_cert, certificate_array[i+1].strip())] += 1
-            else:
-                graph_dict[(current_cert, certificate_array[i+1].strip())] = 1
+            else: #(b,a)
+                if(certificate_array[i+1].strip(), current_cert) in graph_dict:
+                    graph_dict[(certificate_array[i+1].strip(), current_cert)] += 1
+                else:
+                    graph_dict[(current_cert, certificate_array[i+1].strip())] = 1
 
             second_loop_row = len(certificate_array)-1-i
             j = len(certificate_array)-1  # 3,2
@@ -58,7 +61,10 @@ for certificate_array in certificate_arrays:
                 if (current_cert, certificate_array[j].strip()) in graph_dict:
                     graph_dict[(current_cert, certificate_array[j].strip())] += 1
                 else:
-                    graph_dict[(current_cert, certificate_array[j].strip())] = 1
+                    if(certificate_array[j].strip(), current_cert) in graph_dict:
+                        graph_dict[(certificate_array[j].strip(), current_cert)] += 1
+                    else:
+                        graph_dict[(current_cert, certificate_array[j].strip())] = 1
                 second_loop_row -= 1
                 j -= 1
 

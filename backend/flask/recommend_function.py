@@ -18,15 +18,14 @@ def recommend_certificates(given_cert, node_attr, graph_dict, ):
 
     # Returns No Recommendation if course has no link
     if len(pair_dict_sorted) == 0:
-        print("No recommendation")
-        
+        return []
     # Returns top 5 pairs with the highest edge weight
     else:
-        # top5_pairs =  list(pair_dict_sorted.keys())[0:5]
         for tuple in list(pair_dict_sorted.keys())[0:5]:
-            if tuple[0] != given_cert:
+            if tuple[0] != given_cert and tuple[0]!=given_cert:
                 top_5_recommendations.append(tuple[0])
-            elif tuple[1] != given_cert:
+            elif tuple[1] != given_cert and tuple[1]!=given_cert:
                 top_5_recommendations.append(tuple[1])
 
     return top_5_recommendations
+
