@@ -22,9 +22,9 @@ const UserJobSearch = () => {
 		// })
 		setSectors([
 			{
-				id: 1,
-				name: "Infocomm Technology"
-			}
+				id: "Infocomm Technology",
+				name: "Infocomm Technology",
+			},
 		]);
 	}, [])
 
@@ -38,33 +38,33 @@ const UserJobSearch = () => {
 		// });
 		setTracks([
 			{
-				id: 1,
+				id: "Strategy and Governance",
 				name: "Strategy and Governance",
 			},
 			{
-				id: 2,
+				id: "Infrastructure",
+				name: "Infrastructure",
+			},
+			{
+				id: "Software and Applications",
 				name: "Software and Applications",
 			},
 			{
-				id: 3,
-				name: "Software and Applications",
-			},
-			{
-				id: 4,
+				id: "Data and Artificial Intelligence",
 				name: "Data and Artificial Intelligence",
 			},
 			{
-				id: 5,
+				id: "Operations and Support",
 				name: "Operations and Support",
 			},
 			{
-				id: 6,
+				id: "Cyber Security",
 				name: "Cyber Security",
 			},
 			{
-				id: 7,
+				id: "Sales and Marketing",
 				name: "Sales and Marketing",
-			}
+			},
 		]);
 	}
 
@@ -75,7 +75,11 @@ const UserJobSearch = () => {
 			// axios.get(lambdaEndpoint).then((res) => {
 			// 	setJobRoles(res.data.data);
 			// });
-			setJobRoles(jsonData.data)
+			for (let elem of jsonData.data) {
+				if (elem["sector"] === chosenSector && elem["track"] === chosenTrack) {
+					setJobRoles(old => [...old, elem])
+				}
+			}
 		}
 	}, [chosenSector, chosenTrack])
 
@@ -94,7 +98,7 @@ const UserJobSearch = () => {
 				<FilterComponent
 					filter={{ name: "Track" }}
 					selectOptions={tracks}
-					handleOnChange={(e) => {setChosenTrack(e.target.value)}}
+					handleOnChange={(e) => setChosenTrack(e.target.value)}
 				/>
 			</VStack>
 			<Divider m={5} />
