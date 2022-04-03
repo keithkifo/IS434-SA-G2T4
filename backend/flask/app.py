@@ -9,8 +9,10 @@ import json
 import sys
 from helper_function import calculate_skill_job_match
 from recommend_function import recommend_certificates
+from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
+cors = CORS(app)
 
 @app.route('/user_skill_profile', methods=['GET'] )
 def skill_profile():
