@@ -106,7 +106,7 @@ def recommend_jobs():
 @app.route('/recommend_courses' , methods=['GET'] )
 def recommend_courses():
     response_dict = {
-        "status": "",
+        "status": "200",
         "data": []
     }
 
@@ -121,8 +121,8 @@ def recommend_courses():
         # Retrieve Course Recommendations
         top_5_recommendations = recommend_certificates( G, course_name )
 
-        response_dict["status"] = 200
-        response_dict["data"] = top_5_recommendations
+        if top_5_recommendations != []:
+            response_dict["data"] = top_5_recommendations
 
     except Exception as e:
         # Error has occurred
