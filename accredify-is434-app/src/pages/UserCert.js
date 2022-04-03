@@ -10,7 +10,9 @@ const UserCert = () => {
 	useEffect(() => {
 		const recommendCoursesEndpoint = `http://localhost:5069/recommend_courses?course_name=${certName}`;
 		axios.get(recommendCoursesEndpoint)
-		.then(res => setRecommendedCourses(res.data.data))
+		.then((res) => {
+			setRecommendedCourses(res.data.data) 
+		})
 	}, [certName])
 
 	return (
@@ -35,7 +37,7 @@ const UserCert = () => {
 									skillLevels=""
 									skillDesc=""
 								/>
-						  ))}
+						))}
 				</SimpleGrid>
 			</Box>
 		</Box>

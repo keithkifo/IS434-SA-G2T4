@@ -11,10 +11,11 @@ const SkillCard = ({ skillName, skillLevels, skillDesc }) => {
 				bg={"white"}
 				boxShadow={"2xl"}
 				padding={4}
+				
 			>
 				<Stack p={1} pt={2}>
 					<HStack>
-						<Heading fontSize={"2xl"} fontFamily={"body"}>
+						<Heading fontSize={"2xl"} fontFamily={"body"} style={{height: "100px"}}>
 							{skillName}
 						</Heading>
 					</HStack>
