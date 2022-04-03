@@ -113,16 +113,11 @@ def recommend_courses():
         queries = request.args.to_dict()
         course_name = queries['course_name'] # CPR(HANDS-ONLY)%2BAED PROVIDER on Postman
 
-        # Retrieve necessary files
+        # Load graph from file
         G = nx.read_gml('../graph_generate/graph.gml')
-        c = nx.to_pandas_edgelist(G)
-        graph_dict = c.to_dict()
-
-        with open('../graph_generate/node_attr.json') as data:
-            node_attr = json.load( data )
 
         # Retrieve Course Recommendations
-        top_5_recommendations = recommend_certificates( course_name, node_attr, graph_dict)
+        top_5_recommendations = recommend_certificates( G, course_name )
 
         response_dict["status"] = 200
         response_dict["data"] = top_5_recommendations

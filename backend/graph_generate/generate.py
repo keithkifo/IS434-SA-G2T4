@@ -48,12 +48,13 @@ for certificate_array in certificate_arrays:
         for i in range(len(certificate_array)-1):
             current_cert = certificate_array[i].strip()
             if (current_cert, certificate_array[i+1].strip()) in graph_dict: #(a,b)
-                graph_dict[(current_cert, certificate_array[i+1].strip())] += 1
+                key = ( current_cert, certificate_array[i+1].strip() )
+                graph_dict[ key ] += 1
             else: #(b,a)
                 if(certificate_array[i+1].strip(), current_cert) in graph_dict:
-                    graph_dict[(certificate_array[i+1].strip(), current_cert)] += 1
+                    graph_dict[ (certificate_array[i+1].strip(), current_cert) ] += 1
                 else:
-                    graph_dict[(current_cert, certificate_array[i+1].strip())] = 1
+                    graph_dict[ (current_cert, certificate_array[i+1].strip()) ] = 1
 
             second_loop_row = len(certificate_array)-1-i
             j = len(certificate_array)-1  # 3,2
@@ -82,7 +83,6 @@ for tuple_key, value in graph_dict.items():
     dataframe_dict['source'].append(source)
     dataframe_dict['target'].append(target)
     dataframe_dict['weight'].append(value)
-# print(graph_dict)
 
 df = pd.DataFrame.from_dict(dataframe_dict)
 
@@ -94,9 +94,5 @@ G = nx.from_pandas_edgelist(df, 'source', 'target', edge_attr='weight')
 G.add_nodes_from(node_attr)
 nx.set_node_attributes(G, node_attr) #add weight to nodes
 
-# Store as external files
+# Store as external file
 nx.write_gml(G, "graph.gml")
-
-
-with open('node_attr.json', 'w') as outfile:
-    json.dump(node_attr, outfile)
