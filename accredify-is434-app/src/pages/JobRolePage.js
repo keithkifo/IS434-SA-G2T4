@@ -68,7 +68,7 @@ const JobRolePage = () => {
 						{jobInfo.track}
 					</Badge>
 				</Stack>
-				<Text mb={10}>Description: </Text>
+				<Text mb={10}>{jobInfo.job_description}</Text>
 
 				<HStack mb={10} align="flex-end">
 					<Box w="80%">
@@ -144,7 +144,7 @@ const JobRolePage = () => {
 							return (
 								<Tr key={skillId}>
 									<Td>
-										{skillName} {skillId}
+										{skillName}
 									</Td>
 									<Td>{skillInfo["skill_type"]}</Td>
 									<Td>{userLevelName}</Td>

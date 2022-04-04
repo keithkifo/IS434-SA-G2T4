@@ -1,4 +1,4 @@
-import { Box, Center, Heading, Image, SimpleGrid } from "@chakra-ui/react";
+import { Box, Center, Heading, Image, SimpleGrid, VStack } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import RecommendCertCard from "../components/RecommendCertCard";
 import axios from "axios"
@@ -18,10 +18,10 @@ const UserCert = () => {
 	return (
 		<Box ml={10} mr={10}>
 			<Center mb={10}>
-				<Box>
+				<VStack>
 					<Heading mb={5}>{certName}</Heading>
 					<Image src="/images/aws-cloud-prac-cert.png" />
-				</Box>
+				</VStack>
 			</Center>
 			<Box>
 				<Heading>
